@@ -43,6 +43,9 @@ body.colorscheme-dark {
   body.colorscheme-dark .highlight pre {
     background-color: #484848;
     color: #dddddd; }
+    body.colorscheme-dark .highlight pre code {
+      background-color: inherit;
+      color: inherit; }
   body.colorscheme-dark :not(.highlight) > pre code {
     background-color: inherit;
     color: inherit; }
@@ -113,6 +116,9 @@ body.colorscheme-dark {
     body.colorscheme-auto .highlight pre {
       background-color: #484848;
       color: #dddddd; }
+      body.colorscheme-auto .highlight pre code {
+        background-color: inherit;
+        color: inherit; }
     body.colorscheme-auto :not(.highlight) > pre code {
       background-color: inherit;
       color: inherit; }
