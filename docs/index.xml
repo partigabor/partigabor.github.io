@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gábor Parti</title>
+    <link>https://partigabor.github.io/</link>
+    <description>Recent content on Gábor Parti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Publish a Python Package: Notes &amp; A Rudimentary Pipeline</title>
+      <link>https://partigabor.github.io/posts/python-package/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/posts/python-package/</guid>
+      <description>PIPELINELink to headingThis is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post was made for myself under 5 minutes in case I forget how to do this, so the explanations are minimal. Contact me if needed, or follow the actual tutorials.
+Sources and links to tutorials on the bottom.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://partigabor.github.io/posts/markdown-syntax/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;The following markdown file showcases all the features one can achieve within markdown and with Hugo shortcodes.&lt;/p&gt;
+&lt;h1 id=&#34;markdown-format&#34;&gt;
+  MARKDOWN FORMAT
+  &lt;a class=&#34;heading-link&#34; href=&#34;#markdown-format&#34;&gt;
+    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;
+    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://partigabor.github.io/about/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/about/</guid>
+      <description>Hello! I am a final year a Ph.D. student at The Hong Kong Polytechnic University, under the supervision of Professor Huang Chu-Ren. I am currently undertaking a project about spices and spice names, and their diffusion around the globe.
+More about the project later, the Ph.D. dissertation is currently under review and revision.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://partigabor.github.io/contact/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/contact/</guid>
+      <description>Email: partigaborhk@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://partigabor.github.io/education/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/education/</guid>
+      <description>CV · ()Link to heading2019–ongoing PhD in East Asian Linguistics, The Hong Kong Polytechnic University (PolyU) | Hong Kong
+2014–2017 MA in Islamic Studies, Eötvös Loránd University (ELTE) | Budapest
+2010–2014 BA in Korean Studies, Eötvös Loránd University (ELTE) | Budapest
+2009–2014 BA in Arabian Studies, Eötvös Loránd University (ELTE) | Budapest
+ScholarshipsLink to heading2017–2018 Indonesian Language Course, Yogyakarta State University (UNY) | Yogyakarta
+via the Darmasiswa Scholarship Program from the Republic of Indonesia</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://partigabor.github.io/projects/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/projects/</guid>
+      <description>Spices &amp;amp; Spice Terminology Database Based on an ongoing PhD dissertation, the website is still under construction. I plan a release in early 2023.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://partigabor.github.io/publications/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/publications/</guid>
+      <description>Parti, G., Liesenfeld, A., &amp;amp; Huang, C.-R. (2021). Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese. Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. https://aclanthology.org/2021.paclic-1.74 Liesenfeld, A., Parti, G., &amp;amp; Huang, C.-R. (2021b). Scikit-Talk: A Toolkit for Processing Real-world Conversational Speech Data. Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue, 252–256. https://aclanthology.org/2021.sigdial-1.26 Liesenfeld, A., Parti, G.</description>
+    </item>
+    
+  </channel>
+</rss>

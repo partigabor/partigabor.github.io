@@ -1,0 +1,23 @@
+{{/*
+  You can add further theme extensions or customizations here if they should
+  appear in <head>.
+*/}}
+
+{{ partial "google-fonts.html" . }}
+
+<link href='//fonts.googleapis.com/css?family={{ .Site.Params.fontbody }}' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family={{ .Site.Params.fontheading }}' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<style>
+  body {
+      font-family: '{{ replace .Site.Params.fontbody "+" " "}}';
+  }
+  
+  h1, h2, h3,
+  h4, h5, h6 {
+      font-family: '{{ replace .Site.Params.fontheading "+" " "}}';
+  }
+  </style>
+

@@ -1,0 +1,69 @@
+// Fonts
+$font-family: -apple-system,
+'{{ replace .Site.Params.fontbody "+" " "}}'
+// "Brill",
+Raleway,
+// BlinkMacSystemFont,
+// "Segoe UI",
+// Roboto,
+// Oxygen-Sans,
+// Ubuntu,
+// Cantarell,
+// "Helvetica Neue",
+// Helvetica,
+// "PingFang SC",
+// STXihei,"华文细黑",
+// "Microsoft YaHei","微软雅黑",
+// SimSun,"宋体",
+// Heiti,"黑体",
+sans-serif;
+$code-font-family: 
+// SFMono-Regular,
+// Consolas,
+// Liberation Mono,
+// Menlo,
+monospace
+;
+
+
+
+// Colors
+$bg-color: #ffffff !default; //background
+$fg-color: #484848 !default; //main text,menu,icon,footer
+$alt-bg-color: #dddddd !default; // button highlight
+$alt-fg-color: #484848 !default; // title & header text color
+$darker-alt-bg-color: #bbbbbb !default; //no clue
+$link-color: #477050 !default;
+
+// Dark colors
+$bg-color-dark: #242424 !default; //background
+$fg-color-dark: #dddddd !default; //main text,menu,icon,footer
+$alt-bg-color-dark: #484848 !default; //button highlight
+$alt-fg-color-dark: #dddddd !default; // title & header text color
+$lighter-alt-bg-color-dark: #646464 !default; //noe clue
+$link-color-dark: #a6e22e !default;
+
+//lime is #a6e22e
+
+// Notice colors
+$fg-color-notice-note-icon: #5e35b1 !default;
+$bg-color-notice-note-title: #673ab71a !default;
+$bg-color-notice-note-content: #7e57c21a !default;
+$fg-color-notice-tip-icon: #00897b !default;
+$bg-color-notice-tip-title: #0096881a !default;
+$bg-color-notice-tip-content: #26a69a1a !default;
+$fg-color-notice-example-icon: #6d4c41 !default;
+$bg-color-notice-example-title: #7955481a !default;
+$bg-color-notice-example-content: #8d6e631a !default;
+$fg-color-notice-question-icon: #7cb342 !default;
+$bg-color-notice-question-title: #8bc34a1a !default;
+$bg-color-notice-question-content: #9ccc651a !default;
+$fg-color-notice-info-icon: #1e88e5 !default;
+$bg-color-notice-info-title: #2196f31a !default;
+$bg-color-notice-info-content: #42a5f51a !default;
+$fg-color-notice-warning-icon: #ffb300 !default;
+$bg-color-notice-warning-title: #ffc1071a !default;
+$bg-color-notice-warning-content: #ffca281a !default;
+$fg-color-notice-error-icon: #e53935 !default;
+$bg-color-notice-error-title: #f443361a !default;
+$bg-color-notice-error-content: #ef53501a !default;
