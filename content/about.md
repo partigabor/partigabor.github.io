@@ -16,3 +16,4 @@ More about the project later, the Ph.D. dissertation is currently under review a
 <i class="fa fa-cog fa-spin fa-2x fa-fw"></i>
 {{% /center %}}
 
+<!-- https://www.altbrot.at/2022/08/make-your-hugo-theme-use-google-fonts-locally/ -->
