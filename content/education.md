@@ -4,9 +4,9 @@ author = "Gábor Parti"
 date = "2022-09-01"
 +++
 
-### [**CV**](https://partigabor.github.io/cv/) · ([<i class="fa fa-1x fa-download"></i>](/files/cv.pdf "Download pdf"))
+<!-- ### [**CV**](https://partigabor.github.io/cv/) · ([<i class="fa fa-1x fa-download"></i>](/files/cv.pdf "Download pdf")) -->
 
-**2019–ongoing** &ensp; PhD in East Asian Linguistics, The Hong Kong Polytechnic University (PolyU) | Hong Kong
+**2019-2023** &ensp; PhD in East Asian Linguistics, The Hong Kong Polytechnic University (PolyU) | Hong Kong
 
 <!-- >via the Hong Kong PhD Fellowship Scheme (HKPFS) by the Research Grants Council (RGC) of Hong Kong -->
 
