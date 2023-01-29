@@ -8,7 +8,7 @@ date = "2022-09-01"
 
 **2019-2023** &ensp; PhD in East Asian Linguistics, The Hong Kong Polytechnic University (PolyU) | Hong Kong
 
-<!-- >via the Hong Kong PhD Fellowship Scheme (HKPFS) by the Research Grants Council (RGC) of Hong Kong -->
+<!-- via the Hong Kong PhD Fellowship Scheme (HKPFS) -->
 
 <!-- * Corpus linguistics, computational linguistics, digital philology -->
 
