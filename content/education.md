@@ -4,6 +4,8 @@ author = "Gábor Parti"
 date = "2022-09-01"
 +++
 
+## Degrees
+
 <!-- ### [**CV**](https://partigabor.github.io/cv/) · ([<i class="fa fa-1x fa-download"></i>](/files/cv.pdf "Download pdf")) -->
 
 **2019-2023** &ensp; PhD in East Asian Linguistics, The Hong Kong Polytechnic University (PolyU) | Hong Kong
@@ -20,7 +22,7 @@ date = "2022-09-01"
 
 ***
 
-### Scholarships
+## Scholarships
 
 **2017–2018** &ensp; Indonesian Language Course, Yogyakarta State University (UNY) | Yogyakarta
 
