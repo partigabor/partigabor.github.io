@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "Research Projects"
 author = "Gábor Parti"
 date = "2022-09-01"
 plotly = "true"

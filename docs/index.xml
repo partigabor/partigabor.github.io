@@ -54,21 +54,21 @@ CVLink to headingEducationLink to headingDegreesLink to heading2019-2023 P
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://partigabor.github.io/projects/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://partigabor.github.io/projects/</guid>
-      <description>Spices &amp;amp; Spice Terminology Database Based on an ongoing PhD dissertation. The website is still in beta (under construction); I plan a release in 2023 - stay tuned.</description>
-    </item>
-    
-    <item>
       <title>Publications</title>
       <link>https://partigabor.github.io/publications/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/publications/</guid>
       <description>Parti, G., Liesenfeld, A., &amp;amp; Huang, C.-R. (2021). Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese. Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. Liesenfeld, A., Parti, G., &amp;amp; Huang, C.-R. (2021b). Scikit-Talk: A Toolkit for Processing Real-world Conversational Speech Data. Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue, 252–256. Liesenfeld, A., Parti, G., &amp;amp; Huang, C.</description>
+    </item>
+    
+    <item>
+      <title>Research Projects</title>
+      <link>https://partigabor.github.io/projects/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/projects/</guid>
+      <description>Spices &amp;amp; Spice Terminology Database Based on an ongoing PhD dissertation. The website is still in beta (under construction); I plan a release in 2023 - stay tuned.</description>
     </item>
     
   </channel>

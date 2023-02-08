@@ -169,11 +169,6 @@ weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Test"
-weight = 2
-url = "test/"
-
-[[languages.en.menu.main]]
 name = "Projects"
 weight = 3
 url = "projects/"
@@ -208,13 +203,8 @@ name = "Rólam"
 weight = 1
 url = "about/"
 
-# [[languages.hu.menu.main]]
-# name = "Tanulmányok"
-# weight = 2
-# url = "education/"
-
 [[languages.hu.menu.main]]
-name = "Projektek"
+name = "Kutatás"
 weight = 3
 url = "projects/"
 
