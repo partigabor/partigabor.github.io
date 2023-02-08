@@ -168,10 +168,10 @@ pre = "<i class='fas fa-info'></i>"
 weight = 1
 url = "about/"
 
-# [[languages.en.menu.main]]
-# name = "Education"
-# weight = 2
-# url = "education/"
+[[languages.en.menu.main]]
+name = "Test"
+weight = 2
+url = "test/"
 
 [[languages.en.menu.main]]
 name = "Projects"
