@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>github on Gábor Parti</title>
-    <link>https://partigabor.github.io/tags/github/</link>
-    <description>Recent content in github on Gábor Parti</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Publish a Python Package: Notes &amp; A Rudimentary Pipeline</title>
-      <link>https://partigabor.github.io/posts/python-package/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://partigabor.github.io/posts/python-package/</guid>
-      <description>PIPELINELink to headingThis is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post was made for myself under 5 minutes in case I forget how to do this, so the explanations are minimal. Contact me if needed, or follow the actual tutorials.
-Sources and links to tutorials on the bottom.</description>
-    </item>
-    
-  </channel>
-</rss>
