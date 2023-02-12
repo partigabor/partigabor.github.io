@@ -3051,7 +3051,7 @@ body {
       line-height: 1.6em; } }
 a {
   font-weight: 500;
-  color: #477050;
+  color: #3C8031;
   text-decoration: none;
   transition: all 0.25s ease-in; }
   a:focus, a:hover {
@@ -3083,7 +3083,7 @@ h6 {
   h4 .heading-link,
   h5 .heading-link,
   h6 .heading-link {
-    color: #477050;
+    color: #3C8031;
     font-weight: inherit;
     text-decoration: none;
     font-size: 80%;
@@ -3338,7 +3338,7 @@ figure {
       font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}' Raleway, sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
-        color: #477050; }
+        color: #3C8031; }
 
 @media only screen and (min-width: 768.1px) {
   .list ul:not(.pagination) li {
@@ -3374,7 +3374,7 @@ figure {
           margin-right: 1rem;
           font-size: 1.6rem; }
           .centered .about ul li a:hover, .centered .about ul li a:focus {
-            color: #477050; }
+            color: #3C8031; }
           @media only screen and (max-width: 768px) {
             .centered .about ul li a {
               font-size: 1.4rem; } }
@@ -3475,7 +3475,7 @@ figure {
     font-weight: 600;
     color: #484848; }
   .navigation a:hover, .navigation a:focus {
-    color: #477050; }
+    color: #3C8031; }
   .navigation .navigation-title {
     letter-spacing: 0.1rem;
     text-transform: uppercase; }
@@ -3554,7 +3554,7 @@ figure {
     color: #484848;
     cursor: pointer; }
     .navigation i:hover, .navigation i:focus {
-      color: #477050; }
+      color: #3C8031; }
 
 .pagination {
   margin-top: 6rem;
@@ -3645,7 +3645,7 @@ figure {
   line-height: 2rem;
   margin-bottom: 1rem; }
   .footer a {
-    color: #477050; }
+    color: #3C8031; }
 
 .float-container {
   bottom: 2rem;
@@ -3665,7 +3665,7 @@ figure {
     opacity: 0.5;
     transition: all 0.25s ease-in; }
     .float-container a:hover, .float-container a:focus {
-      color: #477050;
+      color: #3C8031;
       opacity: 1; }
       @media only screen and (max-width: 768px) {
         .float-container a:hover, .float-container a:focus {
