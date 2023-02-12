@@ -2,6 +2,7 @@
 title = "About"
 author = "Gábor Parti"
 date = "2022-09-01"
+slug = "miez"
 +++
 
 <!-- description = ""
