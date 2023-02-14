@@ -13,9 +13,8 @@
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/hugo-website/</guid>
-      <description>!!! UNDER CONSTRUCTION !!!Link to headingThis is a concise, step-by-step guide on how to build a website with Hugo, and deploy/host it on Github Pages. Just like this one.
-Prerequisites/installationsLink to headingHave Hugo extended version on your computer (https://gohugo.io/installation/) Hugo is a website generator/building framework written in Go
-Have git on your computer (https://git-scm.com/) Git is a version control manager, a software that tracks the changes of your files in a project over time</description>
+      <description>!!! UNDER CONSTRUCTION !!!Link to headingThis is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and deploy/host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
+Prerequisites/installationsLink to headingHave Hugo - the extended version - on your computer (install from: https://gohugo.io/installation/) Hugo is a website generator framework written in Go (a computer language).</description>
     </item>
     
   </channel>

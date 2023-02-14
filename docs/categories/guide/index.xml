@@ -6,7 +6,17 @@
     <description>Recent content in guide on Gábor Parti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/categories/guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(BETA) How to build a website with Hugo</title>
+      <link>https://partigabor.github.io/posts/hugo-website/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/posts/hugo-website/</guid>
+      <description>!!! UNDER CONSTRUCTION !!!Link to headingThis is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and deploy/host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
+Prerequisites/installationsLink to headingHave Hugo - the extended version - on your computer (install from: https://gohugo.io/installation/) Hugo is a website generator framework written in Go (a computer language).</description>
+    </item>
+    
     <item>
       <title>How to Publish a Python Package: Notes &amp; A Rudimentary Pipeline</title>
       <link>https://partigabor.github.io/posts/python-package/</link>

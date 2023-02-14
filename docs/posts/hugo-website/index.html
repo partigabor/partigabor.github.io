@@ -200,7 +200,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              2-minute read
+              3-minute read
             </span>
           </div>
           
@@ -240,7 +240,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>This is a concise, step-by-step guide on how to build a website with Hugo, and deploy/host it on Github Pages. Just like this one.</p>
+<p>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and deploy/host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.</p>
 <h2 id="prerequisitesinstallations">
   Prerequisites/installations
   <a class="heading-link" href="#prerequisitesinstallations">
@@ -249,24 +249,24 @@
   </a>
 </h2>
 <ol>
-<li>Have Hugo extended version on your computer (<a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a>)</li>
+<li>Have Hugo - the extended version - on your computer (install from: <a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a>)</li>
 </ol>
 <blockquote>
-<p><a href="https://www.youtube.com/watch?v=0RKpf3rK57I">Hugo</a> is a website generator/building framework written in <a href="https://www.youtube.com/watch?v=446E-r0rXHI">Go</a></p>
+<p><a href="https://www.youtube.com/watch?v=0RKpf3rK57I">Hugo</a> is a website generator framework written in <a href="https://www.youtube.com/watch?v=446E-r0rXHI">Go</a> (a computer language). It is a great tool to build static websites fast.</p>
 </blockquote>
 <ol start="2">
-<li>Have <code>git</code> on your computer (<a href="https://git-scm.com/">https://git-scm.com/</a>)</li>
+<li>Have git on your computer (install from <a href="https://git-scm.com/">https://git-scm.com/</a>)</li>
 </ol>
 <blockquote>
-<p><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">Git</a> is a version control manager, a software that tracks the changes of your files in a project over time</p>
+<p><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">Git</a> is a version control manager, a software that tracks the changes you make to your files in a project over time, allowing you to handle to source code across a team of people</p>
 </blockquote>
 <ol start="3">
-<li>Have a Github account (<a href="https://github.com/">https://github.com/</a>)</li>
+<li>Have a Github account (sign up on <a href="https://github.com/">https://github.com/</a>)</li>
 </ol>
 <blockquote>
-<p><a href="https://www.youtube.com/watch?v=HkdAHXoRtos">GitHub</a> is a website and a hosting service that allows you to manage your git repositories remotely (on the internet)</p>
+<p><a href="https://www.youtube.com/watch?v=HkdAHXoRtos">GitHub</a> is a website and a hosting service that allows you to manage your projects remotely (on the internet). Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files.</p>
 </blockquote>
-<p>Essentially, any website (in fact any software) is just a folder with a bunch of text files organized in precise ways. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder. In this tutorial we will generate this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (to be able to make changes easily) on GitHub (the storage).</p>
+<p>Essentially, any website (in fact any software) is just a folder with a bunch of text files organized in precise ways. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder. In this tutorial we will generate this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (the project folder) on GitHub (the storage).</p>
 <p>We will also learn how to use an existing <a href="https://themes.gohugo.io/">Hugo theme</a> to supply the looks for our website, and I will show you how to build and deploy your website on GitHub Pages, a feature on GitHub with this exact purpose (and how to automate deployment).</p>
 <p>Lastly, we want to manage our files and folder structures conveniently, so we need a text/code editor.</p>
 <ol start="4">
@@ -283,11 +283,45 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<h4 id="1-open-vscode">
+  1. Open VSCode
+  <a class="heading-link" href="#1-open-vscode">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Run VSCode and open the terminal inside VSCode by pressing <kbd>CTRL</kbd>+<kbd>`</kbd></p>
+<h4 id="2-generate-a-new-website-with-hugo">
+  2. Generate a new website with Hugo
+  <a class="heading-link" href="#2-generate-a-new-website-with-hugo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Navigate to the directory where you want to create your website project (you can always move it somewhere else later).</p>
+<details ><summary>more</summary>
+  <div class="markdown-inner">
+    <p>E.g.: Make a directory called &ldquo;Projects&rdquo; by typing</p>
+<pre><code>md Projects
+</code></pre>
+<p>and hitting enter, then and navigate to it by typing</p>
+<pre><code>cd Projects
+</code></pre>
+<p>and hitting enter. Now you should see that you are in <code>C:\Users\USER\Projects&gt;</code> on the terminal.</p>
+<p><code>md</code> = make directory, <code>cd</code> = change directory. To go up one level, enter</p>
+<pre><code>cd ..
+</code></pre>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+  </div>
+</details>
 
+<p>Type the following command into the command line (terminal)</p>
+<pre><code>hugo new site whatever
+</code></pre>
+<p>This command will create a folder with the name &ldquo;whatever&rdquo;, and all the necessary files for a Hugo website.</p>
+<ol start="3">
+<li>Install a theme</li>
+</ol>
 
       </div>
 
