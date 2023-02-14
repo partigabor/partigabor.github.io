@@ -2,71 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://partigabor.github.io/posts/hugo-website/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://partigabor.github.io/posts/python-package/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/posts/markdown-syntax/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/categories/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://partigabor.github.io/hu/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://partigabor.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://partigabor.github.io/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://partigabor.github.io/hu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://partigabor.github.io/"
-                />
-  </url><url>
-    <loc>https://partigabor.github.io/tags/github/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/categories/guide/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/tags/hugo/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/tags/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://partigabor.github.io/hu/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://partigabor.github.io/tags/"
-                />
-  </url><url>
-    <loc>https://partigabor.github.io/categories/technical/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/tags/tutorial/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/tags/website/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/about/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
@@ -79,6 +19,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://partigabor.github.io/about/"
+                />
+  </url><url>
+    <loc>https://partigabor.github.io/categories/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://partigabor.github.io/hu/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://partigabor.github.io/categories/"
                 />
   </url><url>
     <loc>https://partigabor.github.io/contact/</loc>
@@ -95,6 +48,28 @@
                 />
   </url><url>
     <loc>https://partigabor.github.io/tags/documentation/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://partigabor.github.io/hu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://partigabor.github.io/"
+                />
+  </url><url>
+    <loc>https://partigabor.github.io/tags/github/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/categories/guide/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/tags/hugo/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/markdown/</loc>
@@ -143,6 +118,22 @@
                 />
   </url><url>
     <loc>https://partigabor.github.io/tags/syntax/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/tags/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://partigabor.github.io/hu/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://partigabor.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://partigabor.github.io/categories/technical/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/authors/</loc>

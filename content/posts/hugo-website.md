@@ -7,7 +7,7 @@ description = "A concise tutorial on how to build and host a personal website fo
 categories = ["technical","guide"]
 tags = ["hugo","github","website","tutorial"]
 menu = "main:posts"
-# draft = "true"
+draft = "true"
 +++
 
 # !!! UNDER CONSTRUCTION !!!
@@ -40,6 +40,40 @@ Lastly, we want to manage our files and folder structures conveniently, so we ne
 
 **All the above programs are free and open-source.**
 
+
+
+
 ## Steps
 
-{{< youtube id="w7Ft2ymGmfc" autoplay="true" >}}
+#### 1. Open VSCode
+
+Run VSCode and open the terminal inside VSCode by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>
+
+#### 2. Generate a new website with Hugo
+
+Navigate to the directory where you want to create your website project (you can always move it somewhere else later).
+
+{{< details "more" close >}}
+E.g.: Make a directory called "Projects" by typing 
+
+    md Projects
+
+and hitting enter, then and navigate to it by typing
+
+    cd Projects
+
+and hitting enter. Now you should see that you are in `C:\Users\USER\Projects>` on the terminal.
+
+`md` = make directory, `cd` = change directory. To go up one level, enter 
+
+    cd ..
+
+{{< /details >}}
+
+Type the following command into the command line (terminal)
+
+    hugo new site whatever
+
+This command will create a folder with the name "whatever", and all the necessary files for a Hugo website.
+
+3. Install a theme
