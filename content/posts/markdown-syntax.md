@@ -219,11 +219,7 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 Shortcode should work but does not. Maybe because template
 
-```
-{{< youtube qtIqKaDlqXo >}}
-```
 
-{{< youtube qtIqKaDlqXo >}}
 
 ## Columns
 {{< columns >}}
