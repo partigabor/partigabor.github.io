@@ -77,3 +77,6 @@ Type the following command into the command line (terminal)
 This command will create a folder with the name "whatever", and all the necessary files for a Hugo website.
 
 3. Install a theme
+
+
+cont
