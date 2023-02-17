@@ -79,4 +79,4 @@ This command will create a folder with the name "whatever", and all the necessar
 3. Install a theme
 
 
-cont
+cont...
