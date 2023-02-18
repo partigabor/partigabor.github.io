@@ -20,6 +20,8 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 > [Hugo](https://www.youtube.com/watch?v=0RKpf3rK57I) is a website generator framework written in [Go](https://www.youtube.com/watch?v=446E-r0rXHI) (a computer language). It is a great tool to build static websites fast.
 
+{{< youtube 0RKpf3rK57I >}}
+
 2. Have git on your computer (install from https://git-scm.com/)
 
 > [Git](https://www.youtube.com/watch?v=hwP7WQkmECE) is a version control manager, a software that tracks the changes you make to your files in a project over time, allowing you to handle to source code across a team of people 
@@ -34,7 +36,7 @@ We will also learn how to use an existing [Hugo theme](https://themes.gohugo.io/
 
 Lastly, we want to manage our files and folder structures conveniently, so we need a text/code editor.
 
-4. Have Visual Studio Code (https://code.visualstudio.com/)
+1. Have Visual Studio Code (https://code.visualstudio.com/)
 
 > [VS Code](https://www.youtube.com/watch?v=KMxo3T_MTvY) is a lightweight code editor that provides you with an integrated environment to inspect, edit, and manage your files; with extensions to accommodate every possible technical need later.
 
