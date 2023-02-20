@@ -4,6 +4,10 @@ author = "Gábor Parti"
 date = "2022-09-01"
 +++
 
+<div class="avatar"><img src="/images/hariri.jpg" alt="avatar"></div>
+
+![Profile picture](/images/hariri.jpg)
+
 <!-- description = ""
 aliases = ["about", "contact"]
 slug = "contact" -->
