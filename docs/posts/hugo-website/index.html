@@ -197,7 +197,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              3-minute read
+              4-minute read
             </span>
           </div>
           
@@ -230,61 +230,167 @@
 
       <div class="post-content">
         
-        <h1 id="-under-construction-">
-  !!! UNDER CONSTRUCTION !!!
-  <a class="heading-link" href="#-under-construction-">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h1>
+        
+ 
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<div style="font-family:'Raleway'; font-size:90px; font-style:normal; font-weight:normal">
+# NOT READY
+</div>
 <p>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and deploy/host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.</p>
-<h2 id="prerequisitesinstallations">
-  Prerequisites/installations
-  <a class="heading-link" href="#prerequisitesinstallations">
+<h2 id="requirements">
+  Requirements
+  <a class="heading-link" href="#requirements">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<ol>
-<li>Have Hugo - the extended version - on your computer (install from: <a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a>)</li>
+<details ><summary>tldr</summary>
+  <div class="markdown-inner">
+    <ol>
+<li>Hugo (extended version)</li>
+<li>Git</li>
+<li>Github</li>
+<li>VS Code (or whatever you use)</li>
 </ol>
-<blockquote>
-<p><a href="https://www.youtube.com/watch?v=0RKpf3rK57I">Hugo</a> is a website generator framework written in <a href="https://www.youtube.com/watch?v=446E-r0rXHI">Go</a> (a computer language). It is a great tool to build static websites fast.</p>
-</blockquote>
 
+  </div>
+</details>
+
+<h3 id="1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
+  1. Have <a href="https://gohugo.io/installation/">Hugo</a> - the extended version - on your computer
+  <a class="heading-link" href="#1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><a href="https://www.youtube.com/watch?v=0RKpf3rK57I">Hugo</a> is a website generator framework written in <a href="https://www.youtube.com/watch?v=446E-r0rXHI">Go</a> (a computer language). It is a great tool to build static websites - FAST.</p>
+<blockquote>
+<details ><summary>more&hellip;</summary>
+  <div class="markdown-inner">
+    <blockquote>
+</blockquote>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/0RKpf3rK57I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
+<blockquote>
+</blockquote>
 
-<ol start="2">
-<li>Have git on your computer (install from <a href="https://git-scm.com/">https://git-scm.com/</a>)</li>
-</ol>
-<blockquote>
-<p><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">Git</a> is a version control manager, a software that tracks the changes you make to your files in a project over time, allowing you to handle to source code across a team of people</p>
+  </div>
+</details>
+
 </blockquote>
-<ol start="3">
-<li>Have a Github account (sign up on <a href="https://github.com/">https://github.com/</a>)</li>
-</ol>
+<h3 id="2-have-githttpsgit-scmcom-on-your-computer">
+  2. Have <a href="https://git-scm.com/">git</a> on your computer
+  <a class="heading-link" href="#2-have-githttpsgit-scmcom-on-your-computer">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">Git</a> is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.</p>
 <blockquote>
-<p><a href="https://www.youtube.com/watch?v=HkdAHXoRtos">GitHub</a> is a website and a hosting service that allows you to manage your projects remotely (on the internet). Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files.</p>
+<details ><summary>more&hellip;</summary>
+  <div class="markdown-inner">
+    <blockquote>
 </blockquote>
-<p>Essentially, any website (in fact any software) is just a folder with a bunch of text files organized in precise ways. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder. In this tutorial we will generate this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (the project folder) on GitHub (the storage).</p>
-<p>We will also learn how to use an existing <a href="https://themes.gohugo.io/">Hugo theme</a> to supply the looks for our website, and I will show you how to build and deploy your website on GitHub Pages, a feature on GitHub with this exact purpose (and how to automate deployment).</p>
-<p>Lastly, we want to manage our files and folder structures conveniently, so we need a text/code editor.</p>
-<ol>
-<li>Have Visual Studio Code (<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>)</li>
-</ol>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/hwP7WQkmECE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 <blockquote>
-<p><a href="https://www.youtube.com/watch?v=KMxo3T_MTvY">VS Code</a> is a lightweight code editor that provides you with an integrated environment to inspect, edit, and manage your files; with extensions to accommodate every possible technical need later.</p>
+</blockquote>
+
+  </div>
+</details>
+
+</blockquote>
+<h3 id="3-have-a-githubhttpsgithubcom-account">
+  3. Have a <a href="https://github.com/">Github</a> account
+  <a class="heading-link" href="#3-have-a-githubhttpsgithubcom-account">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><a href="https://www.youtube.com/watch?v=HkdAHXoRtos">GitHub</a> is a website and a hosting service that allows you to manage your projects &ldquo;remotely&rdquo; (on the internet).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files. The technical term fo a folder is &ldquo;directory&rdquo;.</p>
+<blockquote>
+<details ><summary>more&hellip;</summary>
+  <div class="markdown-inner">
+    <blockquote>
+</blockquote>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/HkdAHXoRtos" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<blockquote>
+</blockquote>
+
+  </div>
+</details>
+
+</blockquote>
+<ul>
+<li>
+<p>Essentially, any website (and in fact most software) is just a folder with a bunch of text files &ldquo;organized in a precise way&rdquo;. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder: your future website.</p>
+</li>
+<li>
+<p>In this tutorial we will <strong>generate</strong> this folder and the necessary files with the help of Hugo (the <em>tool</em>), and we will publish it as a git repository (the project folder) on GitHub (the <em>storage</em>).</p>
+</li>
+<li>
+<p>We will also learn how to use an existing <a href="https://themes.gohugo.io/">Hugo theme</a> (a template made by someone else) to supply the <strong>looks</strong> for our website.</p>
+</li>
+<li>
+<p>Finally, I will show you how to build and <strong>deploy</strong> your website on <a href="https://pages.github.com/">GitHub Pages</a>, a feature on GitHub with this exact purpose, and how to automate(!) deployment.</p>
+</li>
+</ul>
+<p>Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you are on your own.)</p>
+<h3 id="4-have-visual-studio-codehttpscodevisualstudiocom">
+  4. Have <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+  <a class="heading-link" href="#4-have-visual-studio-codehttpscodevisualstudiocom">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><a href="https://www.youtube.com/watch?v=KMxo3T_MTvY">VS Code</a> is a lightweight, customizable code editor that provides you an integrated environment to inspect, edit, and manage files (including an explorer for your folder structure, advanced search functions, git, command lines, debugger, etc.). It is expandable with community built <strong>extensions</strong> to accommodate every possible technical need later, from code highlighters and compilers, to spell-checkers and Spotify shortcuts.</p>
+<blockquote>
+<details ><summary>more&hellip;</summary>
+  <div class="markdown-inner">
+    <blockquote>
+</blockquote>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/KMxo3T_MTvY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<blockquote>
+</blockquote>
+
+  </div>
+</details>
+
 </blockquote>
 <p><strong>All the above programs are free and open-source.</strong></p>
-<h2 id="steps">
-  Steps
-  <a class="heading-link" href="#steps">
+<hr>
+<h2 id="main-steps-first-time-build">
+  Main Steps: First Time Build
+  <a class="heading-link" href="#main-steps-first-time-build">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p>We will create a new website using the theme <a href="https://github.com/luizdepra/hugo-coder">hugo-coder</a> (MIT licence) authored and maintained by <a href="https://github.com/luizdepra">Luiz de Prá</a>. You can also find instructions on the theme&rsquo;s GitHub page.</p>
+<details ><summary>tldr</summary>
+  <div class="markdown-inner">
+    <ol>
+<li><code>hugo new site &lt;name&gt;</code></li>
+<li><code>cd &lt;name&gt;</code></li>
+<li><code>git init</code></li>
+<li><code>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder</code></li>
+<li>add content and edit <code>config.toml</code> (can also just copy the contents of the <code>exampleSite</code> directory from the theme&rsquo;s folder to the project root)</li>
+<li><code>hugo server</code> and http://localhost:1313/ to see your website locally</li>
+<li><code>hugo</code> to build your website</li>
+</ol>
+
+  </div>
+</details>
+
 <h4 id="1-open-vscode">
   1. Open VSCode
   <a class="heading-link" href="#1-open-vscode">
@@ -292,7 +398,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<p>Run VSCode and open the terminal inside VSCode by pressing <kbd>CTRL</kbd>+<kbd>`</kbd></p>
+<p>Run VS Code and open the terminal inside VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.</p>
 <h4 id="2-generate-a-new-website-with-hugo">
   2. Generate a new website with Hugo
   <a class="heading-link" href="#2-generate-a-new-website-with-hugo">
@@ -325,6 +431,14 @@
 <li>Install a theme</li>
 </ol>
 <p>cont&hellip;</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>As opposed to &ldquo;locally&rdquo;, meaning on your machine.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
       </div>
 
