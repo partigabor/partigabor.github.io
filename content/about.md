@@ -6,17 +6,11 @@ date = "2022-09-01"
 
 <!-- <div class="avatar"><img src="/images/hariri.jpg" alt="avatar"></div> -->
 
-<!-- description = ""
-aliases = ["about", "contact"]
--->
+Hello! I am a fresh Ph.D. graduate at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), and I am using digital technologies in philological and humanities research.
 
-Hello! I am a final year a Ph.D. student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), under the supervision of Professor Huang Chu-Ren. I am currently undertaking a project about spices and spice names, and their diffusion around the globe.
+I have received training in traditional philology from various *Eastern Languages and Cultures* departments at [ELTE](https://www.btk.elte.hu/en/) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology. In Hong Kong I have studied corpus linguistics and computational linguistics at [PolyU](https://www.polyu.edu.hk/en/cbs/), and learned about various techniques using artificial intelligence and machine learning in the language sciences.
 
-More about the project later, the Ph.D. dissertation is currently under review and revision.
-
-<!-- https://www.altbrot.at/2022/08/make-your-hugo-theme-use-google-fonts-locally/ -->
-
-<!-- ### [**CV**](https://partigabor.github.io/cv/) ·  -->
+I am currently undertaking a [project](https://partigabor.github.io/spice/) about spices and spice names and their diffusion around the globe, under the supervision of [Prof. Chu-Ren Huang](https://www.humanities.hk/fellowsdirectory/huangchuren).
 
 #### [CV](/files/cv.pdf "Open/download CV as a pdf")
 
