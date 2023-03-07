@@ -6,23 +6,17 @@ date = "2022-09-01"
 
 <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
 
-#### [CV](/files/cv.pdf "Open/download CV as a pdf")
-
 Hello! I am a fresh Ph.D. graduate at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, process, analyze, and present humanities data in new and exciting ways.
 
-I have received training in traditional philology from various *Eastern Languages and Cultures* departments at the [Eötvös Loránd University (ELTE)](https://www.btk.elte.hu/en/) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology. In Hong Kong I have studied corpus linguistics and computational linguistics at [PolyU](https://www.polyu.edu.hk/en/cbs/), and also learned about various techniques in natural language processing, artificial intelligence, and a bit of data science.
+I have received training in traditional philology from various *Eastern Languages and Cultures* departments at the [Eötvös Loránd University (ELTE)](https://www.btk.elte.hu/en/) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology. In Hong Kong I have studied corpus linguistics and computational linguistics at [PolyU](https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study), and also learned about various techniques in natural language processing, artificial intelligence, and a bit of data science.
 
+> **Download CV [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae.")**
 
+My PhD dissertation is titled *Mapping the Language of Spices: A Corpus-Based, Philological Study on the Words of the Spice Domain*, and it aims to be a linguistic account of the spice trade. It is about spices and spice names, and their diffusion around the globe, supervised by [Prof. Chu-Ren Huang](https://www.humanities.hk/fellowsdirectory/huangchuren), and funded by the [Hong Kong PhD Fellowship Scheme (HKPFS)](https://cerg1.ugc.edu.hk/hkpfs/index.html). The dissertation is accompanied by an online database I am currently working on, the [Spice & Spice Terminology Database 1.0](https://partigabor.github.io/spice/).
 
-I am currently undertaking a [project](https://partigabor.github.io/spice/) about spices and spice names and their diffusion around the globe, under the supervision of [Prof. Chu-Ren Huang](https://www.humanities.hk/fellowsdirectory/huangchuren).
+> **Download thesis [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/partigabor-phd-thesis-final-20230303.pdf "Download thesis document.")**
 
-
-
-The dissertation that serves as a basis for this database was prepared at the [Department of Chinese and Bilingual Studies](https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study) (soon to be renamed to Department of Linguistics and Language Sciences) at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/en/), under the supervision of [Prof. Chu-Ren Huang](https://www.humanities.hk/fellowsdirectory/huangchuren), and funded by the [Hong Kong PhD Fellowship Scheme (HKPFS)](https://cerg1.ugc.edu.hk/hkpfs/index.html). 
-
-You can download the thesis by clicking [here.](/spice/files/partigabor-phd-thesis-final-20230303.pdf "Open/download thesis.")
-
-
+<!-- Department of Linguistics and Language Sciences -->
 
 ***
 

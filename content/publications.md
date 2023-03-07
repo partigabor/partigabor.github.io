@@ -4,6 +4,8 @@ author = "Gábor Parti"
 date = "2022-09-01"
 +++
 
+* Parti, G. (2023). *Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain* [Ph.D. thesis]. The Hong Kong Polytechnic University. [<i class="ai ai-open-access ai-1x"></i>](https://www.lib.polyu.edu.hk/) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/thesis.bib "Bibfile")
+
 * Parti, G., Liesenfeld, A., & Huang, C.-R. (2021). *Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese.* Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. [<i class="ai ai-open-access ai-1x"></i>](https://aclanthology.org/2021.paclic-1.74) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_animosity_2021.bib "Bibfile")
 
 * Liesenfeld, A., Parti, G., & Huang, C.-R. (2021b). *Scikit-Talk: A Toolkit for Processing Real-world Conversational Speech Data.* Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue, 252–256. [<i class="ai ai-open-access ai-1x"></i>](https://aclanthology.org/2021.sigdial-1.26) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/liesenfeld_scikit-talk_2021.bib "Bibfile")
