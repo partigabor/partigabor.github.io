@@ -16,7 +16,7 @@ My PhD dissertation is titled *Mapping the Language of Spices: A Corpus-Based, P
 
 > **Download thesis [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/partigabor-phd-thesis-final-20230303.pdf "Download thesis document.")**
 
-<!-- Department of Linguistics and Language Sciences -->
+<!-- Update the Department of Linguistics and Language Sciences -->
 
 ***
 
