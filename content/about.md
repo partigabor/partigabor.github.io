@@ -12,7 +12,7 @@ I have received training in traditional philology from various *Eastern Language
 
 > **Download CV [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae.")**
 
-My PhD dissertation is titled *Mapping the Language of Spices: A Corpus-Based, Philological Study on the Words of the Spice Domain*, and it aims to be a linguistic account of the spice trade. It is about spices and spice names, and their diffusion around the globe, supervised by [Prof. Chu-Ren Huang](https://www.humanities.hk/fellowsdirectory/huangchuren), and funded by the [Hong Kong PhD Fellowship Scheme (HKPFS)](https://cerg1.ugc.edu.hk/hkpfs/index.html). The dissertation is accompanied by an online database I am currently working on, the [Spice & Spice Terminology Database 1.0](https://partigabor.github.io/spice/).
+My PhD dissertation is titled *Mapping the Language of Spices: A Corpus-Based, Philological Study on the Words of the Spice Domain*, and it aims to be a linguistic account of the spice trade. It is about spices and spice names, and their diffusion around the globe, supervised by [Prof. Chu-Ren Huang](http://www.churenhuang.com/), and funded by the [Hong Kong PhD Fellowship Scheme (HKPFS)](https://cerg1.ugc.edu.hk/hkpfs/index.html). The dissertation is accompanied by an online database I am currently working on, the [Spice & Spice Terminology Database 1.0](https://partigabor.github.io/spice/).
 
 > **Download thesis [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/partigabor-phd-thesis-final-20230303.pdf "Download thesis document.")**
 
