@@ -32,6 +32,8 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 [Hugo](https://www.youtube.com/watch?v=0RKpf3rK57I) is a website generator framework written in [Go](https://www.youtube.com/watch?v=446E-r0rXHI) (a computer language). It is a great tool to build static websites - FAST.
 
+* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo (extended version) from the command line using `scoop install hugo-extended`.
+
 > {{< details "more..." close >}}
 > {{< youtube 0RKpf3rK57I >}}
 > {{< /details >}}
@@ -39,6 +41,8 @@ This is a concise, step-by-step guide on how to build a website - just like this
 ### 2. Have [git](https://git-scm.com/) on your computer
 
 [Git](https://www.youtube.com/watch?v=hwP7WQkmECE) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.
+
+* To install git 
 
 > {{< details "more..." close >}}
 > {{< youtube hwP7WQkmECE >}}
@@ -87,12 +91,12 @@ We will create a new website using the theme [hugo-coder](https://github.com/lui
 3. `git init`
 4. `git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder`
 5. add content and edit `config.toml` (can also just copy the contents of the `exampleSite` directory from the theme's folder to the project root)
-6. `hugo server` and http://localhost:1313/ to see your website locally
+6. `hugo server` to see your website locally on http://localhost:1313/
 7. `hugo` to build your website
 
 {{< /details >}}
 
-#### 1. Open VSCode
+<!-- #### 1. Open VSCode
 
 Run VS Code and open the terminal inside VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.
 
@@ -126,4 +130,4 @@ This command will create a folder with the name "whatever", and all the necessar
 3. Install a theme
 
 
-cont...
+cont... -->
