@@ -22,7 +22,7 @@ author = "Gábor Parti"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Gábor Parti's personal website"
 keywords = "academia,sciences,humanities,linguistics,digital,philology"
-info = ["Digital Philology & Linguistics", "Website Under Construction"]
+info = ["Digital Philology & Linguistics"]
 avatarURL = "images/hariri.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"

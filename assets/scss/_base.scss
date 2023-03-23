@@ -9,6 +9,12 @@ html {
   font-size: 66%; // FONTSIZE
 }
 
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  src: url('/fonts/NotoNaskhArabic-VariableFont_wght.ttf') format('truetype');
+  unicode-range: U+0600-06FF; /* Arabic script */
+}
+
 body {
   color: $fg-color;
   background-color: $bg-color;
@@ -21,6 +27,11 @@ body {
     font-size: 1.6em;
     line-height: 1.6em;
   }
+}
+
+body {
+  font-family: 'Noto Naskh Arabic', sans-serif;
+  unicode-range: U+0600-06FF; /* Arabic script */
 }
 
 a {

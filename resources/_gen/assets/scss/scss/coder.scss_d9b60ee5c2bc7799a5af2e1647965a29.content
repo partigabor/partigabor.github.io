@@ -3038,10 +3038,16 @@ html {
   box-sizing: border-box;
   font-size: 66%; }
 
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  src: url("/fonts/NotoNaskhArabic-VariableFont_wght.ttf") format("truetype");
+  unicode-range: U+0600-06FF;
+  /* Arabic script */ }
+
 body {
   color: #484848;
   background-color: #ffffff;
-  font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}' Raleway, sans-serif;
+  font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}', "Raleway", sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   line-height: 1.8em; }
@@ -3049,6 +3055,11 @@ body {
     body {
       font-size: 1.6em;
       line-height: 1.6em; } }
+body {
+  font-family: 'Noto Naskh Arabic', sans-serif;
+  unicode-range: U+0600-06FF;
+  /* Arabic script */ }
+
 a {
   font-weight: 500;
   color: #3C8031;
@@ -3066,7 +3077,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}' Raleway, sans-serif;
+  font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}', "Raleway", sans-serif;
   font-weight: 400;
   color: #484848;
   margin: 4rem 0 2.5rem 0; }
@@ -3335,7 +3346,7 @@ figure {
       font-size: 1.8rem;
       flex: 2;
       color: #484848;
-      font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}' Raleway, sans-serif;
+      font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}', "Raleway", sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
         color: #3C8031; }
@@ -3471,7 +3482,7 @@ figure {
   .navigation span {
     display: inline;
     font-size: 1.7rem;
-    font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}' Raleway, sans-serif;
+    font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}', "Raleway", sans-serif;
     font-weight: 600;
     color: #484848; }
   .navigation a:hover, .navigation a:focus {
@@ -3559,7 +3570,7 @@ figure {
 .pagination {
   margin-top: 6rem;
   text-align: center;
-  font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}' Raleway, sans-serif; }
+  font-family: -apple-system, '{{ replace .Site.Params.fontbody "+" " "}}', "Raleway", sans-serif; }
   .pagination li {
     display: inline;
     text-align: center;

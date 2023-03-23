@@ -1,8 +1,8 @@
 // Fonts
 $font-family: -apple-system,
-'{{ replace .Site.Params.fontbody "+" " "}}'
+'{{ replace .Site.Params.fontbody "+" " "}}',
+"Raleway",
 // "Brill",
-Raleway,
 // BlinkMacSystemFont,
 // "Segoe UI",
 // Roboto,
@@ -24,8 +24,6 @@ $code-font-family:
 // Menlo,
 monospace
 ;
-
-
 
 // Colors
 $bg-color: #ffffff !default; //background
