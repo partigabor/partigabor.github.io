@@ -21,7 +21,7 @@ fontbody = "Raleway"
 author = "Gábor Parti"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Gábor Parti's personal website"
-keywords = "academia,sciences,humanities,linguistics,digital,philology"
+keywords = "academia,sciences,humanities,linguistics,digital,philology,spices"
 info = ["Digital Philology & Linguistics"]
 avatarURL = "images/hariri.jpg"
 #gravatar = "john.doe@example.com"
