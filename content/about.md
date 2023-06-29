@@ -8,7 +8,7 @@ date = "2022-09-01"
 
 Hello! I am a fresh Ph.D. graduate at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, process, analyze, and present humanities data in new and exciting ways.
 
-I have received training in traditional philology from various *Eastern Languages and Cultures* departments at the [Eötvös Loránd University (ELTE)](https://www.btk.elte.hu/en/) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology. In Hong Kong I have studied corpus linguistics and computational linguistics at [PolyU](https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study), and also learned about various techniques in natural language processing, artificial intelligence, and a bit of data science.
+I have received training in traditional philology from various *Eastern Languages and Cultures* departments at the [Eötvös Loránd University (ELTE)](https://www.btk.elte.hu/en/) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology. In Hong Kong I have studied corpus linguistics, computational linguistics at [PolyU](https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study), and I also learned about various techniques in natural language processing, machine learning, artificial intelligence, and a dash of data science.
 
 > **Download CV [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae.")**
 
