@@ -46,10 +46,9 @@ customSCSS = []
 customJS = []
 # Favicon
 faviconSVG = "/images/favicon.svg"
-# favicon = "/images/favicon.png"
-
-# favicon_32 = "/img/favicon-32x32.png"
-# favicon_16 = "/img/favicon-16x16.png"
+favicon = "/images/favicon.png"
+favicon_32 = "/images/favicon-32x32.png"
+favicon_16 = "/images/favicon-16x16.png"
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
