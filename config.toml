@@ -45,7 +45,9 @@ customSCSS = []
 # Custom JS
 customJS = []
 # Favicon
-favicon = "/images/icon.ico"
+faviconSVG = "/images/favicon.svg"
+# favicon = "/images/favicon.png"
+
 # favicon_32 = "/img/favicon-32x32.png"
 # favicon_16 = "/img/favicon-16x16.png"
 
