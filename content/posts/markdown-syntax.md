@@ -443,7 +443,7 @@ https://forkaweso.me/Fork-Awesome/icons/
 
 ## Gallery
 
-{{< gallery dir="/images/" hover-effect="slideup" />}}
+{{< gallery dir="/images/gallery" hover-effect="slideup" />}}
 {{< load-photoswipe >}}
 
 <!-- https://github.com/liwenyip/hugo-easy-gallery -->
