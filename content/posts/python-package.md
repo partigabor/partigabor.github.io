@@ -1,5 +1,5 @@
 +++
-title = "How to Publish a Python Package: Notes & A Rudimentary Pipeline"
+title = "How to Publish a Python Package: A Rudimentary Pipeline"
 author = "Gábor Parti"
 date = "2022-12-01"
 weight = 11
@@ -11,7 +11,7 @@ menu = "main:posts"
 
 # PIPELINE
 
-This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post was made for myself under 5 minutes in case I forget how to do this, so the explanations are minimal. Contact me if needed, or follow the actual tutorials.
+This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.
 
 > Sources and links to tutorials on the bottom.
 

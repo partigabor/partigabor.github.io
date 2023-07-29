@@ -196,7 +196,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              7-minute read
+              8-minute read
             </span>
           </div>
           
@@ -519,6 +519,74 @@ git push -u -f origin main
   </a>
 </h2>
 <p>If you want to edit your website, (1) just make the changes in your content, save them (2) run the <code>hugo</code> command to rebuild the website, and (3) commit and push your changes to GitHub. Good luck.</p>
+<hr>
+<h2 id="iv-extras">
+  IV. Extras
+  <a class="heading-link" href="#iv-extras">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="plotly">
+  Plotly
+  <a class="heading-link" href="#plotly">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>To host plotly visualizations on your website you need to add two shortcodes.</p>
+<pre><code>load-plotly.html
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ if not ($.Page.Scratch.Get &#34;plotlyloaded&#34;) }}
+</span></span><span style="display:flex;"><span>  {{ $.Page.Scratch.Set &#34;plotlyloaded&#34; 1 }}
+</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">script</span> src=<span style="font-style:italic">&#34;https://cdn.plot.ly/plotly-latest.min.js&#34;</span>&gt;&lt;/<span style="font-weight:bold">script</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>and</p>
+<pre><code>plotly.html
+</code></pre>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ $json := .Get &#34;json&#34; }}
+</span></span><span style="display:flex;"><span>{{ $height := .Get &#34;height&#34; | default &#34;200px&#34; }}
+</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">div</span> id=<span style="font-style:italic">&#34;{{$json}}&#34;</span> class=<span style="font-style:italic">&#34;plotly&#34;</span> style=<span style="font-style:italic">&#34;height:{{$height}}&#34;</span>&gt;&lt;/<span style="font-weight:bold">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">script</span>&gt;
+</span></span><span style="display:flex;"><span>Plotly.d3.json({{$json}}, <span style="font-weight:bold">function</span>(err, fig) {
+</span></span><span style="display:flex;"><span>    Plotly.plot(<span style="font-style:italic">&#39;{{$json}}&#39;</span>, fig.data, fig.layout, {responsive: <span style="font-weight:bold">true</span>});
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>&lt;/<span style="font-weight:bold">script</span>&gt;
+</span></span></code></pre></div><p>Then, you need to do 3 things.</p>
+<ol>
+<li>
+<p>On the markdown page preamble, you need to add the line:</p>
+<p><code>plotly = &quot;true&quot;</code></p>
+</li>
+<li>
+<p>Load plotly on the page with the load-plotly shortcode:</p>
+<p><code>{{*&lt; load-plotly &gt;}}</code></p>
+</li>
+<li>
+<p>Call the plotly JSON file, which should be in your static folder. In the example below, the file is in a plotly subfolder inside static, and I have set the height to 400 pixels:</p>
+<p><code>{{*&lt; plotly json=&quot;/plotly/distribution_map.json&quot; height=400 &gt;}}</code></p>
+</li>
+</ol>
+
+  
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+
+<div id="/plotly/distribution_map.json" class="plotly" style="height:400"></div>
+<script>
+Plotly.d3.json("/plotly/distribution_map.json", function(err, fig) {
+    Plotly.plot('\/plotly\/distribution_map.json', fig.data, fig.layout, {responsive: true});
+});
+</script>
+<h3 id="bibtex-citations">
+  BibTeX Citations
+  <a class="heading-link" href="#bibtex-citations">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Use the <a href="https://github.com/loup-brun/hugo-cite">hugo-cite</a> submodule.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

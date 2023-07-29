@@ -189,3 +189,58 @@ If all went well, you should have a website up and running under https://usernam
 ## III. Editing the website
 
 If you want to edit your website, (1) just make the changes in your content, save them (2) run the `hugo` command to rebuild the website, and (3) commit and push your changes to GitHub. Good luck.
+
+---
+
+## IV. Extras
+
+### Plotly
+
+To host plotly visualizations on your website you need to add two shortcodes.
+
+    load-plotly.html
+
+```html
+{{ if not ($.Page.Scratch.Get "plotlyloaded") }}
+  {{ $.Page.Scratch.Set "plotlyloaded" 1 }}
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+{{ end }}
+```
+
+and
+
+    plotly.html
+
+```html
+{{ $json := .Get "json" }}
+{{ $height := .Get "height" | default "200px" }}
+<div id="{{$json}}" class="plotly" style="height:{{$height}}"></div>
+<script>
+Plotly.d3.json({{$json}}, function(err, fig) {
+    Plotly.plot('{{$json}}', fig.data, fig.layout, {responsive: true});
+});
+</script>
+```
+
+Then, you need to do 3 things. 
+
+1. On the markdown page preamble, you need to add the line:
+
+    `plotly = "true"`
+2. Load plotly on the page with the load-plotly shortcode:
+
+    `{{*< load-plotly >}}`
+
+3. Call the plotly JSON file, which should be in your static folder. In the example below, the file is in a plotly subfolder inside static, and I have set the height to 400 pixels:
+
+    `{{*< plotly json="/plotly/distribution_map.json" height=400 >}}`
+
+{{< load-plotly >}}
+
+{{< plotly json="/plotly/distribution_map.json" height=400 >}}
+
+
+
+### BibTeX Citations
+
+Use the [hugo-cite](https://github.com/loup-brun/hugo-cite) submodule.
