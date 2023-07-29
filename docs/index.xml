@@ -6,7 +6,16 @@
     <description>Recent content on Gábor Parti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The .io domain name</title>
+      <link>https://partigabor.github.io/posts/io/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://partigabor.github.io/posts/io/</guid>
+      <description>What is the .io domain name and why is it problematic?Link to headingPreferred by tech companies, the .io domain name does not actually refer to the input-output word pair (I/O) we all learned about in primary school. I remember that guy with the mustache and white lab-coat trying to calm us down when the first Windows 95 PCs arrived&amp;hellip; We suddenly got slapped in the face by the ever-accelerating pace of technology and subsequently forgot all our (very limited) MS-DOS skills.</description>
+    </item>
+    
     <item>
       <title>How to build and host a website with Hugo</title>
       <link>https://partigabor.github.io/posts/hugo-website/</link>
@@ -49,8 +58,7 @@ Sources and links to tutorials on the bottom.</description>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/about/</guid>
-      <description>Hello! I am a fresh Ph.D. graduate at The Hong Kong Polytechnic University, and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, process, analyze, and present humanities data in new and exciting ways.
-I have received training in traditional philology from various Eastern Languages and Cultures departments at the Eötvös Loránd University (ELTE) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology.</description>
+      <description>Welcome! I am a fresh Ph.D. graduate at The Hong Kong Polytechnic University, and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel and trade, and network theory.</description>
     </item>
     
     <item>
@@ -77,7 +85,8 @@ I have received training in traditional philology from various Eastern Languages
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/projects/</guid>
-      <description>Spices &amp;amp; Spice Terminology Database Based on an ongoing PhD dissertation. The website is still in beta (under construction); I plan a release in 2023 - stay tuned.</description>
+      <description>Spices &amp;amp; Spice Terminology Database
+Based on my PhD dissertation about the diffusion of spice names.</description>
     </item>
     
   </channel>
