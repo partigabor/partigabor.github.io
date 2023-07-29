@@ -1,21 +1,16 @@
 +++
-title = "(BETA) How to build a website with Hugo"
+title = "How to build and host a website with Hugo"
 author = "Gábor Parti"
-date = "2022-12-01"
+date = "2023-06-01"
 weight = 11
-description = "A concise tutorial on how to build and host a personal website for free."
+description = "A concise tutorial on how to build and host a personal or professional website for free."
 categories = ["technical","guide"]
 tags = ["hugo","github","website","tutorial"]
 menu = "main:posts"
 # draft = "true"
 +++
 
-{{< typography font="Raleway" size="90px" >}}
-# NOT READY
-{{< /typography >}}
-
-
-This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and deploy/host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
+This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
 
 ## Requirements
 
@@ -32,7 +27,7 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 [Hugo](https://www.youtube.com/watch?v=0RKpf3rK57I) is a website generator framework written in [Go](https://www.youtube.com/watch?v=446E-r0rXHI) (a computer language). It is a great tool to build static websites - FAST.
 
-* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo (extended version) from the command line using `scoop install hugo-extended`.
+* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo (the extended version) from the command line using `scoop install hugo-extended`.
 
 > {{< details "more..." close >}}
 > {{< youtube 0RKpf3rK57I >}}
@@ -80,40 +75,41 @@ Ideally, we want to edit and manage our files conveniently, so we need a text/co
 
 ***
 
-## Main Steps: First Time Build
+## I. Building the website
 
-We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's GitHub page.
+We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git).
 
 {{< details "tldr" close >}}
 
-1. `hugo new site <name>`
-2. `cd <name>`
-3. `git init`
-4. `git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder`
-5. add content and edit `config.toml` (can also just copy the contents of the `exampleSite` directory from the theme's folder to the project root)
-6. `hugo server` to see your website locally on http://localhost:1313/
-7. `hugo` to build your website
+1. `hugo new site whatever; cd whatever`
+2. `git init`
+3. `git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder`
+4. add content and edit the `hugo.toml` config file, especially defining the theme to use (add the line: `theme = "hugo-coder"`)
+5. `hugo server` to see your website locally on http://localhost:1313/
+6. `hugo` to build your website
 
 {{< /details >}}
 
-<!-- #### 1. Open VSCode
+### 1. Generate a new website with Hugo
 
-Run VS Code and open the terminal inside VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.
+Use your command line/terminal and navigate to where you want your project folder created (you can always move it somewhere else later) and run the command below, replacing `whatever` to whatever name you want. You can also open the terminal in VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.
 
-#### 2. Generate a new website with Hugo
+    hugo new site whatever
 
-Navigate to the directory where you want to create your website project (you can always move it somewhere else later).
+ This command will create a folder with the name "whatever", and all the necessary files and folders for an empty Hugo website. Now navigate into this folder using `cd whatever`.
 
-{{< details "more" close >}}
-E.g.: Make a directory called "Projects" by typing 
+> if you get an error here, Hugo was not installed properly
+ 
+{{< details "Navigation in the terminal" close >}}
+E.g.: Make a directory called "new" by typing 
 
-    md Projects
+    md new
 
 and hitting enter, then and navigate to it by typing
 
-    cd Projects
+    cd new
 
-and hitting enter. Now you should see that you are in `C:\Users\USER\Projects>` on the terminal.
+and hitting enter. Now you should see that you are in `C:\Users\user\new>` on the terminal.
 
 `md` = make directory, `cd` = change directory. To go up one level, enter 
 
@@ -121,13 +117,75 @@ and hitting enter. Now you should see that you are in `C:\Users\USER\Projects>` 
 
 {{< /details >}}
 
-Type the following command into the command line (terminal)
+### 2. Initialize the git repo
 
-    hugo new site whatever
+Run a following command:
 
-This command will create a folder with the name "whatever", and all the necessary files for a Hugo website.
+    git init
 
-3. Install a theme
+This will initialize a git repository of your folder, creating a `.git` hidden folder with lots of nasty code that you don't have to touch.
 
+> If you get an error here, there is some problem with git.
 
-cont... -->
+### 3. Add a theme
+
+We can now add a theme as a git submodule with the following code:
+
+    git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+
+This line of code will clone the Hugo theme's repository into our `themes` folder so we can use it on our website.
+
+### 4. Edit the config file
+
+In `hugo.toml` (previously `config.toml`), add the following line
+
+    theme = "hugo-coder"
+
+This tells our Hugo website to use the "Coder" theme we just downloaded to our themes folder. 
+
+You also have to give the base URL for your website, edit the following line in the config file based on this example:
+
+    baseURL = "https://username.github.io/whatever"
+
+You can (and should) also edit other parameters later, since this config file contains all the main settings to your website. Look up the theme's Readme or the exampleSite to see how it works and what it can do, theme developers explain every option. You can also try and copy the contents of the exampleSite folder of the theme to your project's root folder and see what happens.
+
+### 5. Run your website
+
+    hugo server
+
+This command will launch and host the website on your machine, you can access it in the browser http://localhost:1313/ (or by clicking this link from the terminal output). This is meant for development purposes, you can see and try using your website and even observe real-time changes as you tune your settings or add content!
+
+### 6. Build
+
+    hugo
+
+That's it. Simply typing `hugo` into the command line and hitting enter will build and "publish" your website. The default location of this build will usually be a folder named `public`, which you can change by adding/editing a line in your configfile. For example: `publishDir = "docs"` will make your `hugo` command build and publish your website into a directory named `docs`.
+
+## II. Hosting the website
+
+### 7. Push to GitHub
+
+After building your website with the `hugo` command, you have to push it to GitHub. This means that you will upload this git repository online and store it on [https://github.com/](https://github.com/) under your account. 
+
+VS Code has a one-click solution for this via the button **<i class="fa fa-1x fa-github"></i> Publish to Github**, but you can use your terminal and call the classic lines below one-by-one to add all your changes to the present commit, add a commit message, add a new remote origin, and push the commit to the main branch of the repository (see [here](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)). 
+
+    git add .
+    git commit -m "First commit"
+    git remote add origin https://github.com/user/repo.git
+    git push -u -f origin main
+
+>This is a step you must do every time you add new content to your website, and want to make the changes live.
+
+### 8. Build and deploy
+
+Now navigate to your repository on Github in your browser, click on "Settings" on the top panel, and find "Pages" on the left sidebar. This service, called *GitHub Pages*, is there to hosts websites. We will use *GitHub Actions* to automatically build and deploy the site, which even detects when you edit something and makes your changes live in a matter of minutes.
+
+Under the section "Build and deployment", subsection "Source", select "GitHub Acions" instead of "Deploy from a branch". This will offer you to select from suggested *workflows*, where you will have to "browse all workflows" to find the one made for Hugo. Find and select the one for Hugo, and click **configure**. This step will create a `hugo.yml` in your project (whatever/.github/workflows/hugo.yml). You don't have to edit this file, unless you have previously changed the default directory to publish your website (public).
+
+Click the green "Commit changes..." button in the top right corner, and wait a few minutes. You can follow GitHub Actions working in the background if you click on "Actions" in the top panel of your repository.
+
+If all went well, you should have a website up and running under https://username.github.io/whatever, you can check if it's live under "Settings".
+
+## III. Editing the website
+
+If you want to edit your website, (1) just make the changes in your content, save them (2) run the `hugo` command to rebuild the website, and (3) commit and push your changes to GitHub. Good luck.

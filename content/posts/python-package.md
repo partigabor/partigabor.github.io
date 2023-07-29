@@ -1,7 +1,7 @@
 +++
 title = "How to Publish a Python Package: Notes & A Rudimentary Pipeline"
 author = "Gábor Parti"
-date = "2022-09-01"
+date = "2022-12-01"
 weight = 11
 description = "A concise tutorial on how to publish an open source python package."
 categories = ["technical","guide"]

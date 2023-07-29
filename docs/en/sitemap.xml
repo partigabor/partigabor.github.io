@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://partigabor.github.io/posts/hugo-website/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/posts/python-package/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/posts/markdown-syntax/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/categories/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
@@ -25,7 +25,7 @@
                 />
   </url><url>
     <loc>https://partigabor.github.io/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
@@ -38,16 +38,16 @@
                 />
   </url><url>
     <loc>https://partigabor.github.io/tags/github/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/categories/guide/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/hugo/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
@@ -60,12 +60,18 @@
                 />
   </url><url>
     <loc>https://partigabor.github.io/categories/technical/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/tutorial/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/website/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/tags/documentation/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/tags/python/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/about/</loc>
@@ -93,9 +99,6 @@
                 hreflang="en"
                 href="https://partigabor.github.io/contact/"
                 />
-  </url><url>
-    <loc>https://partigabor.github.io/tags/documentation/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/markdown/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
@@ -125,9 +128,6 @@
                 hreflang="en"
                 href="https://partigabor.github.io/publications/"
                 />
-  </url><url>
-    <loc>https://partigabor.github.io/tags/python/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/projects/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>

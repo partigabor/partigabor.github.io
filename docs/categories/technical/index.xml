@@ -6,21 +6,21 @@
     <description>Recent content in technical on Gábor Parti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/categories/technical/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(BETA) How to build a website with Hugo</title>
+      <title>How to build and host a website with Hugo</title>
       <link>https://partigabor.github.io/posts/hugo-website/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/hugo-website/</guid>
-      <description># NOT READYThis is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and deploy/host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
+      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
 RequirementsLink to headingtldrHugo (extended version) Git Github VS Code (or whatever you use) 1. Have Hugo - the extended version - on your computerLink to headingHugo is a website generator framework written in Go (a computer language).</description>
     </item>
     
     <item>
       <title>How to Publish a Python Package: Notes &amp; A Rudimentary Pipeline</title>
       <link>https://partigabor.github.io/posts/python-package/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/python-package/</guid>
       <description>PIPELINELink to headingThis is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post was made for myself under 5 minutes in case I forget how to do this, so the explanations are minimal. Contact me if needed, or follow the actual tutorials.
