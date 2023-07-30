@@ -1,6 +1,6 @@
 +++
 title = "The .io domain name"
-author = "Gábor Parti"
+author = "Gabor Parti"
 date = "2023-07-01"
 weight = 11
 description = ""

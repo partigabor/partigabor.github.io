@@ -1,6 +1,6 @@
 +++
 title = "Maps"
-author = "Gábor Parti"
+author = "Gabor Parti"
 date = "2132-09-01"
 weight = 11
 description = ""

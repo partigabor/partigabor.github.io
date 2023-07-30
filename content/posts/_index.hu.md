@@ -1,6 +1,6 @@
 +++
 title = "Bejegyzések"
-author = "Parti Gábor"
+author = "Parti Gabor"
 date = "2022-09-01"
 +++
 

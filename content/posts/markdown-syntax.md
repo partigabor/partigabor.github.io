@@ -1,6 +1,6 @@
 +++
 title = "Markdown Syntax Guide"
-author = "Gábor Parti"
+author = "Gabor Parti"
 date = "2022-09-01"
 weight = 11
 description = "Help with Markdown syntax and Hugo schortcodes."

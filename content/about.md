@@ -1,6 +1,6 @@
 +++
 title = "About"
-author = "Gábor Parti"
+author = "Gabor Parti"
 date = "2022-09-01"
 +++
 

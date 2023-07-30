@@ -1,6 +1,6 @@
 baseURL = "https://partigabor.github.io/"
-title = "Gábor Parti"
-theme = "hugo-coder"
+title = "Gabor Parti"
+theme = ["hugo-coder", "hugo-cite"]
 languageCode = "en"
 defaultContentLanguage = "en"
 publishDir = "docs"
@@ -18,9 +18,9 @@ fontheading = "Raleway"
 fontbody = "Raleway"
 # Changing font here is not enough, also change in _variables.css
 
-author = "Gábor Parti"
+author = "Gabor Parti"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Gábor Parti's personal website"
+description = "Gabor Parti's personal website"
 keywords = "academia,sciences,humanities,linguistics,digital,philology,spices"
 info = ["Digital Philology & Linguistics"]
 avatarURL = "images/hariri.jpg"
@@ -191,12 +191,12 @@ url = "contact/"
 
 [languages.hu]
 languageName = ":hungary:"
-title = "Parti Gábor"
+title = "Parti Gabor"
 
 [languages.hu.params]
-author = "Parti Gábor"
+author = "Parti Gabor"
 info = ["Digitális filológia & nyelvészet", "⸙ Weboldal fejlesztés alatt ⸙"]
-description = "Parti Gábor oldala"
+description = "Parti Gabor oldala"
 keywords = "akadémia,tudomány,bölcsészet,nyelvészet,digitális,filológia"
 
 [[languages.hu.menu.main]]

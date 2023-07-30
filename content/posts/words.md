@@ -1,6 +1,6 @@
 +++
 title = "Words & Phrases"
-author = "Gábor Parti"
+author = "Gabor Parti"
 date = "2123-09-01"
 weight = 11
 description = ""
