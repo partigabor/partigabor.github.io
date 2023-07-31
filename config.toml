@@ -224,11 +224,17 @@ name = "Elérhetőség"
 weight = 6
 url = "contact/"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.renderer]
+#       unsafe = true
 
 [markup.highlight]
-style = "monokaidark"
+style = "doom-one"
 
+# Comments
+[params.utterances]
+  repo = "" # https://utteranc.es/#heading-repository
+  issueTerm = "" # https://utteranc.es/#heading-mapping
+  label = "" # https://utteranc.es/#heading-issue-label
+  theme = "" # https://utteranc.es/#heading-theme

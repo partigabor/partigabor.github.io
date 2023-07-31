@@ -294,9 +294,7 @@
   <div class="markdown-inner">
     <blockquote>
 </blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/0RKpf3rK57I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<!-- raw HTML omitted -->
 <blockquote>
 </blockquote>
 
@@ -320,9 +318,7 @@
   <div class="markdown-inner">
     <blockquote>
 </blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/hwP7WQkmECE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<!-- raw HTML omitted -->
 <blockquote>
 </blockquote>
 
@@ -346,9 +342,7 @@
   <div class="markdown-inner">
     <blockquote>
 </blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/HkdAHXoRtos" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<!-- raw HTML omitted -->
 <blockquote>
 </blockquote>
 
@@ -373,9 +367,7 @@
   <div class="markdown-inner">
     <blockquote>
 </blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/KMxo3T_MTvY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<!-- raw HTML omitted -->
 <blockquote>
 </blockquote>
 
@@ -386,7 +378,7 @@
 <ul>
 <li>Download and install from <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
 </ul>
-<p><i class="fa fa-cc-nc" aria-hidden="true"></i> <strong>All the above programs are free and open-source</strong></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --> <strong>All the above programs are free and open-source</strong></p>
 <hr>
 <h1 id="ii">
   2. Building the Website
@@ -417,7 +409,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Use your command line/terminal and navigate to where you want your project folder created (you can always move it somewhere else later) and run the command below, replacing <code>whatever</code> to whatever name you want. You can also open the terminal in VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.</p>
+<p>Use your command line/terminal and navigate to where you want your project folder created (you can always move it somewhere else later) and run the command below, replacing <code>whatever</code> to whatever name you want. You can also open the terminal in VS Code by pressing <!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->`<!-- raw HTML omitted -->.</p>
 <pre><code>hugo new site whatever
 </code></pre>
 <p>This command will create a folder with the name &ldquo;whatever&rdquo;, and all the necessary files and folders for an empty Hugo website. Now navigate into this folder using <code>cd whatever</code>.</p>
@@ -527,7 +519,7 @@
   </a>
 </h2>
 <p>After building your website with the <code>hugo</code> command, you have to push it to GitHub. This means that you will upload this git repository online and store it on <a href="https://github.com/">https://github.com/</a> under your account.</p>
-<p>VS Code has a one-click solution for this via the button <strong><i class="fa fa-1x fa-github"></i> Publish to Github</strong>, but you can use your terminal and call the classic lines below one-by-one to add all your changes to the present commit, add a commit message, add a new remote origin, and push the commit to the main branch of the repository (see <a href="https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github">here</a>).</p>
+<p>VS Code has a one-click solution for this via the button <strong><!-- raw HTML omitted --><!-- raw HTML omitted --> Publish to Github</strong>, but you can use your terminal and call the classic lines below one-by-one to add all your changes to the present commit, add a commit message, add a new remote origin, and push the commit to the main branch of the repository (see <a href="https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github">here</a>).</p>
 <pre><code>git add .
 git commit -m &quot;First commit&quot;
 git remote add origin https://github.com/user/repo.git
@@ -544,7 +536,7 @@ git push -u origin main
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Now we are going from <i class="fa fa-keyboard-o" aria-hidden="true"></i> <em>klackity-klack</em>&hellip; to <i class="fa fa-mouse-pointer" aria-hidden="true"></i> <em>clickety-click</em>.</p>
+<p>Now we are going from <!-- raw HTML omitted --><!-- raw HTML omitted --> <em>klackity-klack</em>&hellip; to <!-- raw HTML omitted --><!-- raw HTML omitted --> <em>clickety-click</em>.</p>
 <ul>
 <li>Go to your repository on <strong>GitHub</strong> in your browser, click on &ldquo;Settings&rdquo; on the top panel, and find &ldquo;Pages&rdquo; on the left sidebar.</li>
 </ul>
@@ -593,21 +585,21 @@ git push -u origin main
 <p>To host plotly visualizations on your website you need to add two shortcodes.</p>
 <pre><code>load-plotly.html
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ if not ($.Page.Scratch.Get &#34;plotlyloaded&#34;) }}
+<div class="highlight"><pre tabindex="0" style="color:#b0c4de;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ if not ($.Page.Scratch.Get &#34;plotlyloaded&#34;) }}
 </span></span><span style="display:flex;"><span>  {{ $.Page.Scratch.Set &#34;plotlyloaded&#34; 1 }}
-</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">script</span> <span style="color:#007f7f">src</span>=<span style="color:#0ff;font-weight:bold">&#34;https://cdn.plot.ly/plotly-latest.min.js&#34;</span>&gt;&lt;/<span style="font-weight:bold">script</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#e06c75">script</span> <span style="color:#b3d23c">src</span><span style="color:#c7bf54">=</span><span style="color:#98c379">&#34;https://cdn.plot.ly/plotly-latest.min.js&#34;</span>&gt;&lt;/<span style="color:#e06c75">script</span>&gt;
 </span></span><span style="display:flex;"><span>{{ end }}
 </span></span></code></pre></div><p>and</p>
 <pre><code>plotly.html
 </code></pre>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ $json := .Get &#34;json&#34; }}
+<div class="highlight"><pre tabindex="0" style="color:#b0c4de;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ $json := .Get &#34;json&#34; }}
 </span></span><span style="display:flex;"><span>{{ $height := .Get &#34;height&#34; | default &#34;200px&#34; }}
-</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">div</span> <span style="color:#007f7f">id</span>=<span style="color:#0ff;font-weight:bold">&#34;{{$json}}&#34;</span> <span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;plotly&#34;</span> <span style="color:#007f7f">style</span>=<span style="color:#0ff;font-weight:bold">&#34;height:{{$height}}&#34;</span>&gt;&lt;/<span style="font-weight:bold">div</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">script</span>&gt;
-</span></span><span style="display:flex;"><span>Plotly.d3.json({{$json}}, <span style="color:#fff;font-weight:bold">function</span>(err, fig) {
-</span></span><span style="display:flex;"><span>    Plotly.plot(<span style="color:#0ff;font-weight:bold">&#39;{{$json}}&#39;</span>, fig.data, fig.layout, {responsive: <span style="color:#fff;font-weight:bold">true</span>});
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">div</span> <span style="color:#b3d23c">id</span><span style="color:#c7bf54">=</span><span style="color:#98c379">&#34;{{$json}}&#34;</span> <span style="color:#b3d23c">class</span><span style="color:#c7bf54">=</span><span style="color:#98c379">&#34;plotly&#34;</span> <span style="color:#b3d23c">style</span><span style="color:#c7bf54">=</span><span style="color:#98c379">&#34;height:{{$height}}&#34;</span>&gt;&lt;/<span style="color:#e06c75">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#e06c75">script</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#c1abea">Plotly</span>.<span style="color:#c1abea">d3</span>.<span style="color:#c1abea">json</span>({{<span style="color:#c1abea">$json</span>}}, <span style="color:#c678dd">function</span>(<span style="color:#c1abea">err</span>, <span style="color:#c1abea">fig</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#c1abea">Plotly</span>.<span style="color:#c1abea">plot</span>(<span style="color:#98c379">&#39;{{$json}}&#39;</span>, <span style="color:#c1abea">fig</span>.<span style="color:#c1abea">data</span>, <span style="color:#c1abea">fig</span>.<span style="color:#c1abea">layout</span>, {<span style="color:#c1abea">responsive</span><span style="color:#c7bf54">:</span> <span style="color:#b756ff;font-weight:bold">true</span>});
 </span></span><span style="display:flex;"><span>});
-</span></span><span style="display:flex;"><span>&lt;/<span style="font-weight:bold">script</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#e06c75">script</span>&gt;
 </span></span></code></pre></div><p>Then, you need to do 3 things.</p>
 <ol>
 <li>
@@ -623,13 +615,8 @@ git push -u origin main
 <p><code>{{*&lt; plotly json=&quot;/plotly/distribution_map.json&quot; height=400 &gt;}}</code></p>
 </li>
 </ol>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<div id="/plotly/distribution_map.json" class="plotly" style="height:400"></div>
-<script>
-Plotly.d3.json("/plotly/distribution_map.json", function(err, fig) {
-    Plotly.plot('\/plotly\/distribution_map.json', fig.data, fig.layout, {responsive: true});
-});
-</script>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h2 id="52-bibtex-citations">
   5.2. BibTeX Citations
   <a class="heading-link" href="#52-bibtex-citations">
