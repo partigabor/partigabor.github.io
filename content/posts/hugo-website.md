@@ -172,7 +172,7 @@ VS Code has a one-click solution for this via the button **<i class="fa fa-1x fa
     git add .
     git commit -m "First commit"
     git remote add origin https://github.com/user/repo.git
-    git push -u -f origin main
+    git push -u origin main
 
 >This is a step you must do every time you add new content to your website, and want to make the changes live.
 
