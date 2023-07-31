@@ -7,6 +7,7 @@ description = ""
 categories = []
 tags = []
 menu = "main:posts"
+disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++
 
