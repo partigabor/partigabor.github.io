@@ -336,7 +336,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p><a href="https://github.com/">GitHub</a> is a website and a hosting service that allows you to manage your projects &ldquo;remotely&rdquo; (on the internet).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files. The technical term fo a folder is &ldquo;directory&rdquo;.</p>
+<p><a href="https://github.com/">GitHub</a> is a website and a hosting service that allows you to manage your projects &ldquo;remotely&rdquo; (on the internet, as opposed to &ldquo;locally&rdquo;, meaning on your machine). Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files. The technical term for a folder is &ldquo;directory&rdquo;.</p>
 <blockquote>
 <details ><summary>more&hellip;</summary>
   <div class="markdown-inner">
@@ -629,14 +629,6 @@ git push -u origin main
   </div>
 </details>
 
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>As opposed to &ldquo;locally&rdquo;, meaning on your machine.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 
       </div>
 
@@ -647,7 +639,26 @@ git push -u origin main
 
         
         
-        
+        <div class="comments">
+    <script>
+  
+    let getTheme = window.localStorage && window.localStorage.getItem("colorscheme");
+  
+    getTheme = getTheme == null ? 'github-dark' : getTheme;
+    
+    let theme = getTheme === 'dark' ? 'github-dark' : 'github-light';
+    let s = document.createElement('script');
+    s.src = 'https://utteranc.es/client.js';
+    s.setAttribute('repo', 'partigabor\/partigabor.github.io');
+    s.setAttribute('issue-term', 'pathname');
+    s.setAttribute('theme', theme);
+    s.setAttribute('crossorigin', 'anonymous');
+    s.setAttribute('async', '');
+    document.querySelector('div.comments').innerHTML = '';
+    document.querySelector('div.comments').appendChild(s);
+  
+    </script>
+    </div>
       </footer>
     </article>
 

@@ -234,7 +234,8 @@ style = "doom-one"
 
 # Comments
 [params.utterances]
-  repo = "" # https://utteranc.es/#heading-repository
-  issueTerm = "" # https://utteranc.es/#heading-mapping
-  label = "" # https://utteranc.es/#heading-issue-label
-  theme = "" # https://utteranc.es/#heading-theme
+  repo = "partigabor/partigabor.github.io" # https://utteranc.es/#heading-repository
+  issueTerm = "pathname" # https://utteranc.es/#heading-mapping
+  label = "comment" # https://utteranc.es/#heading-issue-label
+  theme = "github-dark" # https://utteranc.es/#heading-theme
+

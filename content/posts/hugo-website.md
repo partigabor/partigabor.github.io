@@ -65,9 +65,7 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 ## 1.3. Have a [Github](https://github.com/) account
 
-[GitHub](https://github.com/) is a website and a hosting service that allows you to manage your projects "remotely" (on the internet).[^remote] Projects hosted here are called "repositories", and a repository is basically a folder to store your project files. The technical term fo a folder is "directory".
-
-[^remote]: As opposed to "locally", meaning on your machine.
+[GitHub](https://github.com/) is a website and a hosting service that allows you to manage your projects "remotely" (on the internet, as opposed to "locally", meaning on your machine). Projects hosted here are called "repositories", and a repository is basically a folder to store your project files. The technical term for a folder is "directory".
 
 > {{< details "more..." close >}}
 > {{< youtube HkdAHXoRtos >}}

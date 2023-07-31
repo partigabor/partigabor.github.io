@@ -8,7 +8,7 @@ categories = ["technical","guide"]
 tags = ["markdown","syntax","hugo"]
 menu = "main:posts"
 plotly = "true"
-# draft: true
+# draft = "true"
 # katex = "true"
 # disableComments = "true"
 # externalLink = "https://partigabor.github.io/posts/"
