@@ -69,7 +69,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.114.1">
+<meta name="generator" content="Hugo 0.111.3">
 
 
 
@@ -430,7 +430,7 @@ The blockquote element represents content that is quoted from another source, op
   </a>
 </h2>
 <p>The only correct way to insert images from static/images:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>![1](/images/polyu-logo.png)
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>![1](/images/polyu-logo.png)
 </span></span></code></pre></div><p><img src="/images/polyu-logo.png" alt="Image"></p>
 <h2 id="tables">
   Tables
@@ -529,13 +529,13 @@ The blockquote element represents content that is quoted from another source, op
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="font-style:italic">#Roman numerals</span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">def</span> roman(num: int) -&gt; str:
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007f7f">#Roman numerals</span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> roman(num: <span style="color:#fff;font-weight:bold">int</span>) -&gt; <span style="color:#fff;font-weight:bold">str</span>:
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    chlist = <span style="font-style:italic">&#34;VXLCDM&#34;</span>
-</span></span><span style="display:flex;"><span>    rev = [int(ch) <span style="font-weight:bold">for</span> ch <span style="font-weight:bold">in</span> reversed(str(num))]
-</span></span><span style="display:flex;"><span>    chlist = [<span style="font-style:italic">&#34;I&#34;</span>] + [chlist[i % len(chlist)] + <span style="font-style:italic">&#34;</span><span style="font-weight:bold;font-style:italic">\u0304</span><span style="font-style:italic">&#34;</span> * (i // len(chlist))
-</span></span><span style="display:flex;"><span>                    <span style="font-weight:bold">for</span> i <span style="font-weight:bold">in</span> range(0, len(rev) * 2)]
+</span></span><span style="display:flex;"><span>    chlist = <span style="color:#0ff;font-weight:bold">&#34;VXLCDM&#34;</span>
+</span></span><span style="display:flex;"><span>    rev = [<span style="color:#fff;font-weight:bold">int</span>(ch) <span style="color:#fff;font-weight:bold">for</span> ch in <span style="color:#fff;font-weight:bold">reversed</span>(<span style="color:#fff;font-weight:bold">str</span>(num))]
+</span></span><span style="display:flex;"><span>    chlist = [<span style="color:#0ff;font-weight:bold">&#34;I&#34;</span>] + [chlist[i % <span style="color:#fff;font-weight:bold">len</span>(chlist)] + <span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">\u0304</span><span style="color:#0ff;font-weight:bold">&#34;</span> * (i // <span style="color:#fff;font-weight:bold">len</span>(chlist))
+</span></span><span style="display:flex;"><span>                    <span style="color:#fff;font-weight:bold">for</span> i in <span style="color:#fff;font-weight:bold">range</span>(<span style="color:#ff0;font-weight:bold">0</span>, <span style="color:#fff;font-weight:bold">len</span>(rev) * <span style="color:#ff0;font-weight:bold">2</span>)]
 </span></span></code></pre></div><h4 id="code-block-indented-with-four-spaces">
   Code block indented with four spaces
   <a class="heading-link" href="#code-block-indented-with-four-spaces">
@@ -561,10 +561,10 @@ The blockquote element represents content that is quoted from another source, op
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="">&lt;!doctype html&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">html</span> lang=<span style="font-style:italic">&#34;en&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">&lt;!doctype html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">html</span> <span style="color:#007f7f">lang</span>=<span style="color:#0ff;font-weight:bold">&#34;en&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">head</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">meta</span> charset=<span style="font-style:italic">&#34;utf-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">meta</span> <span style="color:#007f7f">charset</span>=<span style="color:#0ff;font-weight:bold">&#34;utf-8&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="font-weight:bold">title</span>&gt;Example HTML5 Document&lt;/<span style="font-weight:bold">title</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="font-weight:bold">head</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="font-weight:bold">body</span>&gt;
@@ -649,8 +649,8 @@ The blockquote element represents content that is quoted from another source, op
   </a>
 </h2>
 <p>Buttons are styled links that can lead to local page or external link.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="">{{</span>&lt; button relref=<span style="font-style:italic">&#34;/&#34;</span> [class=<span style="font-style:italic">&#34;...&#34;</span>] &gt;<span style="">}}</span>Get Home<span style="">{{</span>&lt; /button &gt;<span style="">}}</span>
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; button href=<span style="font-style:italic">&#34;https://github.com/alex-shpak/hugo-book&#34;</span> &gt;<span style="">}}</span>Contribute<span style="">{{</span>&lt; /button &gt;<span style="">}}</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">button</span> <span style="color:#007f7f">relref</span>=<span style="color:#0ff;font-weight:bold">&#34;/&#34;</span> [<span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;...&#34;</span>] &gt;<span style="color:#0f0;font-weight:bold">}}</span>Get Home<span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">button</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">button</span> <span style="color:#007f7f">href</span>=<span style="color:#0ff;font-weight:bold">&#34;https://github.com/alex-shpak/hugo-book&#34;</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>Contribute<span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">button</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span></code></pre></div><h4 id="example">
   Example
   <a class="heading-link" href="#example">
@@ -688,11 +688,11 @@ The blockquote element represents content that is quoted from another source, op
 </h2>
 <p>Hint shortcode can be used as hint/alerts/notification block.<br>
 There are 3 colors to choose: <code>info</code>, <code>warning</code> and <code>danger</code>.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="">{{</span>&lt; hint [info|warning|danger] &gt;<span style="">}}</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">hint</span> [<span style="color:#007f7f">info</span>|<span style="color:#007f7f">warning</span>|<span style="color:#007f7f">danger</span>] &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span><span style="display:flex;"><span>**Markdown content**  
 </span></span><span style="display:flex;"><span>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 </span></span><span style="display:flex;"><span>stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; /hint &gt;<span style="">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">hint</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span></code></pre></div><h4 id="example-1">
   Example
   <a class="heading-link" href="#example-1">
@@ -733,9 +733,9 @@ stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span>{{&lt; katex [display] [class=&#34;text-center&#34;]  &gt;}}
-</span></span><span style="display:flex;"><span>f(x) = <span style="font-weight:bold">\int</span>_{-<span style="font-weight:bold">\infty</span>}^<span style="font-weight:bold">\infty\hat</span> f(<span style="font-weight:bold">\xi</span>)<span style="font-weight:bold">\,</span>e^{2 <span style="font-weight:bold">\pi</span> i <span style="font-weight:bold">\xi</span> x}<span style="font-weight:bold">\,</span>d<span style="font-weight:bold">\xi</span>
-</span></span><span style="display:flex;"><span>{{&lt; /katex &gt;}}
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-latex" data-lang="latex"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">{{</span>&lt; katex [display] [class=&#34;text-center&#34;]  &gt;<span style="color:#fff;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span>f(x) = <span style="color:#fff;font-weight:bold">\int</span><span style="color:#fff;font-weight:bold">_{</span>-<span style="color:#fff;font-weight:bold">\infty</span><span style="color:#fff;font-weight:bold">}^</span><span style="color:#fff;font-weight:bold">\infty\hat</span> f(<span style="color:#fff;font-weight:bold">\xi</span>)<span style="color:#fff;font-weight:bold">\,</span>e<span style="color:#fff;font-weight:bold">^{</span>2 <span style="color:#fff;font-weight:bold">\pi</span> i <span style="color:#fff;font-weight:bold">\xi</span> x<span style="color:#fff;font-weight:bold">}</span><span style="color:#fff;font-weight:bold">\,</span>d<span style="color:#fff;font-weight:bold">\xi</span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">{{</span>&lt; /katex &gt;<span style="color:#fff;font-weight:bold">}}</span>
 </span></span></code></pre></div>
 <link rel="stylesheet" href="/katex/katex.min.css" />
 <script defer src="/katex/katex.min.js"></script>
@@ -776,14 +776,14 @@ Text continues here.</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="">{{</span>&lt; details <span style="font-style:italic">&#34;Title&#34;</span> [open] &gt;<span style="">}}</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">details</span> <span style="color:#0ff;font-weight:bold">&#34;Title&#34;</span> [<span style="color:#007f7f">open</span>] &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span><span style="display:flex;"><span>## Markdown content
 </span></span><span style="display:flex;"><span>Lorem markdownum insigne...
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; /details &gt;<span style="">}}</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="">{{</span>&lt; details title=<span style="font-style:italic">&#34;Title&#34;</span> open=<span style="font-weight:bold">true</span> &gt;<span style="">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">details</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">details</span> <span style="color:#007f7f">title</span>=<span style="color:#0ff;font-weight:bold">&#34;Title&#34;</span> <span style="color:#007f7f">open</span>=<span style="color:#fff;font-weight:bold">true</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span><span style="display:flex;"><span>## Markdown content
 </span></span><span style="display:flex;"><span>Lorem markdownum insigne...
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; /details &gt;<span style="">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">details</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span></code></pre></div><details open><summary>Title</summary>
   <div class="markdown-inner">
     <h4 id="markdown-content">
@@ -805,11 +805,11 @@ Text continues here.</p>
   </a>
 </h2>
 <p>Tabs let you organize content by context, for example installation instructions for each supported platform.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="">{{</span>&lt; tabs <span style="font-style:italic">&#34;uniqueid&#34;</span> &gt;<span style="">}}</span>
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; tab <span style="font-style:italic">&#34;MacOS&#34;</span> &gt;<span style="">}}</span> # MacOS Content <span style="">{{</span>&lt; /tab &gt;<span style="">}}</span>
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; tab <span style="font-style:italic">&#34;Linux&#34;</span> &gt;<span style="">}}</span> # Linux Content <span style="">{{</span>&lt; /tab &gt;<span style="">}}</span>
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; tab <span style="font-style:italic">&#34;Windows&#34;</span> &gt;<span style="">}}</span> # Windows Content <span style="">{{</span>&lt; /tab &gt;<span style="">}}</span>
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; /tabs &gt;<span style="">}}</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">tabs</span> <span style="color:#0ff;font-weight:bold">&#34;uniqueid&#34;</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">tab</span> <span style="color:#0ff;font-weight:bold">&#34;MacOS&#34;</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span> # MacOS Content <span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">tab</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">tab</span> <span style="color:#0ff;font-weight:bold">&#34;Linux&#34;</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span> # Linux Content <span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">tab</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">tab</span> <span style="color:#0ff;font-weight:bold">&#34;Windows&#34;</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span> # Windows Content <span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">tab</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">tabs</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span></code></pre></div><h4 id="example-4">
   Example
   <a class="heading-link" href="#example-4">
@@ -887,7 +887,7 @@ create a <code>mermaid.json</code> file in your <code>assets</code> folder!</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="">{{</span>&lt; mermaid [class=<span style="font-style:italic">&#34;text-center&#34;</span>]&gt;<span style="">}}</span>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; <span style="color:#007f7f">mermaid</span> [<span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;text-center&#34;</span>]&gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span><span style="display:flex;"><span>stateDiagram-v2
 </span></span><span style="display:flex;"><span>    State1: The state with a note
 </span></span><span style="display:flex;"><span>    note right of State1
@@ -896,7 +896,7 @@ create a <code>mermaid.json</code> file in your <code>assets</code> folder!</p>
 </span></span><span style="display:flex;"><span>    end note
 </span></span><span style="display:flex;"><span>    State1 --&gt; State2
 </span></span><span style="display:flex;"><span>    note left of State2 : This is the note to the left.
-</span></span><span style="display:flex;"><span><span style="">{{</span>&lt; /mermaid &gt;<span style="">}}</span>
+</span></span><span style="display:flex;"><span><span style="color:#0f0;font-weight:bold">{{</span>&lt; /<span style="color:#007f7f">mermaid</span> &gt;<span style="color:#0f0;font-weight:bold">}}</span>
 </span></span></code></pre></div>
 
 <script src="/mermaid.min.js"></script>
@@ -923,7 +923,7 @@ stateDiagram-v2
   </a>
 </h2>
 <p>Fork-Awesome Icons, use them with html inputs like this, direcly in a md file:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="font-weight:bold">i</span> class=<span style="font-style:italic">&#34;fa fa-1x fa-rebel&#34;</span>&gt;&lt;/<span style="font-weight:bold">i</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="font-weight:bold">i</span> <span style="color:#007f7f">class</span>=<span style="color:#0ff;font-weight:bold">&#34;fa fa-1x fa-rebel&#34;</span>&gt;&lt;/<span style="font-weight:bold">i</span>&gt;
 </span></span></code></pre></div><p><i class="fa fa-1x fa-rebel"></i></p>
 <p><a href="https://forkaweso.me/Fork-Awesome/icons/">https://forkaweso.me/Fork-Awesome/icons/</a></p>
 <a href="https://github.com/johndoe/" aria-label="Github"   >
