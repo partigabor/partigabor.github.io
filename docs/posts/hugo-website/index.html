@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-  How to build and host a website with Hugo · Gabor Parti
+  How to Build and Host a Website with Hugo · Gabor Parti
 </title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +16,10 @@
 <meta name="keywords" content="academia,sciences,humanities,linguistics,digital,philology,spices">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to build and host a website with Hugo"/>
+<meta name="twitter:title" content="How to Build and Host a Website with Hugo"/>
 <meta name="twitter:description" content="A concise tutorial on how to build and host a personal or professional website for free."/>
 
-<meta property="og:title" content="How to build and host a website with Hugo" />
+<meta property="og:title" content="How to Build and Host a Website with Hugo" />
 <meta property="og:description" content="A concise tutorial on how to build and host a personal or professional website for free." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://partigabor.github.io/posts/hugo-website/" /><meta property="article:section" content="posts" />
@@ -182,7 +182,7 @@
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="https://partigabor.github.io/posts/hugo-website/">
-              How to build and host a website with Hugo
+              How to Build and Host a Website with Hugo
             </a>
           </h1>
         </div>
@@ -229,7 +229,7 @@
 
       <div class="post-content">
         
-        <p>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the hyperlinks for a quick explanation on each component.</p>
+        <p>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for a more explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to <del>computers</del> web-development.</p>
 <h2 id="table-of-contents">
   Table of Contents
   <a class="heading-link" href="#table-of-contents">
@@ -237,9 +237,10 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p><a href="#i">I. Requirements</a></p>
-<p><a href="#ii">II. Building the Website</a></p>
-<p><a href="#iii">III. Hosting the Website</a></p>
+<p><a href="#i">1. Requirements</a></p>
+<p><a href="#ii">2. Building the Website</a></p>
+<p><a href="#iii">3. Hosting the Website</a></p>
+<p><a href="#iv">4. Editing the Website</a></p>
 <h3 id="some-explanations">
   Some explanations
   <a class="heading-link" href="#some-explanations">
@@ -252,17 +253,17 @@
 <p>Essentially, any website (and in fact most software) is just a folder with a bunch of text files <em>&ldquo;organized in a precise way&rdquo;</em>. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder: your future website.</p>
 </li>
 <li>
-<p>In this tutorial we will <em>generate</em> this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (the website folder) on GitHub (the storage), where it will be hosted.</p>
+<p>In this tutorial we will <em>generate</em> this folder and the necessary files with the help of <strong>Hugo</strong> (the tool), and and then we will publish it as a <strong>git repository</strong> (the website folder) on <strong>GitHub</strong> (the storage), where it will be hosted.</p>
 </li>
 <li>
-<p>We will also learn how to use an existing <a href="https://themes.gohugo.io/">Hugo theme</a> (a template made by someone else) to supply the <em>looks</em> for our website.</p>
+<p>In the meantime we will also learn how to use an existing Hugo <strong>theme</strong> (a template made by someone else) to supply the <em>looks</em> for our website.</p>
 </li>
 <li>
-<p>Finally, I will show you how to build and deploy your website with <a href="https://pages.github.com/">GitHub Pages</a>, a service on GitHub with this exact purpose, and how to automate (!) future deployment after updating your content.</p>
+<p>Finally, I will show you how to build and deploy your website with <strong>GitHub Pages</strong>, a service on GitHub with this exact purpose, and how to automate (!) future deployment after updating your content.</p>
 </li>
 </ul>
 <h1 id="i">
-  I. Requirements
+  1. Requirements
   <a class="heading-link" href="#i">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
@@ -280,9 +281,9 @@
   </div>
 </details>
 
-<h2 id="1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
-  1. Have <a href="https://gohugo.io/installation/">Hugo</a> - the extended version - on your computer
-  <a class="heading-link" href="#1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
+<h2 id="11-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
+  1.1. Have <a href="https://gohugo.io/installation/">Hugo</a> - the extended version - on your computer
+  <a class="heading-link" href="#11-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -304,11 +305,11 @@
 
 </blockquote>
 <ul>
-<li>To install Hugo on Windows, the easiest way is to first install <a href="https://scoop.sh/">Scoop</a>, a package manager for Windows, and then install Hugo (the extended version) from the command line using <code>scoop install hugo-extended</code>. If you use Linux, you can probably figure it out yourself.</li>
+<li>To install Hugo on Windows, the easiest way is to first install <a href="https://scoop.sh/">Scoop</a>, a package manager for Windows, and then install Hugo from the command line using <code>scoop install hugo-extended</code>. If you use Linux, you can probably figure it out yourself.</li>
 </ul>
-<h2 id="2-have-githttpsgit-scmcomdownloads-on-your-computer">
-  2. Have <a href="https://git-scm.com/downloads">git</a> on your computer
-  <a class="heading-link" href="#2-have-githttpsgit-scmcomdownloads-on-your-computer">
+<h2 id="12-have-githttpsgit-scmcomdownloads-on-your-computer">
+  1.2. Have <a href="https://git-scm.com/downloads">git</a> on your computer
+  <a class="heading-link" href="#12-have-githttpsgit-scmcomdownloads-on-your-computer">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -332,9 +333,9 @@
 <ul>
 <li>To install git, just follow the steps on its website.</li>
 </ul>
-<h2 id="3-have-a-githubhttpsgithubcom-account">
-  3. Have a <a href="https://github.com/">Github</a> account
-  <a class="heading-link" href="#3-have-a-githubhttpsgithubcom-account">
+<h2 id="13-have-a-githubhttpsgithubcom-account">
+  1.3. Have a <a href="https://github.com/">Github</a> account
+  <a class="heading-link" href="#13-have-a-githubhttpsgithubcom-account">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -359,9 +360,9 @@
 <li>Sign up/login on <a href="https://github.com/">https://github.com/</a></li>
 </ul>
 <p>Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you will be on your own.)</p>
-<h2 id="4-have-visual-studio-codehttpscodevisualstudiocom">
-  4. Have <a href="https://code.visualstudio.com/">Visual Studio Code</a>
-  <a class="heading-link" href="#4-have-visual-studio-codehttpscodevisualstudiocom">
+<h2 id="14-have-visual-studio-codehttpscodevisualstudiocom">
+  1.4. Have <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+  <a class="heading-link" href="#14-have-visual-studio-codehttpscodevisualstudiocom">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -388,13 +389,12 @@
 <p><i class="fa fa-cc-nc" aria-hidden="true"></i> <strong>All the above programs are free and open-source</strong></p>
 <hr>
 <h1 id="ii">
-  II. Building the Website
+  2. Building the Website
   <a class="heading-link" href="#ii">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>We will create a new website using the theme <a href="https://github.com/luizdepra/hugo-coder">hugo-coder</a> (MIT licence) authored and maintained by <a href="https://github.com/luizdepra">Luiz de Prá</a>. You can also find instructions on the theme&rsquo;s <a href="https://github.com/luizdepra/hugo-coder.git">GitHub page</a>.</p>
 <details ><summary><strong>tl;dr</strong></summary>
   <div class="markdown-inner">
     <ol>
@@ -409,13 +409,14 @@
   </div>
 </details>
 
-<h3 id="1-generate-a-new-website-with-hugo">
-  1. Generate a new website with Hugo
-  <a class="heading-link" href="#1-generate-a-new-website-with-hugo">
+<p>We will create a new website using the theme <a href="https://github.com/luizdepra/hugo-coder">hugo-coder</a> (MIT licence) authored and maintained by <a href="https://github.com/luizdepra">Luiz de Prá</a>. You can also find instructions on the theme&rsquo;s <a href="https://github.com/luizdepra/hugo-coder.git">GitHub page</a>. You can choose other Hugo themes at <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>, most of them will work similarly.</p>
+<h2 id="21-generate-a-new-website-with-hugo">
+  2.1. Generate a new website with Hugo
+  <a class="heading-link" href="#21-generate-a-new-website-with-hugo">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
+</h2>
 <p>Use your command line/terminal and navigate to where you want your project folder created (you can always move it somewhere else later) and run the command below, replacing <code>whatever</code> to whatever name you want. You can also open the terminal in VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.</p>
 <pre><code>hugo new site whatever
 </code></pre>
@@ -423,7 +424,7 @@
 <blockquote>
 <p>if you get an error here, Hugo was not installed properly</p>
 </blockquote>
-<details ><summary>Navigation in the terminal</summary>
+<details ><summary>Help on navigation in the terminal</summary>
   <div class="markdown-inner">
     <p>E.g.: Make a directory called &ldquo;new&rdquo; by typing</p>
 <pre><code>md new
@@ -439,34 +440,34 @@
   </div>
 </details>
 
-<h3 id="2-initialize-the-git-repo">
-  2. Initialize the git repo
-  <a class="heading-link" href="#2-initialize-the-git-repo">
+<h3 id="22-initialize-the-git-repo">
+  2.2. Initialize the git repo
+  <a class="heading-link" href="#22-initialize-the-git-repo">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Run a following command:</p>
+<p>Run the following command:</p>
 <pre><code>git init
 </code></pre>
 <p>This will initialize a git repository of your folder, creating a <code>.git</code> hidden folder with lots of nasty code that you don&rsquo;t have to touch.</p>
 <blockquote>
 <p>If you get an error here, there is some problem with git.</p>
 </blockquote>
-<h3 id="3-add-a-theme">
-  3. Add a theme
-  <a class="heading-link" href="#3-add-a-theme">
+<h3 id="23-add-a-theme">
+  2.3. Add a theme
+  <a class="heading-link" href="#23-add-a-theme">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>We can now add a theme as a git submodule with the following code:</p>
+<p>We can now add a theme as a git submodule with the following:</p>
 <pre><code>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
 </code></pre>
 <p>This line of code will clone the Hugo theme&rsquo;s repository into our <code>themes</code> folder so we can use it on our website.</p>
-<h3 id="4-edit-the-config-file">
-  4. Edit the config file
-  <a class="heading-link" href="#4-edit-the-config-file">
+<h3 id="24-edit-the-config-file">
+  2.4. Edit the config file
+  <a class="heading-link" href="#24-edit-the-config-file">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -475,23 +476,24 @@
 <pre><code>theme = &quot;hugo-coder&quot;
 </code></pre>
 <p>This tells our Hugo website to use the &ldquo;Coder&rdquo; theme we just downloaded to our themes folder.</p>
-<p>You also have to give the base URL for your website, edit the following line in the config file based on this example:</p>
+<p>You also have to give an URL for your website, for this, you must edit the baseURL parameter in the config file (<code>hugo.toml</code>), see the example below. Basically, the &ldquo;slug&rdquo; after github.io is your repository&rsquo;s name.</p>
 <pre><code>baseURL = &quot;https://username.github.io/whatever&quot;
 </code></pre>
-<p>You can (and should) also edit other parameters later, since this config file contains all the main settings to your website. Look up the theme&rsquo;s Readme or the exampleSite to see how it works and what it can do, theme developers explain every option. You can also try and copy the contents of the exampleSite folder of the theme to your project&rsquo;s root folder and see what happens.</p>
-<h3 id="5-run-your-website">
-  5. Run your website
-  <a class="heading-link" href="#5-run-your-website">
+<p>If you name your repository to &ldquo;username.github.io&rdquo;, you can use the simple &ldquo;<a href="https://username.github.io">https://username.github.io</a>&rdquo; domain name for your personal website.</p>
+<p>You can (and should) also edit other parameters later, since this config file contains all the main settings to your website. Look up the theme&rsquo;s Readme or the exampleSite to see how it works and what it can do, theme developers often explain every option. You can also try and copy the contents of the exampleSite folder of the theme to your project&rsquo;s root folder and see what happens.</p>
+<h3 id="25-run-your-website">
+  2.5. Run your website
+  <a class="heading-link" href="#25-run-your-website">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
 <pre><code>hugo server
 </code></pre>
-<p>This command will launch and host the website on your machine, you can access it in the browser http://localhost:1313/ (or by clicking this link from the terminal output). This is meant for development purposes, you can see and try using your website and even observe real-time changes as you tune your settings or add content!</p>
-<h3 id="6-build">
-  6. Build
-  <a class="heading-link" href="#6-build">
+<p>This command will launch and host the website on your machine, locally. You can access it in the browser http://localhost:1313/ (or by clicking this link from the terminal output). This is meant for development purposes, you can have a look and feel of your website and even observe real-time changes as you tune your settings or add content!</p>
+<h3 id="26-build">
+  2.6. Build
+  <a class="heading-link" href="#26-build">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -499,20 +501,31 @@
 <pre><code>hugo
 </code></pre>
 <p>That&rsquo;s it. Simply typing <code>hugo</code> into the command line and hitting enter will build and &ldquo;publish&rdquo; your website. The default location of this build will usually be a folder named <code>public</code>, which you can change by adding/editing a line in your configfile. For example: <code>publishDir = &quot;docs&quot;</code> will make your <code>hugo</code> command build and publish your website into a directory named <code>docs</code>.</p>
-<h2 id="iii">
-  III. Hosting the Website
+<hr>
+<h1 id="iii">
+  3. Hosting the Website
   <a class="heading-link" href="#iii">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h2>
-<h3 id="7-push-to-github">
-  7. Push to GitHub
-  <a class="heading-link" href="#7-push-to-github">
+</h1>
+<details ><summary><strong>tl;dr</strong></summary>
+  <div class="markdown-inner">
+    <ol>
+<li>Git push</li>
+<li>Configure GitHub Pages</li>
+</ol>
+
+  </div>
+</details>
+
+<h2 id="31-push-to-github">
+  3.1. Push to GitHub
+  <a class="heading-link" href="#31-push-to-github">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
+</h2>
 <p>After building your website with the <code>hugo</code> command, you have to push it to GitHub. This means that you will upload this git repository online and store it on <a href="https://github.com/">https://github.com/</a> under your account.</p>
 <p>VS Code has a one-click solution for this via the button <strong><i class="fa fa-1x fa-github"></i> Publish to Github</strong>, but you can use your terminal and call the classic lines below one-by-one to add all your changes to the present commit, add a commit message, add a new remote origin, and push the commit to the main branch of the repository (see <a href="https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github">here</a>).</p>
 <pre><code>git add .
@@ -523,40 +536,60 @@ git push -u origin main
 <blockquote>
 <p>This is a step you must do every time you add new content to your website, and want to make the changes live.</p>
 </blockquote>
-<h3 id="8-build-and-deploy">
-  8. Build and deploy
-  <a class="heading-link" href="#8-build-and-deploy">
+<p>By the way the terminal and VSCode might ask you to configure your GitHub username and email address if you are doing this for the first time. I recommend installing the <a href="https://cli.github.com/">GitHub CLI</a> and the command <code>gh auth login</code> to make this easier (= never appear again) in the future.</p>
+<h2 id="31-build-and-deploy">
+  3.1. Build and deploy
+  <a class="heading-link" href="#31-build-and-deploy">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
-<p>Now navigate to your repository on Github in your browser, click on &ldquo;Settings&rdquo; on the top panel, and find &ldquo;Pages&rdquo; on the left sidebar. This service, called <em>GitHub Pages</em>, is there to hosts websites. We will use <em>GitHub Actions</em> to automatically build and deploy the site, which even detects when you edit something and makes your changes live in a matter of minutes.</p>
-<p>Under the section &ldquo;Build and deployment&rdquo;, subsection &ldquo;Source&rdquo;, select &ldquo;GitHub Acions&rdquo; instead of &ldquo;Deploy from a branch&rdquo;. This will offer you to select from suggested <em>workflows</em>, where you will have to &ldquo;browse all workflows&rdquo; to find the one made for Hugo. Find and select the one for Hugo, and click <strong>configure</strong>. This step will create a <code>hugo.yml</code> in your project (whatever/.github/workflows/hugo.yml). You don&rsquo;t have to edit this file, unless you have previously changed the default directory to publish your website (public).</p>
+</h2>
+<p>Now we are going from <i class="fa fa-keyboard-o" aria-hidden="true"></i> <em>klackity-klack</em>&hellip; to <i class="fa fa-mouse-pointer" aria-hidden="true"></i> <em>clickety-click</em>.</p>
+<ul>
+<li>Go to your repository on <strong>GitHub</strong> in your browser, click on &ldquo;Settings&rdquo; on the top panel, and find &ldquo;Pages&rdquo; on the left sidebar.</li>
+</ul>
+<p>This service, called <strong>GitHub Pages</strong>, is there to hosts websites made by various website building tools (such as Hugo). We will use <strong>GitHub Actions</strong> to automatically build and deploy the site, which will even detect when you edit something and makes your changes live in a matter of minutes.</p>
+<ul>
+<li>
+<p>Under the section &ldquo;Build and deployment&rdquo;, subsection &ldquo;Source&rdquo;, select &ldquo;GitHub Acions&rdquo; instead of &ldquo;Deploy from a branch&rdquo;. This will offer you to select from suggested <em>workflows</em>, where you will have to &ldquo;browse all workflows&rdquo; to find the one made for Hugo. Find and select the one for Hugo, and click <strong>configure</strong>. This step will create a <code>hugo.yml</code> in your project (whatever/.github/workflows/hugo.yml). You don&rsquo;t have to edit this file, unless you have previously changed the default directory to publish your website (public), then you have to change it here as well.</p>
+</li>
+<li>
 <p>Click the green &ldquo;Commit changes&hellip;&rdquo; button in the top right corner, and wait a few minutes. You can follow GitHub Actions working in the background if you click on &ldquo;Actions&rdquo; in the top panel of your repository.</p>
+</li>
+</ul>
 <p>If all went well, you should have a website up and running under <a href="https://username.github.io/whatever">https://username.github.io/whatever</a>, you can check if it&rsquo;s live under &ldquo;Settings&rdquo;.</p>
-<h2 id="iii-editing-the-website">
-  III. Editing the website
-  <a class="heading-link" href="#iii-editing-the-website">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h2>
-<p>If you want to edit your website, (1) just make the changes in your content, save them (2) run the <code>hugo</code> command to rebuild the website, and (3) commit and push your changes to GitHub. Good luck.</p>
 <hr>
-<h2 id="iv-extras">
-  IV. Extras
-  <a class="heading-link" href="#iv-extras">
+<h1 id="iv">
+  4. Editing the website
+  <a class="heading-link" href="#iv">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>If you want to edit your website, you just</p>
+<ol>
+<li>Make the changes in your content and save them,</li>
+<li>Run the <code>hugo</code> command to rebuild the website, and</li>
+<li>Commit and push/sync your changes to GitHub.</li>
+</ol>
+<p>Good luck!</p>
+<hr>
+<details ><summary>secret chapter for thos who are determined</summary>
+  <div class="markdown-inner">
+    <h1 id="v">
+  5. Extras
+  <a class="heading-link" href="#v">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="51-plotly">
+  5.1. Plotly
+  <a class="heading-link" href="#51-plotly">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<h3 id="plotly">
-  Plotly
-  <a class="heading-link" href="#plotly">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h3>
 <p>To host plotly visualizations on your website you need to add two shortcodes.</p>
 <pre><code>load-plotly.html
 </code></pre>
@@ -590,26 +623,25 @@ git push -u origin main
 <p><code>{{*&lt; plotly json=&quot;/plotly/distribution_map.json&quot; height=400 &gt;}}</code></p>
 </li>
 </ol>
-
-  
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-
-
 <div id="/plotly/distribution_map.json" class="plotly" style="height:400"></div>
 <script>
 Plotly.d3.json("/plotly/distribution_map.json", function(err, fig) {
     Plotly.plot('\/plotly\/distribution_map.json', fig.data, fig.layout, {responsive: true});
 });
 </script>
-<h3 id="bibtex-citations">
-  BibTeX Citations
-  <a class="heading-link" href="#bibtex-citations">
+<h2 id="52-bibtex-citations">
+  5.2. BibTeX Citations
+  <a class="heading-link" href="#52-bibtex-citations">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
+</h2>
 <p>Use the <a href="https://github.com/loup-brun/hugo-cite">hugo-cite</a> submodule.</p>
+
+  </div>
+</details>
+
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

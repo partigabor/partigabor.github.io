@@ -1,5 +1,5 @@
 +++
-title = "How to build and host a website with Hugo"
+title = "How to Build and Host a Website with Hugo"
 author = "Gabor Parti"
 date = "2023-06-01"
 weight = 11
@@ -10,29 +10,31 @@ menu = "main:posts"
 # draft = "true"
 +++
 
-This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the hyperlinks for a quick explanation on each component.
+This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for a more explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to ~~computers~~ web-development.
 
 ## Table of Contents
 
-[I. Requirements](#i)
+[1. Requirements](#i)
 
-[II. Building the Website](#ii)
+[2. Building the Website](#ii)
 
-[III. Hosting the Website](#iii)
+[3. Hosting the Website](#iii)
+
+[4. Editing the Website](#iv)
 
 ### Some explanations
 
 * Essentially, any website (and in fact most software) is just a folder with a bunch of text files *"organized in a precise way"*. In this context, terms such as "Hugo project", "Git repo", or "root directory" all refer to the same folder: your future website.
 
-* In this tutorial we will *generate* this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (the website folder) on GitHub (the storage), where it will be hosted.
+* In this tutorial we will *generate* this folder and the necessary files with the help of **Hugo** (the tool), and and then we will publish it as a **git repository** (the website folder) on **GitHub** (the storage), where it will be hosted.
 
-* We will also learn how to use an existing [Hugo theme](https://themes.gohugo.io/) (a template made by someone else) to supply the *looks* for our website. 
+* In the meantime we will also learn how to use an existing Hugo **theme** (a template made by someone else) to supply the *looks* for our website.
 
-* Finally, I will show you how to build and deploy your website with [GitHub Pages](https://pages.github.com/), a service on GitHub with this exact purpose, and how to automate (!) future deployment after updating your content.
+* Finally, I will show you how to build and deploy your website with **GitHub Pages**, a service on GitHub with this exact purpose, and how to automate (!) future deployment after updating your content.
 
 
 
-# I. Requirements {#i}
+# 1. Requirements {#i}
 
 {{< details "**tl;dr**" >}}
 1. Hugo (extended version)
@@ -41,7 +43,7 @@ This is a concise, step-by-step guide on how to build a website - just like this
 4. VS Code (or whatever you use)
 {{< /details >}}
 
-## 1. Have [Hugo](https://gohugo.io/installation/) - the extended version - on your computer
+## 1.1. Have [Hugo](https://gohugo.io/installation/) - the extended version - on your computer
 
 [Hugo](https://gohugo.io/) is a website generator framework written in [Go](https://www.youtube.com/watch?v=446E-r0rXHI) (a computer language). It is a great tool to build static websites - fast.
 
@@ -49,9 +51,9 @@ This is a concise, step-by-step guide on how to build a website - just like this
 > {{< youtube 0RKpf3rK57I >}}
 > {{< /details >}}
 
-* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo (the extended version) from the command line using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
+* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo from the command line using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
 
-## 2. Have [git](https://git-scm.com/downloads) on your computer
+## 1.2. Have [git](https://git-scm.com/downloads) on your computer
 
 [Git](https://git-scm.com/) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.
 
@@ -61,7 +63,7 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 * To install git, just follow the steps on its website.
 
-## 3. Have a [Github](https://github.com/) account
+## 1.3. Have a [Github](https://github.com/) account
 
 [GitHub](https://github.com/) is a website and a hosting service that allows you to manage your projects "remotely" (on the internet).[^remote] Projects hosted here are called "repositories", and a repository is basically a folder to store your project files. The technical term fo a folder is "directory".
 
@@ -75,7 +77,7 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you will be on your own.)
 
-## 4. Have [Visual Studio Code](https://code.visualstudio.com/)
+## 1.4. Have [Visual Studio Code](https://code.visualstudio.com/)
 
 [VS Code](https://code.visualstudio.com/) is a lightweight, customizable code editor that provides you an integrated environment to inspect, edit, and manage files (including an explorer for your folder structure, advanced search functions, git, command lines, debugger, etc.). It is expandable with community built **extensions** to accommodate for every possible technical need later, from code highlighters and compilers, to spell-checkers and Spotify shortcuts.
 
@@ -89,22 +91,20 @@ Ideally, we want to edit and manage our files conveniently, so we need a text/co
 
 ***
 
-# II. Building the Website {#ii}
-
-We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git).
+# 2. Building the Website {#ii}
 
 {{< details "**tl;dr**" >}}
-
 1. `hugo new site whatever; cd whatever`
 2. `git init`
 3. `git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder`
 4. add content and edit the `hugo.toml` config file, especially defining the theme to use (add the line: `theme = "hugo-coder"`)
 5. `hugo server` to see your website locally on http://localhost:1313/
 6. `hugo` to build your website
-
 {{< /details >}}
 
-### 1. Generate a new website with Hugo
+We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git). You can choose other Hugo themes at [https://themes.gohugo.io/](https://themes.gohugo.io/), most of them will work similarly.
+
+## 2.1. Generate a new website with Hugo
 
 Use your command line/terminal and navigate to where you want your project folder created (you can always move it somewhere else later) and run the command below, replacing `whatever` to whatever name you want. You can also open the terminal in VS Code by pressing <kbd>CTRL</kbd>+<kbd>`</kbd>.
 
@@ -114,7 +114,7 @@ Use your command line/terminal and navigate to where you want your project folde
 
 > if you get an error here, Hugo was not installed properly
  
-{{< details "Navigation in the terminal" close >}}
+{{< details "Help on navigation in the terminal" close >}}
 E.g.: Make a directory called "new" by typing 
 
     md new
@@ -131,9 +131,9 @@ and hitting enter. Now you should see that you are in `C:\Users\user\new>` on th
 
 {{< /details >}}
 
-### 2. Initialize the git repo
+### 2.2. Initialize the git repo
 
-Run a following command:
+Run the following command:
 
     git init
 
@@ -141,15 +141,15 @@ This will initialize a git repository of your folder, creating a `.git` hidden f
 
 > If you get an error here, there is some problem with git.
 
-### 3. Add a theme
+### 2.3. Add a theme
 
-We can now add a theme as a git submodule with the following code:
+We can now add a theme as a git submodule with the following:
 
     git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
 
 This line of code will clone the Hugo theme's repository into our `themes` folder so we can use it on our website.
 
-### 4. Edit the config file
+### 2.4. Edit the config file
 
 In `hugo.toml` (previously `config.toml`), add the following line
 
@@ -157,27 +157,36 @@ In `hugo.toml` (previously `config.toml`), add the following line
 
 This tells our Hugo website to use the "Coder" theme we just downloaded to our themes folder. 
 
-You also have to give the base URL for your website, edit the following line in the config file based on this example:
+You also have to give an URL for your website, for this, you must edit the baseURL parameter in the config file (`hugo.toml`), see the example below. Basically, the "slug" after github.io is your repository's name.
 
     baseURL = "https://username.github.io/whatever"
 
-You can (and should) also edit other parameters later, since this config file contains all the main settings to your website. Look up the theme's Readme or the exampleSite to see how it works and what it can do, theme developers explain every option. You can also try and copy the contents of the exampleSite folder of the theme to your project's root folder and see what happens.
+If you name your repository to "username.github.io", you can use the simple "https://username.github.io" domain name for your personal website.
 
-### 5. Run your website
+You can (and should) also edit other parameters later, since this config file contains all the main settings to your website. Look up the theme's Readme or the exampleSite to see how it works and what it can do, theme developers often explain every option. You can also try and copy the contents of the exampleSite folder of the theme to your project's root folder and see what happens.
+
+### 2.5. Run your website
 
     hugo server
 
-This command will launch and host the website on your machine, you can access it in the browser http://localhost:1313/ (or by clicking this link from the terminal output). This is meant for development purposes, you can see and try using your website and even observe real-time changes as you tune your settings or add content!
+This command will launch and host the website on your machine, locally. You can access it in the browser http://localhost:1313/ (or by clicking this link from the terminal output). This is meant for development purposes, you can have a look and feel of your website and even observe real-time changes as you tune your settings or add content!
 
-### 6. Build
+### 2.6. Build
 
     hugo
 
 That's it. Simply typing `hugo` into the command line and hitting enter will build and "publish" your website. The default location of this build will usually be a folder named `public`, which you can change by adding/editing a line in your configfile. For example: `publishDir = "docs"` will make your `hugo` command build and publish your website into a directory named `docs`.
 
-## III. Hosting the Website {#iii}
+---
 
-### 7. Push to GitHub
+# 3. Hosting the Website {#iii}
+
+{{< details "**tl;dr**" >}}
+1. Git push
+2. Configure GitHub Pages
+{{< /details >}}
+
+## 3.1. Push to GitHub
 
 After building your website with the `hugo` command, you have to push it to GitHub. This means that you will upload this git repository online and store it on [https://github.com/](https://github.com/) under your account. 
 
@@ -190,25 +199,41 @@ VS Code has a one-click solution for this via the button **<i class="fa fa-1x fa
 
 >This is a step you must do every time you add new content to your website, and want to make the changes live.
 
-### 8. Build and deploy
+By the way the terminal and VSCode might ask you to configure your GitHub username and email address if you are doing this for the first time. I recommend installing the [GitHub CLI](https://cli.github.com/) and the command `gh auth login` to make this easier (= never appear again) in the future.
 
-Now navigate to your repository on Github in your browser, click on "Settings" on the top panel, and find "Pages" on the left sidebar. This service, called *GitHub Pages*, is there to hosts websites. We will use *GitHub Actions* to automatically build and deploy the site, which even detects when you edit something and makes your changes live in a matter of minutes.
+## 3.1. Build and deploy
 
-Under the section "Build and deployment", subsection "Source", select "GitHub Acions" instead of "Deploy from a branch". This will offer you to select from suggested *workflows*, where you will have to "browse all workflows" to find the one made for Hugo. Find and select the one for Hugo, and click **configure**. This step will create a `hugo.yml` in your project (whatever/.github/workflows/hugo.yml). You don't have to edit this file, unless you have previously changed the default directory to publish your website (public).
+Now we are going from <i class="fa fa-keyboard-o" aria-hidden="true"></i> *klackity-klack*... to <i class="fa fa-mouse-pointer" aria-hidden="true"></i> *clickety-click*.
 
-Click the green "Commit changes..." button in the top right corner, and wait a few minutes. You can follow GitHub Actions working in the background if you click on "Actions" in the top panel of your repository.
+* Go to your repository on **GitHub** in your browser, click on "Settings" on the top panel, and find "Pages" on the left sidebar. 
+
+This service, called **GitHub Pages**, is there to hosts websites made by various website building tools (such as Hugo). We will use **GitHub Actions** to automatically build and deploy the site, which will even detect when you edit something and makes your changes live in a matter of minutes.
+
+* Under the section "Build and deployment", subsection "Source", select "GitHub Acions" instead of "Deploy from a branch". This will offer you to select from suggested *workflows*, where you will have to "browse all workflows" to find the one made for Hugo. Find and select the one for Hugo, and click **configure**. This step will create a `hugo.yml` in your project (whatever/.github/workflows/hugo.yml). You don't have to edit this file, unless you have previously changed the default directory to publish your website (public), then you have to change it here as well.
+
+* Click the green "Commit changes..." button in the top right corner, and wait a few minutes. You can follow GitHub Actions working in the background if you click on "Actions" in the top panel of your repository.
 
 If all went well, you should have a website up and running under https://username.github.io/whatever, you can check if it's live under "Settings".
 
-## III. Editing the website
+---
 
-If you want to edit your website, (1) just make the changes in your content, save them (2) run the `hugo` command to rebuild the website, and (3) commit and push your changes to GitHub. Good luck.
+# 4. Editing the website {#iv}
+
+If you want to edit your website, you just
+
+1. Make the changes in your content and save them, 
+2. Run the `hugo` command to rebuild the website, and 
+3. Commit and push/sync your changes to GitHub.
+
+Good luck!
 
 ---
 
-## IV. Extras
+{{< details "secret chapter for thos who are determined" >}}
 
-### Plotly
+# 5. Extras {#v}
+
+## 5.1. Plotly
 
 To host plotly visualizations on your website you need to add two shortcodes.
 
@@ -255,6 +280,8 @@ Then, you need to do 3 things.
 
 
 
-### BibTeX Citations
+## 5.2. BibTeX Citations
 
 Use the [hugo-cite](https://github.com/loup-brun/hugo-cite) submodule.
+
+{{< /details >}}
