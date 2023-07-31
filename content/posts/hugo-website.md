@@ -15,7 +15,9 @@ This is a concise, step-by-step guide on how to build a website - just like this
 ## Table of Contents
 
 [I. Requirements](#i)
+
 [II. Building the Website](#ii)
+
 [III. Hosting the Website](#iii)
 
 ### Some explanations
