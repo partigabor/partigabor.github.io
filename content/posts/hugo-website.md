@@ -12,7 +12,11 @@ menu = "main:posts"
 
 This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the hyperlinks for a quick explanation on each component.
 
+## Table of Contents
 
+[I. Requirements](#i)
+[II. Building the Website](#ii)
+[III. Hosting the Website](#iii)
 
 ### Some explanations
 
@@ -26,7 +30,7 @@ This is a concise, step-by-step guide on how to build a website - just like this
 
 
 
-# I. Requirements
+# I. Requirements {#i}
 
 {{< details "**tl;dr**" >}}
 1. Hugo (extended version)
@@ -83,7 +87,7 @@ Ideally, we want to edit and manage our files conveniently, so we need a text/co
 
 ***
 
-# II. Building the website
+# II. Building the Website {#ii}
 
 We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git).
 
@@ -169,7 +173,7 @@ This command will launch and host the website on your machine, you can access it
 
 That's it. Simply typing `hugo` into the command line and hitting enter will build and "publish" your website. The default location of this build will usually be a folder named `public`, which you can change by adding/editing a line in your configfile. For example: `publishDir = "docs"` will make your `hugo` command build and publish your website into a directory named `docs`.
 
-## II. Hosting the website
+## III. Hosting the Website {#iii}
 
 ### 7. Push to GitHub
 

@@ -117,7 +117,7 @@ Todo lists can be written by using the standard Markdown syntax:
 
 [A link to a file](/plotly/distribution.html)
 
-[A link to heading on this page](markdown-guide#figures)
+[A link to heading on this page](#figures)
 
 ## Figures 
 
