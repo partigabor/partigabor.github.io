@@ -1266,7 +1266,7 @@ Plotly.d3.json("/plotly/distribution.json", function(err, fig) {
   
     let getTheme = window.localStorage && window.localStorage.getItem("colorscheme");
   
-    getTheme = getTheme == null ? 'github-dark' : getTheme;
+    getTheme = getTheme == null ? 'photon-dark' : getTheme;
     
     let theme = getTheme === 'dark' ? 'github-dark' : 'github-light';
     let s = document.createElement('script');

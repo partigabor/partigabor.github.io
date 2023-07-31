@@ -237,5 +237,5 @@ style = "doom-one"
   repo = "partigabor/partigabor.github.io" # https://utteranc.es/#heading-repository
   issueTerm = "pathname" # https://utteranc.es/#heading-mapping
   label = "comment" # https://utteranc.es/#heading-issue-label
-  theme = "github-dark" # https://utteranc.es/#heading-theme
+  theme = "photon-dark" # https://utteranc.es/#heading-theme
 
