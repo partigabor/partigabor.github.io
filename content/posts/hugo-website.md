@@ -10,42 +10,54 @@ menu = "main:posts"
 # draft = "true"
 +++
 
-This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
+This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the hyperlinks for a quick explanation on each component.
 
-## Requirements
 
-{{< details "tldr" close >}}
 
+### Some explanations
+
+* Essentially, any website (and in fact most software) is just a folder with a bunch of text files *"organized in a precise way"*. In this context, terms such as "Hugo project", "Git repo", or "root directory" all refer to the same folder: your future website.
+
+* In this tutorial we will *generate* this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (the website folder) on GitHub (the storage), where it will be hosted.
+
+* We will also learn how to use an existing [Hugo theme](https://themes.gohugo.io/) (a template made by someone else) to supply the *looks* for our website. 
+
+* Finally, I will show you how to build and deploy your website with [GitHub Pages](https://pages.github.com/), a service on GitHub with this exact purpose, and how to automate (!) future deployment after updating your content.
+
+
+
+# I. Requirements
+
+{{< details "**tl;dr**" >}}
 1. Hugo (extended version)
 2. Git
 3. Github
 4. VS Code (or whatever you use)
-
 {{< /details >}}
 
-### 1. Have [Hugo](https://gohugo.io/installation/) - the extended version - on your computer
+## 1. Have [Hugo](https://gohugo.io/installation/) - the extended version - on your computer
 
-[Hugo](https://www.youtube.com/watch?v=0RKpf3rK57I) is a website generator framework written in [Go](https://www.youtube.com/watch?v=446E-r0rXHI) (a computer language). It is a great tool to build static websites - FAST.
-
-* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo (the extended version) from the command line using `scoop install hugo-extended`.
+[Hugo](https://gohugo.io/) is a website generator framework written in [Go](https://www.youtube.com/watch?v=446E-r0rXHI) (a computer language). It is a great tool to build static websites - fast.
 
 > {{< details "more..." close >}}
 > {{< youtube 0RKpf3rK57I >}}
 > {{< /details >}}
 
-### 2. Have [git](https://git-scm.com/) on your computer
+* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo (the extended version) from the command line using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
 
-[Git](https://www.youtube.com/watch?v=hwP7WQkmECE) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.
+## 2. Have [git](https://git-scm.com/downloads) on your computer
 
-* To install git 
+[Git](https://git-scm.com/) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.
 
 > {{< details "more..." close >}}
 > {{< youtube hwP7WQkmECE >}}
 > {{< /details >}}
 
-### 3. Have a [Github](https://github.com/) account
+* To install git, just follow the steps on its website.
 
-[GitHub](https://www.youtube.com/watch?v=HkdAHXoRtos) is a website and a hosting service that allows you to manage your projects "remotely" (on the internet).[^remote] Projects hosted here are called "repositories", and a repository is basically a folder to store your project files. The technical term fo a folder is "directory".
+## 3. Have a [Github](https://github.com/) account
+
+[GitHub](https://github.com/) is a website and a hosting service that allows you to manage your projects "remotely" (on the internet).[^remote] Projects hosted here are called "repositories", and a repository is basically a folder to store your project files. The technical term fo a folder is "directory".
 
 [^remote]: As opposed to "locally", meaning on your machine.
 
@@ -53,33 +65,29 @@ This is a concise, step-by-step guide on how to build a website - just like this
 > {{< youtube HkdAHXoRtos >}}
 > {{< /details >}}
 
-* Essentially, any website (and in fact most software) is just a folder with a bunch of text files "organized in a precise way". In this context, terms such as "Hugo project", "Git repo", or "root directory" all refer to the same folder: your future website.
+* Sign up/login on [https://github.com/](https://github.com/)
 
-* In this tutorial we will **generate** this folder and the necessary files with the help of Hugo (the *tool*), and we will publish it as a git repository (the project folder) on GitHub (the *storage*).
+Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you will be on your own.)
 
-* We will also learn how to use an existing [Hugo theme](https://themes.gohugo.io/) (a template made by someone else) to supply the **looks** for our website. 
+## 4. Have [Visual Studio Code](https://code.visualstudio.com/)
 
-* Finally, I will show you how to build and **deploy** your website on [GitHub Pages](https://pages.github.com/), a feature on GitHub with this exact purpose, and how to automate(!) deployment.
-
-Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you are on your own.)
-
-### 4. Have [Visual Studio Code](https://code.visualstudio.com/)
-
-[VS Code](https://www.youtube.com/watch?v=KMxo3T_MTvY) is a lightweight, customizable code editor that provides you an integrated environment to inspect, edit, and manage files (including an explorer for your folder structure, advanced search functions, git, command lines, debugger, etc.). It is expandable with community built **extensions** to accommodate every possible technical need later, from code highlighters and compilers, to spell-checkers and Spotify shortcuts.
+[VS Code](https://code.visualstudio.com/) is a lightweight, customizable code editor that provides you an integrated environment to inspect, edit, and manage files (including an explorer for your folder structure, advanced search functions, git, command lines, debugger, etc.). It is expandable with community built **extensions** to accommodate for every possible technical need later, from code highlighters and compilers, to spell-checkers and Spotify shortcuts.
 
 > {{< details "more..." close >}}
 > {{< youtube KMxo3T_MTvY >}}
 > {{< /details >}}
 
-**All the above programs are free and open-source.**
+* Download and install from [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+<i class="fa fa-cc-nc" aria-hidden="true"></i> **All the above programs are free and open-source**
 
 ***
 
-## I. Building the website
+# II. Building the website
 
 We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git).
 
-{{< details "tldr" close >}}
+{{< details "**tl;dr**" >}}
 
 1. `hugo new site whatever; cd whatever`
 2. `git init`

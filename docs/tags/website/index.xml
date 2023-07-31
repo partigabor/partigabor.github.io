@@ -13,8 +13,8 @@
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/hugo-website/</guid>
-      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.
-RequirementsLink to headingtldrHugo (extended version) Git Github VS Code (or whatever you use) 1. Have Hugo - the extended version - on your computerLink to headingHugo is a website generator framework written in Go (a computer language).</description>
+      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the hyperlinks for a quick explanation on each component.
+Some explanationsLink to headingEssentially, any website (and in fact most software) is just a folder with a bunch of text files &amp;ldquo;organized in a precise way&amp;rdquo;. In this context, terms such as &amp;ldquo;Hugo project&amp;rdquo;, &amp;ldquo;Git repo&amp;rdquo;, or &amp;ldquo;root directory&amp;rdquo; all refer to the same folder: your future website.</description>
     </item>
     
   </channel>

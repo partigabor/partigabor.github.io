@@ -113,7 +113,7 @@ Todo lists can be written by using the standard Markdown syntax:
 
 [An external link](https://htmlpreview.github.io/?https://github.com/partigabor/phd-thesis-viz/blob/main/distribution_cinnamon.html)
 
-[A relative link from one post to another post](book/cite)
+[A relative link from one post to another post](posts/io)
 
 [A link to a file](/plotly/distribution.html)
 

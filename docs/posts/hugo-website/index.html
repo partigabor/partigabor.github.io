@@ -229,15 +229,36 @@
 
       <div class="post-content">
         
-        <p>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github Pages. Follow the hyperlinks for a quick explanation on each component.</p>
-<h2 id="requirements">
-  Requirements
-  <a class="heading-link" href="#requirements">
+        <p>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the hyperlinks for a quick explanation on each component.</p>
+<h3 id="some-explanations">
+  Some explanations
+  <a class="heading-link" href="#some-explanations">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h2>
-<details ><summary>tldr</summary>
+</h3>
+<ul>
+<li>
+<p>Essentially, any website (and in fact most software) is just a folder with a bunch of text files <em>&ldquo;organized in a precise way&rdquo;</em>. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder: your future website.</p>
+</li>
+<li>
+<p>In this tutorial we will <em>generate</em> this folder and the necessary files with the help of Hugo (the tool), and we will publish it as a git repository (the website folder) on GitHub (the storage), where it will be hosted.</p>
+</li>
+<li>
+<p>We will also learn how to use an existing <a href="https://themes.gohugo.io/">Hugo theme</a> (a template made by someone else) to supply the <em>looks</em> for our website.</p>
+</li>
+<li>
+<p>Finally, I will show you how to build and deploy your website with <a href="https://pages.github.com/">GitHub Pages</a>, a service on GitHub with this exact purpose, and how to automate (!) future deployment after updating your content.</p>
+</li>
+</ul>
+<h1 id="i-requirements">
+  I. Requirements
+  <a class="heading-link" href="#i-requirements">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<details ><summary><strong>tl;dr</strong></summary>
   <div class="markdown-inner">
     <ol>
 <li>Hugo (extended version)</li>
@@ -249,17 +270,14 @@
   </div>
 </details>
 
-<h3 id="1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
+<h2 id="1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
   1. Have <a href="https://gohugo.io/installation/">Hugo</a> - the extended version - on your computer
   <a class="heading-link" href="#1-have-hugohttpsgohugoioinstallation---the-extended-version---on-your-computer">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
-<p><a href="https://www.youtube.com/watch?v=0RKpf3rK57I">Hugo</a> is a website generator framework written in <a href="https://www.youtube.com/watch?v=446E-r0rXHI">Go</a> (a computer language). It is a great tool to build static websites - FAST.</p>
-<ul>
-<li>To install Hugo on Windows, the easiest way is to first install <a href="https://scoop.sh/">Scoop</a>, a package manager for Windows, and then install Hugo (the extended version) from the command line using <code>scoop install hugo-extended</code>.</li>
-</ul>
+</h2>
+<p><a href="https://gohugo.io/">Hugo</a> is a website generator framework written in <a href="https://www.youtube.com/watch?v=446E-r0rXHI">Go</a> (a computer language). It is a great tool to build static websites - fast.</p>
 <blockquote>
 <details ><summary>more&hellip;</summary>
   <div class="markdown-inner">
@@ -275,17 +293,17 @@
 </details>
 
 </blockquote>
-<h3 id="2-have-githttpsgit-scmcom-on-your-computer">
-  2. Have <a href="https://git-scm.com/">git</a> on your computer
-  <a class="heading-link" href="#2-have-githttpsgit-scmcom-on-your-computer">
+<ul>
+<li>To install Hugo on Windows, the easiest way is to first install <a href="https://scoop.sh/">Scoop</a>, a package manager for Windows, and then install Hugo (the extended version) from the command line using <code>scoop install hugo-extended</code>. If you use Linux, you can probably figure it out yourself.</li>
+</ul>
+<h2 id="2-have-githttpsgit-scmcomdownloads-on-your-computer">
+  2. Have <a href="https://git-scm.com/downloads">git</a> on your computer
+  <a class="heading-link" href="#2-have-githttpsgit-scmcomdownloads-on-your-computer">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
-<p><a href="https://www.youtube.com/watch?v=hwP7WQkmECE">Git</a> is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.</p>
-<ul>
-<li>To install git</li>
-</ul>
+</h2>
+<p><a href="https://git-scm.com/">Git</a> is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.</p>
 <blockquote>
 <details ><summary>more&hellip;</summary>
   <div class="markdown-inner">
@@ -301,14 +319,17 @@
 </details>
 
 </blockquote>
-<h3 id="3-have-a-githubhttpsgithubcom-account">
+<ul>
+<li>To install git, just follow the steps on its website.</li>
+</ul>
+<h2 id="3-have-a-githubhttpsgithubcom-account">
   3. Have a <a href="https://github.com/">Github</a> account
   <a class="heading-link" href="#3-have-a-githubhttpsgithubcom-account">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
-<p><a href="https://www.youtube.com/watch?v=HkdAHXoRtos">GitHub</a> is a website and a hosting service that allows you to manage your projects &ldquo;remotely&rdquo; (on the internet).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files. The technical term fo a folder is &ldquo;directory&rdquo;.</p>
+</h2>
+<p><a href="https://github.com/">GitHub</a> is a website and a hosting service that allows you to manage your projects &ldquo;remotely&rdquo; (on the internet).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Projects hosted here are called &ldquo;repositories&rdquo;, and a repository is basically a folder to store your project files. The technical term fo a folder is &ldquo;directory&rdquo;.</p>
 <blockquote>
 <details ><summary>more&hellip;</summary>
   <div class="markdown-inner">
@@ -325,28 +346,17 @@
 
 </blockquote>
 <ul>
-<li>
-<p>Essentially, any website (and in fact most software) is just a folder with a bunch of text files &ldquo;organized in a precise way&rdquo;. In this context, terms such as &ldquo;Hugo project&rdquo;, &ldquo;Git repo&rdquo;, or &ldquo;root directory&rdquo; all refer to the same folder: your future website.</p>
-</li>
-<li>
-<p>In this tutorial we will <strong>generate</strong> this folder and the necessary files with the help of Hugo (the <em>tool</em>), and we will publish it as a git repository (the project folder) on GitHub (the <em>storage</em>).</p>
-</li>
-<li>
-<p>We will also learn how to use an existing <a href="https://themes.gohugo.io/">Hugo theme</a> (a template made by someone else) to supply the <strong>looks</strong> for our website.</p>
-</li>
-<li>
-<p>Finally, I will show you how to build and <strong>deploy</strong> your website on <a href="https://pages.github.com/">GitHub Pages</a>, a feature on GitHub with this exact purpose, and how to automate(!) deployment.</p>
-</li>
+<li>Sign up/login on <a href="https://github.com/">https://github.com/</a></li>
 </ul>
-<p>Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you are on your own.)</p>
-<h3 id="4-have-visual-studio-codehttpscodevisualstudiocom">
+<p>Ideally, we want to edit and manage our files conveniently, so we need a text/code editor. (If you want to use the Notepad and the vanilla terminal, you can, but you will be on your own.)</p>
+<h2 id="4-have-visual-studio-codehttpscodevisualstudiocom">
   4. Have <a href="https://code.visualstudio.com/">Visual Studio Code</a>
   <a class="heading-link" href="#4-have-visual-studio-codehttpscodevisualstudiocom">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h3>
-<p><a href="https://www.youtube.com/watch?v=KMxo3T_MTvY">VS Code</a> is a lightweight, customizable code editor that provides you an integrated environment to inspect, edit, and manage files (including an explorer for your folder structure, advanced search functions, git, command lines, debugger, etc.). It is expandable with community built <strong>extensions</strong> to accommodate every possible technical need later, from code highlighters and compilers, to spell-checkers and Spotify shortcuts.</p>
+</h2>
+<p><a href="https://code.visualstudio.com/">VS Code</a> is a lightweight, customizable code editor that provides you an integrated environment to inspect, edit, and manage files (including an explorer for your folder structure, advanced search functions, git, command lines, debugger, etc.). It is expandable with community built <strong>extensions</strong> to accommodate for every possible technical need later, from code highlighters and compilers, to spell-checkers and Spotify shortcuts.</p>
 <blockquote>
 <details ><summary>more&hellip;</summary>
   <div class="markdown-inner">
@@ -362,17 +372,20 @@
 </details>
 
 </blockquote>
-<p><strong>All the above programs are free and open-source.</strong></p>
+<ul>
+<li>Download and install from <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+</ul>
+<p><i class="fa fa-cc-nc" aria-hidden="true"></i> <strong>All the above programs are free and open-source</strong></p>
 <hr>
-<h2 id="i-building-the-website">
-  I. Building the website
-  <a class="heading-link" href="#i-building-the-website">
+<h1 id="ii-building-the-website">
+  II. Building the website
+  <a class="heading-link" href="#ii-building-the-website">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
-</h2>
+</h1>
 <p>We will create a new website using the theme <a href="https://github.com/luizdepra/hugo-coder">hugo-coder</a> (MIT licence) authored and maintained by <a href="https://github.com/luizdepra">Luiz de Prá</a>. You can also find instructions on the theme&rsquo;s <a href="https://github.com/luizdepra/hugo-coder.git">GitHub page</a>.</p>
-<details ><summary>tldr</summary>
+<details ><summary><strong>tl;dr</strong></summary>
   <div class="markdown-inner">
     <ol>
 <li><code>hugo new site whatever; cd whatever</code></li>
