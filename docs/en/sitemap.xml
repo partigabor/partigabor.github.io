@@ -8,6 +8,9 @@
     <loc>https://partigabor.github.io/posts/hugo-website/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://partigabor.github.io/posts/readings/</loc>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://partigabor.github.io/posts/python-package/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -70,9 +73,6 @@
   </url><url>
     <loc>https://partigabor.github.io/tags/website/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://partigabor.github.io/posts/readings/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://partigabor.github.io/tags/documentation/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>

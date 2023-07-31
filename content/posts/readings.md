@@ -1,7 +1,8 @@
 +++
 title = "Readings"
 author = "Gabor Parti"
-date = "2023-01-01"
+date = "2023-02-01"
+weight = 11
 description = ""
 categories = []
 tags = []

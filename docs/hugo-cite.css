@@ -16,7 +16,7 @@
     border: 1px solid #484848; /* currentColor */
     padding: 1rem;
     position: absolute;
-    width: 350px;
+    width: 500px;
     max-width: 100vw;
     z-index: 1;
     bottom: 140%;
