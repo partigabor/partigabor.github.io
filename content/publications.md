@@ -4,7 +4,7 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
-* Parti, G. (2023). [*Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain*]((https://theses.lib.polyu.edu.hk/handle/200/12389)) [Ph.D. thesis]. The Hong Kong Polytechnic University. [<i class="ai ai-open-access ai-1x"></i>](https://theses.lib.polyu.edu.hk/handle/200/12389) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/thesis.bib "Bibfile")
+* Parti, G. (2023). [*Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain*](https://theses.lib.polyu.edu.hk/handle/200/12389) [Ph.D. thesis]. The Hong Kong Polytechnic University. [<i class="ai ai-open-access ai-1x"></i>](https://theses.lib.polyu.edu.hk/handle/200/12389) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/thesis.bib "Bibfile")
 
 * Parti, G., Liesenfeld, A., & Huang, C.-R. (2021). [*Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese.*](https://aclanthology.org/2021.paclic-1.74) Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. [<i class="ai ai-open-access ai-1x"></i>](https://aclanthology.org/2021.paclic-1.74) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_animosity_2021.bib "Bibfile")
 

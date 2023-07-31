@@ -12,6 +12,7 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 
 # Books
 
+<!-- <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"></div> -->
 ## Academic
 
 <!-- {{< cite "" >}} -->

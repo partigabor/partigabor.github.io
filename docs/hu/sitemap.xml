@@ -28,19 +28,6 @@
                 href="https://partigabor.github.io/hu/contact/"
                 />
   </url><url>
-    <loc>https://partigabor.github.io/hu/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://partigabor.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://partigabor.github.io/hu/"
-                />
-  </url><url>
     <loc>https://partigabor.github.io/hu/projects/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,6 +39,19 @@
                 rel="alternate"
                 hreflang="hu"
                 href="https://partigabor.github.io/hu/projects/"
+                />
+  </url><url>
+    <loc>https://partigabor.github.io/hu/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://partigabor.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://partigabor.github.io/hu/"
                 />
   </url><url>
     <loc>https://partigabor.github.io/hu/publications/</loc>
