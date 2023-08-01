@@ -285,9 +285,11 @@ Use the [hugo-cite](https://github.com/loup-brun/hugo-cite) submodule.
 
 ## 5.3. Comments
 
-[Utteranc.es](https://utteranc.es/)
+If you want comments with [Utteranc.es](https://utteranc.es/), you need 3 steps.
 
-In `comments.html` partial:
+1. Install Utteranc.es into your github repository
+
+2. Create the partial `comments.html`:
 
 ```html
 <script src="https://utteranc.es/client.js"
@@ -299,9 +301,7 @@ In `comments.html` partial:
 </script>
 ```
 
-
-
-In config:
+Set the config:
 
 ```toml
 [params.utterances]
