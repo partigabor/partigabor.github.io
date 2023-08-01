@@ -301,7 +301,7 @@ If you want comments with [Utteranc.es](https://utteranc.es/), you need 3 steps.
 </script>
 ```
 
-Set the config:
+3. Set the config:
 
 ```toml
 [params.utterances]
