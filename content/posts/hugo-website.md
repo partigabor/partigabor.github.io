@@ -282,4 +282,34 @@ Then, you need to do 3 things.
 
 Use the [hugo-cite](https://github.com/loup-brun/hugo-cite) submodule.
 
+
+## 5.3. Comments
+
+[Utteranc.es](https://utteranc.es/)
+
+In `comments.html` partial:
+
+```html
+<script src="https://utteranc.es/client.js"
+        repo="partigabor/partigabor.github.io"
+        issue-term="pathname"
+        theme="photon-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+
+
+In config:
+
+```toml
+[params.utterances]
+  repo = "" # https://utteranc.es/#heading-repository
+  issueTerm = "" # https://utteranc.es/#heading-mapping
+  label = "" # https://utteranc.es/#heading-issue-label
+  theme = "" # https://utteranc.es/#heading-theme
+```
+
+
 {{< /details >}}
