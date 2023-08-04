@@ -58,12 +58,21 @@ Ancient Egypt {{< cite "shaw_ancient_2021" >}}
 
 Ancient Philosophy {{< cite "annas_ancient_2000" >}}
 
+Ancient Warfare {{< cite "sidebottom_ancient_2004" >}}
+
+Bible, The {{< cite "riches_bible_2000" >}}
+
+Biblical Archeology {{< cite "Biblical archaeology: A very short introduction" >}}
+
 Chinese Literature {{< cite "knight_chinese_2012" >}}
+
+Dead Sea Scrolls, The {{< cite "lim_dead_2017" >}}
 
 Islamic History {{< cite "silverstein_islamic_2010" >}}
 
-<!-- linguistics, mongols -->
+Linguistics {{< cite "matthews_linguistics_2003" >}}
 
+Mongols, The {{< cite "rossabi_mongols_2012" >}}
 
 <!-- ## Fiction -->
 
