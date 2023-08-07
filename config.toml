@@ -224,10 +224,10 @@ name = "Elérhetőség"
 weight = 6
 url = "contact/"
 
-# [markup]
-#   [markup.goldmark]
-#     [markup.goldmark.renderer]
-#       unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [markup.highlight]
 style = "doom-one"
