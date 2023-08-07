@@ -10,7 +10,7 @@ menu = "main:posts"
 # draft = "true"
 +++
 
-This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for a more explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to ~~computers~~ web-development.
+This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to ~~computers~~ web-development.
 
 ## Table of Contents
 
