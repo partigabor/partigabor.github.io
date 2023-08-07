@@ -199,7 +199,7 @@ VS Code has a one-click solution for this via the button **<i class="fa fa-1x fa
 
 By the way the terminal and VSCode might ask you to configure your GitHub username and email address if you are doing this for the first time. I recommend installing the [GitHub CLI](https://cli.github.com/) and the command `gh auth login` to make this easier (= never appear again) in the future.
 
-## 3.1. Build and deploy
+## 3.2. Build and deploy
 
 Now we are going from <i class="fa fa-keyboard-o" aria-hidden="true"></i> *klackity-klack*... to <i class="fa fa-mouse-pointer" aria-hidden="true"></i> *clickety-click*.
 
