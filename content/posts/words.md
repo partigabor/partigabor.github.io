@@ -9,6 +9,12 @@ tags = []
 menu = "main:posts"
 +++
 
+# Quotes
+
+>There is no god in buildings. /Panopticon/
+
+# Words
+
 itinerant
 
 wayfarer
