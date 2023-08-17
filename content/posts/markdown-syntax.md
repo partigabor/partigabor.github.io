@@ -217,8 +217,9 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 ## Youtube embedding
 
-Shortcode should work but does not. Maybe because template
-
+```
+{{< youtube VtokdRGHN-g >}}
+```
 
 
 ## Columns
