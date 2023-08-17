@@ -8,16 +8,12 @@
     <language>en</language>
     <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://partigabor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The flag of Grenada</title>
+      <title>Nutmeg in the flag of Grenada</title>
       <link>https://partigabor.github.io/posts/grenada/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/grenada/</guid>
-      <description>https://en.wikipedia.org/wiki/Flag_of_Grenada
-Bibliography
-Link to heading
-Bibliography called, but no references
-</description>
+      <description>I was drawing flags ever since I was a kid, and all my life I thought that the Grenadian flag has tiny little flame. Now, after spending 3 years on a PhD thesis about spices, I found out that the flag features an open nutmeg fruit (Myristica fragrans), for its important role in the island&amp;rsquo;s economy.</description>
     </item>
     
     <item>
@@ -26,9 +22,7 @@ Bibliography called, but no references
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/io/</guid>
-      <description>What is the .io domain name and why is it problematic?
-Link to heading
-Preferred by tech companies, the .io domain name does not actually refer to the input-output word pair (I/O) we all learned about in primary school. I still remember that IT teacher with the mustache and white lab-coat trying to calm us down when the first Windows 95 PCs arrived&amp;hellip; we suddenly got slapped in the face by the ever-accelerating pace of technology and subsequently forgot all our (very limited) MS-DOS skills.</description>
+      <description>What is the .io domain name and why is it problematic?Link to headingPreferred by tech companies, the .io domain name does not actually refer to the input-output word pair (I/O) we all learned about in primary school. I still remember that IT teacher with the mustache and white lab-coat trying to calm us down when the first Windows 95 PCs arrived&amp;hellip; we suddenly got slapped in the face by the ever-accelerating pace of technology and subsequently forgot all our (very limited) MS-DOS skills.</description>
     </item>
     
     <item>
@@ -38,46 +32,8 @@ Preferred by tech companies, the .io domain name does not actually refer to the 
       
       <guid>https://partigabor.github.io/posts/hugo-website/</guid>
       <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to computers web-development.
-Table of Contents
-Link to heading
-1. Requirements
+Table of ContentsLink to heading1. Requirements
 2. Building the Website</description>
-    </item>
-    
-    <item>
-      <title>Readings</title>
-      <link>https://partigabor.github.io/posts/readings/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://partigabor.github.io/posts/readings/</guid>
-      <description>Books
-Link to heading
-Academic
-Link to heading
-Two Medieval Merchant Guilds of South India (
-Citation: Abraham,&amp;#32;1988 Abraham,&amp;#32;
-M.&amp;#32;
-(1988).
-&amp;#32;
-Two Medieval Merchant Guilds of South India.
-&amp;#32;
-Manohar.&amp;#32;Retrieved from&amp;#32;
-https://www.worldcat.org/title/19325089
-)
-Arabian Drugs in Early Medieval Mediterranean Medicine (
-Citation: Amar&amp;#32;&amp;amp;&amp;#32;Lev,&amp;#32;2017 Amar,&amp;#32;
-Z.&amp;#32;&amp;amp;&amp;#32;Lev,&amp;#32;
-E.&amp;#32;
-(2017).
-&amp;#32;
-Arabian drugs in early medieval Mediterranean medicine.
-&amp;#32;
-Edinburgh University Press.&amp;#32;Retrieved from&amp;#32;
-https://edinburghuniversitypress.com/book-arabian-drugs-in-early-medieval-mediterranean-medicine.html
-)
-Marco Polo: From Venice to Xanadu (
-Citation: Bergreen,&amp;#32;2007 Bergreen,&amp;#32;
-L.</description>
     </item>
     
     <item>
@@ -86,9 +42,7 @@ L.</description>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://partigabor.github.io/posts/python-package/</guid>
-      <description>PIPELINE
-Link to heading
-This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.
+      <description>PIPELINELink to headingThis is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.
 Sources and links to tutorials on the bottom.</description>
     </item>
     

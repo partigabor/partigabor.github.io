@@ -3,6 +3,7 @@ title = "Readings"
 author = "Gabor Parti"
 date = "2023-02-01"
 weight = 11
+draft = "true"
 description = ""
 categories = ["academic"]
 tags = []
