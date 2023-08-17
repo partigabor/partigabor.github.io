@@ -4,10 +4,10 @@ author = "Gabor Parti"
 date = "2023-07-01"
 weight = 11
 description = ""
-categories = []
+categories = ["trivia"]
 tags = []
 menu = "main:posts"
-# disableComments = "false"
+disableComments = "false"
 +++
 
 # What is the .io domain name and why is it problematic?

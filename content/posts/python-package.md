@@ -4,8 +4,8 @@ author = "Gabor Parti"
 date = "2022-12-01"
 weight = 11
 description = "A concise tutorial on how to publish an open source python package."
-categories = ["technical","guide"]
-tags = ["python","github","documentation"]
+categories = ["technical"]
+tags = ["python","github","documentation","tutorial"]
 menu = "main:posts"
 +++
 
