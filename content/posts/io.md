@@ -25,7 +25,7 @@ Chagossian refugees now mostly live in Mauritius, the Seychelles, and the UK. Th
 [^2]: The island nation of Tuvalu gains significant portions of its GDP from the .tv domain name.
 
 > {{< details "more on Tuvalu..." close >}}
-> {{< youtube VtokdRGHN-g >}}
+> {{< youtube JQefASJhY2E >}}
 > {{< /details >}}
 
 
