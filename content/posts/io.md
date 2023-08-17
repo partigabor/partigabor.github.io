@@ -22,7 +22,7 @@ Recently, Mauritius is trying to obtain control over the islands in a decoloniza
 
 Chagossian refugees now mostly live in Mauritius, the Seychelles, and the UK. They are still trying to go home, but a [ban on their return](https://newint.org/features/web-exclusive/2016/07/05/uk-supreme-court-highlights-right-of-chagos-refugees-to-return) remains in place. And, of course, they do not receive any funds from the profits made from the popular .io domain name.[^2]
 
-[^2]: The island nation of Tuvalu gains significant portions of its GDP from the .tv domain name.
+[^2]: The island nation of Tuvalu gains significant portions of its GDP from the .tv domain name. They are saving funds from this to buy land in the near future, since Tuvalu will be one of the few countries to be entirely underwater due to climate change and sea levels rising.
 
 > {{< details "more on Tuvalu..." close >}}
 > {{< youtube JQefASJhY2E >}}
