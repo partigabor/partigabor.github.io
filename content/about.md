@@ -6,6 +6,8 @@ date = "2022-09-01"
 
 <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
 
+<!-- Gábor is a linguist at PolyU, working with digital technologies in philological and humanities research, focusing on how to collect, store, process, analyze, and present humanities data in new and exciting ways. He is interested in linguistic and cultural exchange along historic trade routes – especially around the Indian Ocean World – through examining the spread of exotic items. His most recent project revolves around the diffusion of spices and their names. -->
+
 Welcome! I am a fresh Ph.D. graduate at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel and trade, and network theory.
 
 > ##### **[Download CV <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae")**  (56 KB)
