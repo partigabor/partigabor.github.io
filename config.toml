@@ -144,13 +144,19 @@ url = "https://orcid.org/0000-0003-2042-4655"
 # name = "LinkedIn"
 # icon = "fa fa-2x fa-linkedin"
 # weight = 4
-# url = "https://www.linkedin.com/in/johndoe/"
+# url = "https://www.linkedin.com/in/partigabor/"
 
 # [[params.social]]
 # name = "Medium"
 # icon = "fa fa-2x fa-medium"
 # weight = 5
 # url = "https://medium.com/@johndoe"
+
+[[params.social]]
+name = "Zotero"
+icon = "fa fa-2x fa-zotero"
+weight = 5
+url = "https://www.zotero.org/partigabor"
 
 # [[params.social]]
 # name = "RSS"
