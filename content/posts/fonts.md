@@ -13,6 +13,10 @@ menu = "main:posts"
 
 # Font projects
 
+## The Brill
+
+https://brill.com/page/419382?language=en
+
 ## Google Noto
 
 https://www.youtube.com/watch?v=16_NYHUZ1kM

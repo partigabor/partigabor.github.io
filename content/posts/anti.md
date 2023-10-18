@@ -18,8 +18,7 @@ bibFile = "static/files/bibliography.json"
 >Please take back your Bible and give it back to our oppressors, because they need its moral teachings more than we do. Ever since the arrival of Christofer Columbus a culture, a language, religion and values which belong to Europe have been imposed on Latin America by force.
 > The Bible came to us as part of the imposed colonial transformation. It was the ideological weapon of this colonial assault. The Spanish sword which attacked and murdered the bodies of Indians by day at night became the cross which attacked the Indian soul.](https://archive.org/details/14921992voiceofv0006unse/page/66/mode/2up)[^1] [^2]
 
-[^1]: See Holgate, David and Starr, Rachel (2019) *SCM Studyguide: Biblical Hermeneutics*. SCM Press, pp. 13-14. (Holgate and Starr, 2019), cited from Richard, P. (1990) '1492: The Violence of God and the Future of Christianity' in Boff,
-L. and Elizondo, V. (eds) *1492-1992: The Voice of the Victims*, Conciliurn 1990/6,
+[^1]: See Holgate, David and Starr, Rachel (2019) *SCM Studyguide: Biblical Hermeneutics*. SCM Press, pp. 13-14. (Holgate and Starr, 2019), cited from Richard, P. (1990) '1492: The Violence of God and the Future of Christianity' in Boff, L. and Elizondo, V. (eds) *1492-1992: The Voice of the Victims*, Conciliurn 1990/6,
 London: SCM Press, p. 66.
 
 [^2]: "Sword" was changed to the more innocent "word" in Holgate and Starr (2019), and there are other minute changes that make the sentences sound clumsy. 

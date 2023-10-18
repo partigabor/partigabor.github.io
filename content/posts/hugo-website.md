@@ -13,6 +13,8 @@ plotly = "true"
 
 This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to ~~computers~~ web-development.
 
+It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy. Comments and suggestions below are welcome!
+
 ## Table of Contents
 
 [1. Requirements](#i)
@@ -101,7 +103,7 @@ Ideally, we want to edit and manage our files conveniently, so we need a text/co
 6. `hugo` to build your website
 {{< /details >}}
 
-We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git). You can choose other Hugo themes at [https://themes.gohugo.io/](https://themes.gohugo.io/), most of them will work similarly.
+We will create a new website using the theme [hugo-coder](https://github.com/luizdepra/hugo-coder) (MIT licence) authored and maintained by [Luiz de Prá](https://github.com/luizdepra). You can also find instructions on the theme's [GitHub page](https://github.com/luizdepra/hugo-coder.git). You can choose other Hugo themes at [https://themes.gohugo.io/](https://themes.gohugo.io/), most of them will work similarly, (some might cause headaches), I chose a simple one here.
 
 ## 2.1. Generate a new website with Hugo
 
@@ -174,7 +176,9 @@ This command will launch and host the website on your machine, locally. You can 
 
     hugo
 
-That's it. Simply typing `hugo` into the command line and hitting enter will build and "publish" your website. The default location of this build will usually be a folder named `public`, which you can change by adding/editing a line in your configfile. For example: `publishDir = "docs"` will make your `hugo` command build and publish your website into a directory named `docs`.
+That's it. Simply typing `hugo` into the command line and hitting enter will build and "publish" your website. The default location of this build will usually be a folder named `public`, which you can change by adding/editing a line in your configfile. For example: `publishDir = "docs"` will make your `hugo` command build and publish your website into a directory named `docs`.[^hugo]
+
+[^hugo]: I recently found out that you do not actually have to do this, GitHub Pages/Actions will build your website using Hugo automatically every time you push changes to it.
 
 ---
 

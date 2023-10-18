@@ -15,6 +15,7 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 # Books
 
 <!-- <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"></div> -->
+
 ## Academic
 
 <!-- {{< cite "" >}} -->
@@ -45,7 +46,7 @@ Cumin, Camels, and Caravans: A Spice Odyssey {{< cite "nabhan_cumin_2014" >}}
 
 The Golden Khersonese: Studies in the historical geography of the Malay Penninsula before A. D. 1500 {{< cite "wheatley_golden_1961" >}}
 
-Early Indonesian commerce: A study of the origins of Śrīvijaya {{< cite "wolters_early_1967" >}}
+Early Indonesian Commerce: A study of the origins of Śrīvijaya {{< cite "wolters_early_1967" >}}
 
 
 
