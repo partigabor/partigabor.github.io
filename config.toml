@@ -73,8 +73,8 @@ favicon_16 = "/images/favicon-16x16.png"
 # serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-# [params.googleTagManager]
-# id = "gid"
+[params.googleTagManager]
+id = "G-Z99TBQWHHS"
 
 # If you want to use Application Insights(https://azure.com/) for analytics, add this section
 # [params.applicationInsights]
@@ -129,12 +129,6 @@ weight = 3
 url = "https://orcid.org/0000-0003-2042-4655"
 
 # [[params.social]]
-# name = "Gitlab"
-# icon = "fa fa-2x fa-gitlab"
-# weight = 2
-# url = "https://gitlab.com/johndoe/"
-
-# [[params.social]]
 # name = "Twitter"
 # icon = "fa fa-2x fa-twitter"
 # weight = 3
@@ -145,12 +139,6 @@ url = "https://orcid.org/0000-0003-2042-4655"
 # icon = "fa fa-2x fa-linkedin"
 # weight = 4
 # url = "https://www.linkedin.com/in/partigabor/"
-
-# [[params.social]]
-# name = "Medium"
-# icon = "fa fa-2x fa-medium"
-# weight = 5
-# url = "https://medium.com/@johndoe"
 
 [[params.social]]
 name = "Zotero"
