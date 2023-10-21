@@ -3,16 +3,15 @@
     <small>
       ©
       {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
-        {{ .Site.Params.since }} -
-      {{ end }}
-      {{ now.Year }}
+        {{ .Site.Params.since }}–{{ end }}{{ now.Year }}, 
       {{ with .Site.Params.author }} {{ . }} {{ end }}
       ·
       {{ if (and .Site.Params.license) }}
         {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
       ·
       {{ end }}
-      {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a> · <a href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi">🇺🇦</a> 
+      {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a><br>
+      <a href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi">🇺🇦</a>&ensp;<a href="https://www.map.org.uk/">🇵🇸</a>
       {{ if (and .Site.Params.commit .GitInfo) }}
         [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
       {{ end }}
@@ -20,4 +19,4 @@
     </section>
   </footer>
   
-  <!-- 🇵🇸 🇹🇼 🇦🇲 -->
+  <!-- 🇹🇼 🇦🇲 -->
