@@ -29,7 +29,7 @@ It might look daunting at first to go through all these steps below, but the rew
 
 * Essentially, any website (and in fact most software) is just a folder with a bunch of text files *"organized in a precise way"*. In this context, terms such as "Hugo project", "Git repo", or "root directory" all refer to the same folder: your future website.
 
-* In this tutorial we will *generate* this folder and the necessary files with the help of **Hugo** (the tool), and and then we will publish it as a **git repository** (the website folder) on **GitHub** (the storage), where it will be hosted.
+* In this tutorial we will *generate* this folder and the necessary files with the help of **Hugo** (the tool), and then we will publish it as a **git repository** (the project folder) on **GitHub** (the online storage), where it will be hosted.
 
 * In the meantime we will also learn how to use an existing Hugo **theme** (a template made by someone else) to supply the *looks* for our website.
 
