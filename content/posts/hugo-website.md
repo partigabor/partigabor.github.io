@@ -55,8 +55,8 @@ It might look daunting at first to go through all these steps below, but the rew
 > {{< /details >}}
 
 * To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo from the command line (terminal) using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
-
-* In the future you can just call `scoop update` to update both Scoop and Hugo, and `scoop search hugo` or `hugo version` to check your Hugo version.
+* In the future you can update Hugo from here as well. First, call `scoop update` to update Scoop and see the new versions of packages available to you (in this case we can type `scoop search hugo`, and then update it with `scoop update hugo-extended`.
+* Use `hugo version` to check your Hugo version.
 
 ## 1.2. Have [git](https://git-scm.com/downloads) on your computer
 
