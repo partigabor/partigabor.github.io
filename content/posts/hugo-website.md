@@ -54,11 +54,13 @@ It might look daunting at first to go through all these steps below, but the rew
 > {{< youtube 0RKpf3rK57I >}}
 > {{< /details >}}
 
-* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo from the command line using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
+* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo from the command line (terminal) using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
+
+* In the future you can just call `scoop update` to update both Scoop and Hugo, and `scoop search hugo` or `hugo version` to check your Hugo version.
 
 ## 1.2. Have [git](https://git-scm.com/downloads) on your computer
 
-[Git](https://git-scm.com/) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.
+[Git](https://git-scm.com/) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to handle various stages and branches of your project (update, inspect, revert to, etc.), even across a team of people.
 
 > {{< details "more..." close >}}
 > {{< youtube hwP7WQkmECE >}}
