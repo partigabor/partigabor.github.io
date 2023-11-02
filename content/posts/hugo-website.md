@@ -232,8 +232,8 @@ If you want to edit your website, you just
 
 Good luck!
 
----
 
+<!-- 
 {{< details "secret chapter for those who are determined" >}}
 
 # 5. Extras {#v}
@@ -310,12 +310,12 @@ If you want comments with [Utteranc.es](https://utteranc.es/), you need 3 steps.
 
 3. Set the config.toml/hugo.toml parameters:
 
-```toml
+<!-- ```toml
 [params.utterances]
   repo = "" # https://utteranc.es/#heading-repository
   issueTerm = "" # https://utteranc.es/#heading-mapping
   label = "" # https://utteranc.es/#heading-issue-label
-  theme = "" # https://utteranc.es/#heading-theme
+  theme = "" # https://utteranc.es/#heading-theme 
 ```
 
-{{< /details >}}
+{{< /details >}} -->
