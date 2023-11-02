@@ -29,7 +29,7 @@ It might look daunting at first to go through all these steps below, but the rew
 
 * Essentially, any website (and in fact most software) is just a folder with a bunch of text files *"organized in a precise way"*. In this context, terms such as "Hugo project", "Git repo", or "root directory" all refer to the same folder: your future website.
 
-* In this tutorial we will *generate* this folder and the necessary files with the help of **Hugo** (the tool), and and then we will publish it as a **git repository** (the website folder) on **GitHub** (the storage), where it will be hosted.
+* In this tutorial we will *generate* this folder and the necessary files with the help of **Hugo** (the tool), and then we will publish it as a **git repository** (the project folder) on **GitHub** (the online storage), where it will be hosted.
 
 * In the meantime we will also learn how to use an existing Hugo **theme** (a template made by someone else) to supply the *looks* for our website.
 
@@ -54,11 +54,13 @@ It might look daunting at first to go through all these steps below, but the rew
 > {{< youtube 0RKpf3rK57I >}}
 > {{< /details >}}
 
-* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo from the command line using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
+* To install Hugo on Windows, the easiest way is to first install [Scoop](https://scoop.sh/), a package manager for Windows, and then install Hugo from the command line (terminal) using `scoop install hugo-extended`. If you use Linux, you can probably figure it out yourself.
+* In the future you can update Hugo from here as well. First, call `scoop update` to update Scoop and see the new versions of packages available to you (in this case we can type `scoop search hugo`, and then update it with `scoop update hugo-extended`.
+* Use `hugo version` to check your Hugo version.
 
 ## 1.2. Have [git](https://git-scm.com/downloads) on your computer
 
-[Git](https://git-scm.com/) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to update, inspect, and handle various stages of the project, even across a team of people.
+[Git](https://git-scm.com/) is a source code manager, a software that tracks the changes you make to your files in a project over time (version control), allowing you to handle various stages and branches of your project (update, inspect, revert to, etc.), even across a team of people.
 
 > {{< details "more..." close >}}
 > {{< youtube hwP7WQkmECE >}}
