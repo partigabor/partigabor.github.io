@@ -232,7 +232,7 @@ Good luck!
 
 ---
 
-{{< details "secret chapter for thos who are determined" >}}
+{{< details "secret chapter for those who are determined" >}}
 
 # 5. Extras {#v}
 
@@ -306,7 +306,7 @@ If you want comments with [Utteranc.es](https://utteranc.es/), you need 3 steps.
 </script>
 ```
 
-3. Set the config:
+3. Set the config.toml/hugo.toml parameters:
 
 ```toml
 [params.utterances]
@@ -315,6 +315,5 @@ If you want comments with [Utteranc.es](https://utteranc.es/), you need 3 steps.
   label = "" # https://utteranc.es/#heading-issue-label
   theme = "" # https://utteranc.es/#heading-theme
 ```
-
 
 {{< /details >}}
