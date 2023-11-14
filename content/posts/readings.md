@@ -79,6 +79,14 @@ Mongols, The {{< cite "rossabi_mongols_2012" >}}
 <!-- ## Fiction -->
 
 
+<!-- ## Other -->
+
+Guy Delisle: Shenzen, Pyongyang, Burma Chronicles
+
+Claude Cockburn: Beat the Devil
+
+
+
 
 ***
 
