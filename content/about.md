@@ -16,7 +16,7 @@ I am a fresh Ph.D. graduate and a postdoctoral fellow at [The Hong Kong Polytech
 
 My Ph.D. dissertation is titled *Mapping the Language of Spices: A Corpus-Based, Philological Study on the Words of the Spice Domain*, and it aims to be a linguistic account of the items of the spice trade. It is about spices and spice names, their diffusion around the globe, and the relationship between materials and words. The project was supervised by [Prof. Chu-Ren Huang](https://research.polyu.edu.hk/en/persons/chu-ren-huang), and funded by the [Hong Kong PhD Fellowship Scheme (HKPFS)](https://cerg1.ugc.edu.hk/hkpfs/index.html) from the [Research Grants Council (RGC)](https://www.ugc.edu.hk/eng/rgc/) of the Hong Kong SAR. The dissertation is also accompanied by an online database, the [Spice & Spice Terminology Database 1.2](https://partigabor.github.io/spice/).
 
-The dissertation was subsequently awarded a *Distinguished Thesis Award* on a faculty level, and it was published in *Sino-Platonic Papers* [#338](https://www.sino-platonic.org/) edited by Prof. Victor Mair.
+The dissertation was subsequently awarded a *Distinguished Thesis Award* on a faculty level, and it was published in *Sino-Platonic Papers* ([no. 338](https://www.sino-platonic.org/)) edited by [Prof. Victor Mair](https://ealc.sas.upenn.edu/people/victor-h-mair).
 
 > ##### **[Download PhD thesis <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/partigabor-phd-thesis-final-20230303.pdf "Download thesis document.")** (16 MB)
 
