@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trivia on Gabor Parti</title>
+    <link>http://localhost:1313/categories/trivia/</link>
+    <description>Recent content in Trivia on Gabor Parti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/trivia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutmeg in the flag of Grenada</title>
+      <link>http://localhost:1313/posts/grenada/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/grenada/</guid>
+      <description>I have been drawing flags ever since I was a kid, and all my life I thought that the Grenadian flag has tiny little flame. Now, after spending 3 years on a PhD thesis about spices, I found out that the flag features an open nutmeg fruit (Myristica fragrans), for its important role in the island&amp;rsquo;s economy. Isn&amp;rsquo;t that neat.</description>
+    </item>
+    <item>
+      <title>The .io Domain Name</title>
+      <link>http://localhost:1313/posts/io/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/io/</guid>
+      <description>What is the .io domain name and why is it problematic?&#xD;Link to heading&#xD;Preferred by tech companies, the .io domain name does not actually refer to the input-output word pair (I/O) we all learned about in primary school. I still remember that IT teacher - Gyuri bácsi - with the black mustache and white lab-coat trying to calm us down when the first Windows 98 PCs arrived. We suddenly got slapped in the face by the ever-accelerating pace of technology and subsequently forgot all our (very limited) MS-DOS skills.</description>
+    </item>
+  </channel>
+</rss>
