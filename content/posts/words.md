@@ -9,11 +9,13 @@ tags = []
 menu = "main:posts"
 +++
 
-# Quotes
+<!-- # Quotes
 
->There is no god in buildings. /Panopticon/
+>There is no god in buildings. /Panopticon/ -->
 
 # Words
+
+
 
 itinerant
 
@@ -26,3 +28,4 @@ tang
 stratagem
 
 amour propre
+

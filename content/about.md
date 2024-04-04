@@ -34,7 +34,7 @@ My Ph.D. dissertation is titled *Mapping the Language of Spices: A Corpus-Based,
 
 **2009–2014** &ensp; BA in Arabian Studies, Eötvös Loránd University (ELTE) | Budapest
 
-### Scholarships
+### Extracullicular
 
 **2017–2018** &ensp; Indonesian Language Course, Yogyakarta State University (UNY) | Yogyakarta
 

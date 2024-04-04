@@ -1,7 +1,7 @@
 +++
 title = "The .io Domain Name"
 author = "Gabor Parti"
-date = "2023-07-01"
+date = "2023-06-01"
 weight = 11
 description = ""
 categories = ["trivia"]
