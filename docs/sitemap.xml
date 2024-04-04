@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://partigabor.github.io/en/sitemap.xml</loc>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
     
-      <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+      <lastmod>2132-09-01T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://partigabor.github.io/hu/sitemap.xml</loc>
+    <loc>http://localhost:1313/hu/sitemap.xml</loc>
     
       <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     
