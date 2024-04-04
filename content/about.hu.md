@@ -10,4 +10,96 @@ Weboldal fejlesztés alatt.
 <i class="fa fa-cog fa-spin fa-2x fa-fw"></i>
 {{% /center %}}
 
-<!-- testing -->
+
+<!-- <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
+
+Parti Gábor vagyok, nyelvész és filológus.  digitális technológiákat használok filológiai és bölcsészettudományi kutatásokban. Érdekelnek a nyelvi és kulturális cserék a történelmi ázsiai kereskedelmi útvonalakon, különösen az Indiai-óceánon és a Tengeri Selyemút körül. Arra fókuszálok, hogyan gyűjtsek, tárolhatok, dolgozhatok fel, elemezhetek és új és izgalmas módon mutathatok be humántudományi adatokat. Lenyűgözött az etimológia, a premodern utazás és az adattudomány.
+
+Friss Ph.D. vagyok. végzett és posztdoktori ösztöndíjas a [The Hong Kong Polytechnic University (PolyU)]-n (https://www.polyu.edu.hk/). A [PolyU]-nál (https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study) korpusznyelvészetet, számítógépes nyelvészetet tanultam, és tanultam a különféle technikák a természetes nyelvi feldolgozásban, a gépi tanulásban, a mesterséges intelligenciában és az adattudományban. Korábban a budapesti [ELTE] (https://www.btk.elte.hu/) különböző tanszékein kaptam hagyományos filológiai képzést, többek között szemita és arabisztika, koreanisztika, iszlám szakon. tanulmányok és indológia.
+
+> ##### **[Önéletrajz letöltése <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae")** (56 KB)
+
+A Ph.D. A disszertáció *A fűszerek nyelvének feltérképezése: korpusz alapú filológiai tanulmány a fűszertartomány szavairól* címet viseli, és célja a fűszerkereskedelem tárgyainak nyelvi ismertetése. Fűszerekről és fűszernevekről, ezek elterjedéséről a földkerekségen, valamint az anyagok és szavak kapcsolatáról szól. A projektet [Prof. Chu-Ren Huang](https://research.polyu.edu.hk/en/persons/chu-ren-huang), és a [Hong Kong PhD Fellowship Scheme (HKPFS)] finanszírozza (https://cerg1. ugc.edu.hk/hkpfs/index.html) a [Research Grants Council (RGC)] (https://www.ugc.edu.hk/eng/rgc/) Hongkong KKT-tól. A disszertációhoz egy online adatbázis is kapcsolódik, a [Spice & Spice Terminology Database 1.2] (https://partigabor.github.io/spice/).
+
+A disszertációt ezt követően oktatói szinten *Distinguished Thesis Award* díjjal jutalmazták, és megjelent a *Sino-Platonic Papers* [#338](https://www.sino-platonic.org/), szerkesztette Prof. Victor. Mair.
+
+> ##### **[PhD-dolgozat letöltése <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/partigabor-phd-thesis-final -20230303.pdf "Dokumentum letöltése.")** (16 MB)
+
+***
+
+## Oktatás
+
+### Fokok
+
+**2019-2023** &ensp; PhD kelet-ázsiai nyelvészetből, a Hong Kong Polytechnic University (PolyU) | Hong Kong
+
+**2014–2017** &ensp; Iszlámtudomány MA, ELTE (ELTE) | Budapest
+
+**2010–2014** &ensp; BA koreaisztika szakon, ELTE (ELTE) | Budapest
+
+**2009–2014** &ensp; Arabisztika BA, ELTE | Budapest
+
+### Ösztöndíjak
+
+**2017–2018** &ensp; Indonéz nyelvtanfolyam, Yogyakarta Állami Egyetem (UNY) | Yogyakarta
+
+> [Darmasiswa ösztöndíjprogram](https://darmasiswa.kemdikbud.go.id/) az Indonéz Köztársaságból
+
+**2015** &emsp; &emsp; &emsp; Arab nyelvtanfolyam, Institut Bourguiba des Langues Vivantes | Tunisz
+
+> ösztöndíj a Tunéziai Köztársaságtól -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome! My name is Parti Gábor [ˈpɒrti ˈɡaːbor], I am a linguist and philologist, and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel, and data science.
+
+I am a fresh Ph.D. graduate and a postdoctoral fellow at [The Hong Kong Polytechnic University (PolyU)](https://www.polyu.edu.hk/). At [PolyU](https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study), I have studied corpus linguistics, computational linguistics, and I also learned about various techniques in natural language processing, machine learning, artificial intelligence, and dash of data science. Previously I have received training in traditional philology from various departments at the [Eötvös Loránd University (ELTE)](https://www.btk.elte.hu/en/) in Budapest, including Semitic and Arabic studies, Korean studies, Islamic studies, and Indology.
+
+> ##### **[Download CV <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae")**  (56 KB)
+
+My Ph.D. dissertation is titled *Mapping the Language of Spices: A Corpus-Based, Philological Study on the Words of the Spice Domain*, and it aims to be a linguistic account of the items of the spice trade. It is about spices and spice names, their diffusion around the globe, and the relationship between materials and words. The project was supervised by [Prof. Chu-Ren Huang](https://research.polyu.edu.hk/en/persons/chu-ren-huang), and funded by the [Hong Kong PhD Fellowship Scheme (HKPFS)](https://cerg1.ugc.edu.hk/hkpfs/index.html) from the [Research Grants Council (RGC)](https://www.ugc.edu.hk/eng/rgc/) of the Hong Kong SAR. The dissertation is also accompanied by an online database, the [Spice & Spice Terminology Database 1.2](https://partigabor.github.io/spice/).
+
+The dissertation was subsequently awarded a *Distinguished Thesis Award* on a faculty level, and it was published in *Sino-Platonic Papers* [#338](https://www.sino-platonic.org/) edited by Prof. Victor Mair.
+
+> ##### **[Download PhD thesis <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/partigabor-phd-thesis-final-20230303.pdf "Download thesis document.")** (16 MB)
+
+***
+
+## Education
+
+### Degrees
+
+**2019-2023** &ensp; PhD in East Asian Linguistics, The Hong Kong Polytechnic University (PolyU) | Hong Kong
+
+**2014–2017** &ensp; MA in Islamic Studies, Eötvös Loránd University (ELTE) | Budapest
+
+**2010–2014** &ensp; BA in Korean Studies, Eötvös Loránd University (ELTE) | Budapest
+
+**2009–2014** &ensp; BA in Arabian Studies, Eötvös Loránd University (ELTE) | Budapest
+
+### Scholarships
+
+**2017–2018** &ensp; Indonesian Language Course, Yogyakarta State University (UNY) | Yogyakarta
+
+> [Darmasiswa Scholarship Program](https://darmasiswa.kemdikbud.go.id/) from the Republic of Indonesia
+
+**2015** &emsp; &emsp; &emsp; Arabic language course, Institut Bourguiba des Langues Vivantes | Tunis
+
+> scholarship from the Republic of Tunisia
