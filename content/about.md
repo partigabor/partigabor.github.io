@@ -34,9 +34,13 @@ My Ph.D. dissertation is titled *Mapping the Language of Spices: A Corpus-Based,
 
 **2009–2014** &ensp; BA in Arabian Studies, Eötvös Loránd University (ELTE) | Budapest
 
-### Scholarship & Summer Schools
+### Scholarships & Summer Schools
 
+**2023** &emsp; &emsp; &emsp; Data Science Summer School 2023 (DS3) at the Hertie School Data Science Lab | Online
 
+**2022** &emsp; &emsp; &emsp; Corpus Linguistics Summer School 2022 at the University of Birmingham | Online
+
+**2021** &emsp; &emsp; &emsp; Digital Humanities at Oxford Summer School (DHOx2021) at the University of Oxford | Online
 
 **2017–2018** &ensp; Indonesian Language Course, Yogyakarta State University (UNY) | Yogyakarta
 
