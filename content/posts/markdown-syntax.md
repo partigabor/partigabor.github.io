@@ -215,11 +215,6 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 # SHORTCODES
 
-## Youtube embedding
-
-```
-{{< youtube VtokdRGHN-g >}}
-```
 
 
 ## Columns
@@ -442,6 +437,13 @@ https://forkaweso.me/Fork-Awesome/icons/
 
 <i class="fa fa-2x fa-tex" aria-hidden="true"></i>
 
+## Centering
+
+{{% center %}}
+Centered text
+{{% /center %}}
+
+
 ## Gallery
 
 {{< gallery dir="/images/gallery" hover-effect="slideup" />}}
@@ -453,6 +455,12 @@ https://forkaweso.me/Fork-Awesome/icons/
 <!-- https://discourse.gohugo.io/t/solved-adding-image-to-every-post/14421 -->
 
 
+
+## Youtube embedding
+
+```
+{{< youtube 0RKpf3rK57I >}}
+```
 
 https://www.innoq.com/en/blog/markdown-with-zotero-workflow/
 
@@ -471,11 +479,6 @@ Use CNTRL + ALT + Z to cite from Zotero
 Raleway.
 {{< /typography >}}
 
-## Centering
-
-{{% center %}}
-Centered text
-{{% /center %}}
 
 ## Plotly
 
