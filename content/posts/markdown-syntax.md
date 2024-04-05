@@ -457,10 +457,11 @@ Centered text
 
 
 ## Youtube embedding
-
-```
-{{< youtube 0RKpf3rK57I >}}
-```
+  
+  ```tpl
+  {{</* youtube 16_NYHUZ1kM */>}}
+  ```
+{{< youtube 16_NYHUZ1kM >}}
 
 https://www.innoq.com/en/blog/markdown-with-zotero-workflow/
 
