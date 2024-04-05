@@ -4,14 +4,13 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
+<div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
 
+Parti Gábor vagyok, nyelvész és filológus. Filológiai és bölcsészettudományi kutatásaim során igyekszem különböző digitális technológiákat alkalmazi. Érdeklődésem középpontjában a nyelvi és kulturális kölcsönhatások állnak, különösen történelmi kereskedelmi útvonalak mentén, az Indiai-óceánon és a Tengeri Selyemút körül. 
 
+<!-- Arra fókuszálok, hogyan gyűjtsek, tárolhatok, dolgozhatok fel, elemezhetek és új és izgalmas módon mutathatok be humántudományi adatokat. Lenyűgözött az etimológia, a premodern utazás és az adattudomány. -->
 
-
-Üdvözöljük! Parti Gábor vagyok.[^1] Nyelvész és filológus vagyok, a digitális technológiákat a filológiai és bölcsészettudományi kutatások során alkalmazom. Érdekelnek a nyelvi és kulturális cserék a történelmi ázsiai kereskedelmi útvonalakon, különösen az Indiai-óceánon és a Tengeri Selyemút körül. Arra fókuszálok, hogyan gyűjtsek, tárolhatok, dolgozhatok fel, elemezhetek és új és izgalmas módon mutathatok be humántudományi adatokat. Lenyűgözött az etimológia, a premodern utazás és az adattudomány.
-
-[^1]: {{< typography font="Noto Sans" size="18px" >}} [ˈpɒrti ˈɡaːbor] {{< /typography >}} Magyar névrendben a családnév áll az első helyen. Magyarul a sorrend fordított. Ezért magyarul Parti Gábornak, angolul Parti Gábornak hívnak.
-
+<!-- 
 Friss Ph.D. vagyok. végzett és posztdoktori ösztöndíjas a [The Hong Kong Polytechnic University (PolyU)]-n (https://www.polyu.edu.hk/). A [PolyU]-nál (https://www.polyu.edu.hk/cbs/study/research-postgraduate-programme/phd-or-mphil-study) korpusznyelvészetet, számítógépes nyelvészetet tanultam, és tanultam a különféle technikák a természetes nyelvi feldolgozásban, a gépi tanulásban, a mesterséges intelligenciában és az adattudományban. Korábban a budapesti [ELTE] (https://www.btk.elte.hu/) különböző tanszékein kaptam hagyományos filológiai képzést, többek között szemita és arabisztika, koreanisztika, iszlám szakon. tanulmányok és indológia.
 
 > ##### **[Önéletrajz letöltése <i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/files/cv.pdf "Open/download Curriculum Vitae")** (<1 MB)
@@ -48,4 +47,4 @@ A Ph.D. A disszertáció *A fűszerek nyelvének feltérképezése: korpusz alap
 
 **2015** &emsp; &emsp; &emsp; Arab nyelvtanfolyam, Institut Bourguiba des Langues Vivantes | Tunisz
 
-> ösztöndíj a Tunéziai Köztársaságtól
+> ösztöndíj a Tunéziai Köztársaságtól -->

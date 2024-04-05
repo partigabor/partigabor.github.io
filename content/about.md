@@ -6,9 +6,7 @@ date = "2022-09-01"
 
 <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
 
-<!-- Gábor is a linguist at PolyU, working with digital technologies in philological and humanities research, focusing on how to collect, store, process, analyze, and present humanities data in new and exciting ways. He is interested in linguistic and cultural exchange along historic trade routes – especially around the Indian Ocean World – through examining the spread of exotic items. His most recent project revolves around the diffusion of spices and their names. -->
-
-Welcome! My name is Gábor Parti.[^1] I am a linguist and philologist, and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel, and data science.
+Welcome! My name is Gábor Parti,[^1] I am a linguist and philologist. In mz research I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel, and data science.
 
 [^1]: {{< typography font="Noto Sans" size="18px" >}} [ˈpɒrti ˈɡaːbor] {{< /typography >}} In Hungarian name order, the family name comes first. In English, the order is reversed. Therefore, my name is Parti Gábor in Hungarian, and Gábor Parti in English.
 
@@ -59,3 +57,7 @@ My Ph.D. dissertation is titled *Mapping the Language of Spices: A Corpus-Based,
   Goodbye Everybody!
   {{< /tab >}}
 {{< /tabgroup >}} -->
+
+
+
+<!-- Gábor is a linguist at PolyU, working with digital technologies in philological and humanities research, focusing on how to collect, store, process, analyze, and present humanities data in new and exciting ways. He is interested in linguistic and cultural exchange along historic trade routes – especially around the Indian Ocean World – through examining the spread of exotic items. His most recent project revolves around the diffusion of spices and their names. -->
