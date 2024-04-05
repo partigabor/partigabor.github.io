@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parti Gabor</title>
+    <link>http://localhost:1313/hu/</link>
+    <description>Recent content on Parti Gabor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hu</language>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elérhetőség</title>
+      <link>http://localhost:1313/hu/contact/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hu/contact/</guid>
+      <description>Ímél: gabor.parti at connect.polyu.hk</description>
+    </item>
+    <item>
+      <title>Kutatás</title>
+      <link>http://localhost:1313/hu/projects/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hu/projects/</guid>
+      <description>Fűszer és Fűszernév Adatbázis&#xA;A fűszernevek elterjedéséről szóló doktori disszertációm alapján.</description>
+    </item>
+    <item>
+      <title>Publikációk</title>
+      <link>http://localhost:1313/hu/publications/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hu/publications/</guid>
+      <description>&#xD;</description>
+    </item>
+    <item>
+      <title>Rólam</title>
+      <link>http://localhost:1313/hu/about/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hu/about/</guid>
+      <description>Üdvözöljük! Parti Gábor vagyok.1 Nyelvész és filológus vagyok, a digitális technológiákat a filológiai és bölcsészettudományi kutatások során alkalmazom. Érdekelnek a nyelvi és kulturális cserék a történelmi ázsiai kereskedelmi útvonalakon, különösen az Indiai-óceánon és a Tengeri Selyemút körül. Arra fókuszálok, hogyan gyűjtsek, tárolhatok, dolgozhatok fel, elemezhetek és új és izgalmas módon mutathatok be humántudományi adatokat. Lenyűgözött az etimológia, a premodern utazás és az adattudomány.&#xA;Friss Ph.D. vagyok. végzett és posztdoktori ösztöndíjas a [The Hong Kong Polytechnic University (PolyU)]-n (https://www.</description>
+    </item>
+  </channel>
+</rss>

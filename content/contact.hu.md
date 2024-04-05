@@ -4,4 +4,4 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
-Ímél: partigaborhk@gmail.com
+Ímél: gabor.parti at connect.polyu.hk
