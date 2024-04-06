@@ -148,7 +148,8 @@ Cuneiform: \cf{𒀭𒊩𒆪}
 % Other fonts
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures={TeX}}
-\setmainfont{Brill}
+% \setmainfont{Brill}
+\usepackage{libertine}
 
 % East Asian writing systems
 \usepackage{kotex}
