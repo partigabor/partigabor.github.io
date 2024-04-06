@@ -1,7 +1,7 @@
 +++
 title = "Fonts & Typography"
 author = "Gabor Parti"
-date = "2022-12-01"
+date = "2023-01-01"
 weight = 11
 description = ""
 categories = []

@@ -1,7 +1,7 @@
 +++
 title = "How to set up LaTeX for multiscripted documents."
 author = "Gabor Parti"
-date = "2023-02-01"
+date = "2022-12-01"
 weight = 11
 description = ""
 categories = []
