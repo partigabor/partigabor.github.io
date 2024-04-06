@@ -1,7 +1,7 @@
 +++
-title = "How to set up LaTeX for multiscripted documents."
+title = "How to set up LaTeX for Multiscripted Documents."
 author = "Gabor Parti"
-date = "2022-12-01"
+date = "2023-01-01"
 weight = 11
 description = ""
 categories = []
@@ -9,7 +9,7 @@ tags = []
 menu = "main:posts"
 +++
 
-This is a sample preamble of a LaTeX document I use for writing multiscripted documents, where the main document language is English. This is currently the best way I have found so far to make it all work the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures; all with a harmonious look and feel. I feel like academic publishers and typsetters are still scared of using "foreign scripts", maybe this can help a few people to include them more in their documents. We are using LuaLaTeX to compile.
+This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English. This is currently the best way I have found so far to make it all work the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures; all with a harmonious look and feel. I feel like academic publishers and typsetters are still scared of using "foreign scripts", maybe this can help a few people to include them more in their documents. We are using LuaLaTeX to compile.
 
 ### Latin, Greek, Cyrillic
 
@@ -97,7 +97,7 @@ Tibetan: \bo{བོད་སྐད་}
 This works for anything. Let's say you want to go wild with Cuneiform, but you don't want to install it on your system. You can do the following:
 
 1. Download the font, e.g., [Noto Sans Cuneiform](https://fonts.google.com/noto/specimen/Noto+Sans+Cuneiform).
-2. Move it to your project folder, under, say, 'fonts'.
+2. Move it to your project folder, under, say, under a 'fonts' folder.
 3. Define a new font family:
 
 ```latex
@@ -108,7 +108,7 @@ This works for anything. Let's say you want to go wild with Cuneiform, but you d
     ]{NotoSansCuneiform}
 ```
 
-4. Define a command to use it:
+4. Define a command to call it:
 
 ```latex
 \newcommand{\cf}[1]{\cuneform{#1}\rmfamily}
@@ -119,7 +119,9 @@ This works for anything. Let's say you want to go wild with Cuneiform, but you d
 Cuneiform: \cf{𒀭𒊩𒆪}
 ```
 
-## The complete preamble
+***
+
+## Here is the complete preamble
 
 ```latex
 \documentclass[12pt]{article}
