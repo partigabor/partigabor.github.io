@@ -9,7 +9,7 @@ tags = []
 menu = "main:posts"
 +++
 
-This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English. This is currently the best way I have found so far to make it all work the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures; all with a harmonious look and feel. I feel like academic publishers and typsetters are still scared of using "foreign scripts", maybe this can help a few people to include them more in their documents. We are using LuaLaTeX to compile.
+This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures -- all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using "foreign scripts" in publications, maybe this can help a few people to include them more in their LaTeX documents. **We are using LuaLaTeX to compile.**
 
 ### Latin, Greek, Cyrillic
 
@@ -144,8 +144,6 @@ Cuneiform: \cf{𒀭𒊩𒆪}
 % \babelfont{rm}{Linux Libertine}
 % \babelfont{sf}{Linux Biolinum}
 % \babelfont{tt}{Inconsolata}
-
-
 
 % Other fonts
 \usepackage{fontspec}
