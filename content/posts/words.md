@@ -15,8 +15,6 @@ menu = "main:posts"
 
 # Words
 
-
-
 itinerant
 
 wayfarer
