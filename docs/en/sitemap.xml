@@ -2,189 +2,192 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/grenada/</loc>
+    <loc>https://partigabor.github.io/posts/horse/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://partigabor.github.io/posts/grenada/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/io/</loc>
+    <loc>https://partigabor.github.io/posts/io/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fonts/</loc>
+    <loc>https://partigabor.github.io/posts/fonts/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/latex-multiscript/</loc>
+    <loc>https://partigabor.github.io/posts/latex-multiscript/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/latex-vscode/</loc>
+    <loc>https://partigabor.github.io/posts/latex-vscode/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hugo-website/</loc>
+    <loc>https://partigabor.github.io/posts/hugo-website/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/python-package/</loc>
+    <loc>https://partigabor.github.io/posts/python-package/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-syntax/</loc>
+    <loc>https://partigabor.github.io/posts/markdown-syntax/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://partigabor.github.io/</loc>
     <lastmod>2132-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/"
+                href="https://partigabor.github.io/hu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://partigabor.github.io/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://partigabor.github.io/categories/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/categories/"
+                href="https://partigabor.github.io/hu/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://partigabor.github.io/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/trivia/</loc>
+    <loc>https://partigabor.github.io/categories/trivia/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>https://partigabor.github.io/tags/github/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/guide/</loc>
+    <loc>https://partigabor.github.io/categories/guide/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://partigabor.github.io/tags/hugo/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://partigabor.github.io/tags/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/tags/"
+                href="https://partigabor.github.io/hu/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://partigabor.github.io/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/technical/</loc>
+    <loc>https://partigabor.github.io/categories/technical/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tutorial/</loc>
+    <loc>https://partigabor.github.io/tags/tutorial/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/website/</loc>
+    <loc>https://partigabor.github.io/tags/website/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/documentation/</loc>
+    <loc>https://partigabor.github.io/tags/documentation/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://partigabor.github.io/tags/python/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://partigabor.github.io/about/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/about/"
+                href="https://partigabor.github.io/hu/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://partigabor.github.io/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://partigabor.github.io/contact/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/contact/"
+                href="https://partigabor.github.io/hu/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/contact/"
+                href="https://partigabor.github.io/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://partigabor.github.io/tags/markdown/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="http://localhost:1313/hu/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://partigabor.github.io/posts/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/publications/"
+                href="https://partigabor.github.io/hu/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/publications/"
+                href="https://partigabor.github.io/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://partigabor.github.io/publications/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/projects/"
+                href="https://partigabor.github.io/hu/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/"
+                href="https://partigabor.github.io/publications/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/syntax/</loc>
+    <loc>https://partigabor.github.io/projects/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://partigabor.github.io/hu/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://partigabor.github.io/projects/"
+                />
+  </url><url>
+    <loc>https://partigabor.github.io/tags/syntax/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://partigabor.github.io/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/authors/"
+                href="https://partigabor.github.io/hu/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/"
+                href="https://partigabor.github.io/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://partigabor.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
-                href="http://localhost:1313/hu/series/"
+                href="https://partigabor.github.io/hu/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://partigabor.github.io/series/"
                 />
   </url>
 </urlset>
