@@ -8,6 +8,8 @@ categories = []
 tags = []
 menu = "main:posts"
 hidden = "true"
+draft = "true"
+disableComments = "true"
 +++
 
 Notes and tips on how to check if a horse is healthy before buying one, and how to take care of it afterwards (in progress) ...
