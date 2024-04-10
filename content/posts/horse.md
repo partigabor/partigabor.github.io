@@ -49,7 +49,27 @@ Notes and tips on how to check if a horse is healthy before buying one, and how 
 
 * Clean before every saddling, check for abrasions.
 * Don't feed from hand - teaches them to bite.
-  
+
+# Eqipment
+
+patakaparó - hoof pick
+lókefe - brush
+
+nyeregalátét - saddle pad
+(zselé - gel pad)
+nyereg - saddle
+kengyel - stirrups
+kengyelszíj - stirrup straps (leathers) !
+heveder - girth
+kantár - bridle!
+kantárszár - reins
+zabla - bit?
+kapaszkodó - handle (on the saddle)
+
+lovaglónadrág - riding pants
+lábszárvédő - shin guard
+fejvédő - helmet
+
 <!-- ## How to ride a horse -->
 
 
