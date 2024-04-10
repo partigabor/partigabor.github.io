@@ -25,9 +25,23 @@
     <item>
       <title>Fonts &amp; Typography</title>
       <link>http://localhost:1313/posts/fonts/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/fonts/</guid>
       <description>These are my notes regarding fonts, typography, and typesetting.&#xA;Fonts&#xD;Link to heading&#xD;The Brill&#xD;Link to heading&#xD;This is a brilliant typeface for academic publishing. It is a serif typeface designed by Dalton Maag. It is a custom typeface for the academic publisher Brill, and it is available for free for non-commercial use. It is a serif typeface with a large x-height, and it is designed to be legible in small sizes.</description>
+    </item>
+    <item>
+      <title>How to set up LaTeX for Multiscripted Documents.</title>
+      <link>http://localhost:1313/posts/latex-multiscript/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/latex-multiscript/</guid>
+      <description>This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures &amp;ndash; all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using &amp;ldquo;foreign scripts&amp;rdquo; in publications, maybe this can help a few people to include them more in their LaTeX documents.</description>
+    </item>
+    <item>
+      <title>How to use LaTeX offline with VSCode</title>
+      <link>http://localhost:1313/posts/latex-vscode/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/latex-vscode/</guid>
+      <description>&amp;hellip;</description>
     </item>
     <item>
       <title>How to Build and Host a Website with Hugo</title>
@@ -55,7 +69,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Welcome! My name is Gábor Parti.1 I am a linguist and philologist, and I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel, and data science.</description>
+      <description>Welcome! My name is Gábor Parti,1 I am a linguist and philologist. In mz research I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road. My focus is on how to collect, store, process, analyze, and present humanities data in new and exciting ways. I am fascinated by etymology, pre-modern travel, and data science.</description>
     </item>
     <item>
       <title>Contact</title>

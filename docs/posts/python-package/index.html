@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+  How to Publish a Python Package: A Rudimentary Pipeline · Gabor Parti
+</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Gabor Parti">
+<meta name="description" content="A concise tutorial on how to publish an open source python package.">
+<meta name="keywords" content="academia,sciences,humanities,linguistics,digital,philology,spices">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to Publish a Python Package: A Rudimentary Pipeline"/>
+<meta name="twitter:description" content="A concise tutorial on how to publish an open source python package."/>
+
+<meta property="og:title" content="How to Publish a Python Package: A Rudimentary Pipeline" />
+<meta property="og:description" content="A concise tutorial on how to publish an open source python package." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/python-package/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-01T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/python-package/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<meta name="generator" content="Hugo 0.124.1">
+
+
+
+
+
+
+
+<link href="//fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+
+
+<link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<style>
+  body {
+      font-family: 'Raleway';
+  }
+  
+  h1, h2, h3,
+  h4, h5, h6 {
+      font-family: 'Raleway';
+  }
+  </style>
+
+<link rel="stylesheet" type="text/css" href="/hugo-cite.css" />
+
+  </head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-dark">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Gabor Parti
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Research</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/publications/">Publications</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="http://localhost:1313/hu/">🇭🇺</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/python-package/">
+              How to Publish a Python Package: A Rudimentary Pipeline
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2022-10-01T00:00:00Z">
+                October 1, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/technical/">technical</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/python/">python</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/github/">github</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/documentation/">documentation</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/tutorial/">tutorial</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="pipeline">
+  PIPELINE
+  <a class="heading-link" href="#pipeline">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.</p>
+<blockquote>
+<p>Sources and links to tutorials on the bottom.</p>
+</blockquote>
+<h5 id="step-1-create-a-python-project-manually7-or-with-poetry8-or-the-cookiecutter1-package">
+  Step 1. Create a python project manually<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, or with Poetry<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, or the cookiecutter<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> package:
+  <a class="heading-link" href="#step-1-create-a-python-project-manually7-or-with-poetry8-or-the-cookiecutter1-package">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>pip install cookiecutter
+
+cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+</code></pre>
+<h5 id="step-2-manually-add-python-scripts-submodules-in-project-subfolders-modules">
+  Step 2. Manually add python scripts (submodules) in project subfolder(s) (modules).
+  <a class="heading-link" href="#step-2-manually-add-python-scripts-submodules-in-project-subfolders-modules">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<p>Pay attention to folder structure<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>,</p>
+<pre><code>root/
+└── scikit-talk/
+    ├── __init__.py
+    └── preprocessor.py
+</code></pre>
+<p>and the commenting syntax (docstrings) format.</p>
+<pre><code>def add_nums(num1, num2):
+    &quot;&quot;&quot;This method will be used to add two numbers
+        :param int num1: The first number
+        :param int num2: The second number
+        :returns: The sum of two numbers
+        :rtype: int
+    &quot;&quot;&quot;
+    answer = num1 + num2
+    return 
+</code></pre>
+<h5 id="step-3-build-package-for-pypi2">
+  Step 3. Build package for pypi<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>:
+  <a class="heading-link" href="#step-3-build-package-for-pypi2">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>py -m pip install --upgrade pip
+
+py -m pip install --upgrade build
+
+py -m build
+</code></pre>
+<h5 id="step-4-upload-package-to-pypi2">
+  Step 4. Upload package to pypi<sup id="fnref1:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>:
+  <a class="heading-link" href="#step-4-upload-package-to-pypi2">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>py -m pip install --upgrade twine
+
+py -m twine upload dist/*
+</code></pre>
+<h5 id="step-5-create-a-git-repo-and-push-the-package-onto-it">
+  Step 5. Create a git repo and push the package onto it:
+  <a class="heading-link" href="#step-5-create-a-git-repo-and-push-the-package-onto-it">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>git init
+
+git add .
+
+git commit -m &quot;ini&quot;
+
+git branch -M main
+
+git remote add origin https://github.com/xyz/xyz.git
+
+git push -u origin main
+</code></pre>
+<p>then sync the repo in VSCode for future comfort.</p>
+<h5 id="step-6-make-a-read-the-docs-account-and-import-the-project-build-documentation3-follow-the-tutorial">
+  Step 6. Make a &ldquo;Read the Docs&rdquo; account and import the project, build documentation<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>, follow the tutorial
+  <a class="heading-link" href="#step-6-make-a-read-the-docs-account-and-import-the-project-build-documentation3-follow-the-tutorial">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>https://readthedocs.org/accounts/signup/
+</code></pre>
+<h5 id="step-7-install-sphinx-for-generating-documentation4-get-familiar-with-it-5">
+  Step 7. Install Sphinx for generating documentation<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>, get familiar with it <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>:
+  <a class="heading-link" href="#step-7-install-sphinx-for-generating-documentation4-get-familiar-with-it-5">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>pip install sphinx
+</code></pre>
+<p>with a readthedocs theme:</p>
+<pre><code>pip install sphinx sphinx_rtd_theme 
+</code></pre>
+<h5 id="step-8-initialize-sphinx-see-tutorial6">
+  Step 8. Initialize Sphinx. See tutorial!<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>
+  <a class="heading-link" href="#step-8-initialize-sphinx-see-tutorial6">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>sphinx-quickstart
+</code></pre>
+<p>then, accept defaults, then <em>change config</em>. Example conf.py below:</p>
+<hr>
+<pre><code># Configuration file for the Sphinx documentation builder.
+#
+# This file only contains a selection of the most common options. For a full
+# list see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
+
+# -- Path setup --------------------------------------------------------------
+
+# If extensions (or modules to document with autodoc) are in another directory,
+# add these directories to sys.path here. If the directory is relative to the
+# documentation root, use os.path.abspath to make it absolute, like shown here.
+#
+import os
+import sys
+sys.path.insert(0, os.path.abspath('..'))
+
+
+# -- Project information -----------------------------------------------------
+
+project = 'Name'
+copyright = '2022, Copyright holder'
+author = 'Gabor Parti'
+
+# The full version, including alpha/beta/rc tags
+release = '0.0.01'
+
+
+# -- General configuration ---------------------------------------------------
+
+# Add any Sphinx extension module names here, as strings. They can be
+# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+# ones.
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.napoleon'
+]
+
+# Add any paths that contain templates here, relative to this directory.
+templates_path = ['_templates']
+
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+
+# -- Options for HTML output -------------------------------------------------
+
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+#
+html_theme = 'sphinx_rtd_theme'
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named &quot;default.css&quot; will overwrite the builtin &quot;default.css&quot;.
+html_static_path = ['_static']
+</code></pre>
+<hr>
+<h5 id="step-8-actually-generate-rst-markdown-files-from-python-files-using-sphinx-modules-of-scripts-run-in-parent-folder">
+  Step 8. Actually generate *.rst markdown files from python files using Sphinx (modules of scripts), run in parent folder:
+  <a class="heading-link" href="#step-8-actually-generate-rst-markdown-files-from-python-files-using-sphinx-modules-of-scripts-run-in-parent-folder">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>sphinx-apidoc -o docs xyz/
+</code></pre>
+<p>where xyz is the module folder containing python scripts</p>
+<h5 id="step-9-include-the-generated-modulesrst-file-in-your-indexrst-under-contents-write-modules6">
+  Step 9. include the generated modules.rst file in your index.rst, under contents write &ldquo;modules&rdquo;:<sup id="fnref1:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>
+  <a class="heading-link" href="#step-9-include-the-generated-modulesrst-file-in-your-indexrst-under-contents-write-modules6">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<p>Example:</p>
+<pre><code>Welcome to XYZ's documentation!
+=======================================
+
+.. toctree::
+:maxdepth: 2
+:caption: Contents:
+
+modules
+
+Indices and tables
+==================
+</code></pre>
+<h5 id="step-10-go-into-docs-folder">
+  Step 10. go into docs folder
+  <a class="heading-link" href="#step-10-go-into-docs-folder">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>cd docs
+</code></pre>
+<h5 id="step-11-create-html-if-not-first-time-do-clean-before">
+  Step 11. create html (if not first time, do clean before)
+  <a class="heading-link" href="#step-11-create-html-if-not-first-time-do-clean-before">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<pre><code>(make clean html)
+
+make html
+</code></pre>
+<p>or</p>
+<pre><code>(.\make clean html)
+
+.\make html
+</code></pre>
+<h5 id="step-12-sync-git-in-vscode-or-push-manually-should-be-live-soon">
+  Step 12. Sync git in VSCode or push manually, should be live soon
+  <a class="heading-link" href="#step-12-sync-git-in-vscode-or-push-manually-should-be-live-soon">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<h5 id="step-13-done">
+  Step 13. Done
+  <a class="heading-link" href="#step-13-done">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h5>
+<h2 id="extras">
+  EXTRAS
+  <a class="heading-link" href="#extras">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>If you want a DOI, consider uploading to Zenodo or OSF.</p>
+<h2 id="sources">
+  SOURCES
+  <a class="heading-link" href="#sources">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://packaging.python.org/en/latest/tutorials/packaging-projects/">https://packaging.python.org/en/latest/tutorials/packaging-projects/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://python-poetry.org/docs/basic-usage/">https://python-poetry.org/docs/basic-usage/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://cookiecutter.readthedocs.io/en/stable/tutorials/tutorial1.html#questions">https://cookiecutter.readthedocs.io/en/stable/tutorials/tutorial1.html#questions</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://packaging.python.org/en/latest/tutorials/packaging-projects/">https://packaging.python.org/en/latest/tutorials/packaging-projects/</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p><a href="https://docs.readthedocs.io/en/stable/tutorial/index.html">https://docs.readthedocs.io/en/stable/tutorial/index.html</a>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p><a href="https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html">https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html</a>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://www.sphinx-doc.org/en/master/tutorial/index.html">https://www.sphinx-doc.org/en/master/tutorial/index.html</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p><a href="https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d">https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d</a>&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        <div class="comments">
+    <script>
+  
+    let getTheme = window.localStorage && window.localStorage.getItem("colorscheme");
+  
+    getTheme = getTheme == null ? 'photon-dark' : getTheme;
+    
+    let theme = getTheme === 'dark' ? 'github-dark' : 'github-light';
+    let s = document.createElement('script');
+    s.src = 'https://utteranc.es/client.js';
+    s.setAttribute('repo', 'partigabor\/partigabor.github.io');
+    s.setAttribute('issue-term', 'pathname');
+    s.setAttribute('theme', theme);
+    s.setAttribute('crossorigin', 'anonymous');
+    s.setAttribute('async', '');
+    document.querySelector('div.comments').innerHTML = '';
+    document.querySelector('div.comments').appendChild(s);
+  
+    </script>
+    </div>
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+    <section class="container">
+    <small>
+      ©
+      
+        2020–2024, 
+       Gabor Parti 
+      ·
+      
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a><br>
+      <a href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi">🇺🇦</a>&ensp;<a href="https://www.map.org.uk">🇵🇸</a>
+      
+    </small>
+    </section>
+  </footer>
+  
+  
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z99TBQWHHS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z99TBQWHHS');
+</script>
+
+
+  
+</body>
+
+</html>

@@ -20,13 +20,14 @@ date = "2022-09-01"
 
 # Theses
 
-* Parti, G. (2023). [*Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain*](https://theses.lib.polyu.edu.hk/handle/200/12389) [Ph.D. thesis]. The Hong Kong Polytechnic University. [<i class="ai ai-open-access ai-1x"></i>](https://theses.lib.polyu.edu.hk/handle/200/12389) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2023_mapping.bib "Bibfile")
+* Parti, G. (2023). [*Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain*](https://theses.lib.polyu.edu.hk/handle/200/12389) [Ph.D. thesis]. The Hong Kong Polytechnic University. [<i class="ai ai-open-access ai-1x"></i>](https://theses.lib.polyu.edu.hk/handle/200/12389)
 
+* Parti, G. (2017). [*Arab-indiai kapcsolatok a középkorban: Az indiai-óceáni tengeri kereskedelem* [Arab-India Relations in the Middle Ages: The Indian Ocean Maritime Trade]](https://partigabor.github.io/publications/) [M.A. thesis]. Eötvös Loránd University.
 
+* Parti, G. (2014). [*A szebíl-kuttáb Kairóban* [The Sabil-Kuttab in Cairo]](https://partigabor.github.io/publications/) [B.A. thesis]. Eötvös Loránd University.
+
+* Parti, G. (2013). [*Középkori muszlim utazók és geográfusok a Koreai-félszigetről* [Medieval Muslim Travelers and Geographers on the Korean Peninsula]](https://partigabor.github.io/publications/) [B.A. thesis]. Eötvös Loránd University.
 
 {{% center %}}
 <i class="fa fa-cog fa-spin fa-2x fa-fw"></i>
 {{% /center %}}
-
->The list is continuously updated, for a comprehensive list of publications, please refer to the CV in the [about section](/about).
-

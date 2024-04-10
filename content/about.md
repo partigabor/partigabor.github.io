@@ -46,7 +46,7 @@ My Ph.D. dissertation is titled *Mapping the Language of Spices: A Corpus-Based,
 
 **2015** &emsp; &emsp; &emsp; Arabic language course, Institut Bourguiba des Langues Vivantes | Tunis
 
-> scholarship from the Republic of Tunisia
+> Scholarship from the Republic of Tunisia
 
 <!-- {{< tabgroup >}}
   {{< tab name="Hello" >}}
