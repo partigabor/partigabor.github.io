@@ -1,5 +1,5 @@
 +++
-title = "How to set up LaTeX for Multiscripted Documents."
+title = "How to set up LaTeX for Multiscripted Documents"
 author = "Gabor Parti"
 date = "2023-01-01"
 weight = 11

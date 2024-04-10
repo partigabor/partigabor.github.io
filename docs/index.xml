@@ -6,8 +6,15 @@
     <description>Recent content on Gabor Parti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What do to with a horse</title>
+      <link>http://localhost:1313/posts/horse/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/horse/</guid>
+      <description>Notes and tips on how to check if a horse is healthy before buying one, and how to take care of it afterwards (in progress) &amp;hellip;&#xA;How to buy a horse&#xD;Link to heading&#xD;General suggestions&#xD;Link to heading&#xD;No younger than 5 years old. No older than 20 years old. No stallions, mare or gelding is good. Things to look out for&#xD;Link to heading&#xD;Physical health&#xD;Link to heading&#xD;Skin abrasions, ekzema.</description>
+    </item>
     <item>
       <title>Nutmeg in the flag of Grenada</title>
       <link>http://localhost:1313/posts/grenada/</link>
@@ -30,7 +37,7 @@
       <description>These are my notes regarding fonts, typography, and typesetting.&#xA;Fonts&#xD;Link to heading&#xD;The Brill&#xD;Link to heading&#xD;This is a brilliant typeface for academic publishing. It is a serif typeface designed by Dalton Maag. It is a custom typeface for the academic publisher Brill, and it is available for free for non-commercial use. It is a serif typeface with a large x-height, and it is designed to be legible in small sizes.</description>
     </item>
     <item>
-      <title>How to set up LaTeX for Multiscripted Documents.</title>
+      <title>How to set up LaTeX for Multiscripted Documents</title>
       <link>http://localhost:1313/posts/latex-multiscript/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/latex-multiscript/</guid>
