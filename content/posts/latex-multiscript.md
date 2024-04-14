@@ -57,7 +57,7 @@ Babelfont allows you to scale your font to match the main font's uppercase or lo
 
 ### Chinese, Japanese, Korean (CJK)
 
-For CJK scripts, I use the Noto typefaces, which are free and open source, available in many weights, in regular and bold styles, with or without *serifs*. 
+For CJK scripts, I use the Noto typefaces, which are free and open source, available in many weights, in serif or sans serif typefaces. 
 
 After years of trial and error and figuring out this mess that are CJK, I found the easiest way to type Chinese (Traditional and Simplified), Japanese (Kanji, Hiragana, Katakana), and Korean (including Hangul and Hanja) in LaTeX, **without** using any commands or macros is the following:
 
@@ -97,7 +97,7 @@ Tibetan: \bo{བོད་སྐད་}
 This works for anything. Let's say you want to go wild with Cuneiform, but you don't want to install it on your system. You can do the following:
 
 1. Download the font, e.g., [Noto Sans Cuneiform](https://fonts.google.com/noto/specimen/Noto+Sans+Cuneiform).
-2. Move it to your project folder, under, say, under a 'fonts' folder.
+2. Move it to your project folder, under, say, a 'fonts' folder.
 3. Define a new font family:
 
 ```latex

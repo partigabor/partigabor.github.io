@@ -8,11 +8,11 @@ categories = []
 tags = []
 menu = "main:posts"
 hidden = "true"
-draft = "true"
+# draft = "true"
 disableComments = "true"
 +++
 
-Notes and tips on how to check if a horse is healthy before buying one, and how to take care of it afterwards (in progress) ...
+Notes and tips on how to check if a horse is healthy before buying or renting one for a trip, and how to take care of it afterwards. (In progress...)
 
 # How to buy a horse
 
@@ -29,9 +29,9 @@ Notes and tips on how to check if a horse is healthy before buying one, and how 
 * Skin abrasions, ekzema.
 * Droopy lower lip.
 * Drooling, snotting.
-* Bad breath - sign of tooth decay, can be deadly. Normal horse breath should be herbal.
+* Bad breath - sign of tooth decay, can be deadly. Normal horse breath should smell herbal.
 * Mouth and lips should be intact, damage can be sign of bad handling (wire, etc).
-* Penis hanging down - could be sign of tranquilizer use (bad sign, could visit the stable unannounced)
+* Penis hanging down - could be sign of tranquilizer use (bad sign, might visit the stable unannounced to mitigate this)
 * Limping, the gait of the front two legs and the back two should be even.
 * Stiffness of the stomach - not good if always stiff.
 * Muscles around the front shouldn't be too tight, breathing should go easy.
@@ -44,12 +44,12 @@ Notes and tips on how to check if a horse is healthy before buying one, and how 
 
 * Not too jumpy, not too agressive, not too stubborn. Lively, curious, and friendly is good, afraid of people is not.
 * Ask the owner to ask up the four hoofs, see how the horse behaves.
-* Ask the owner to demonstrate all speeds of the horse - walk, trot, gallop - see if trained.
+* Ask the owner to demonstrate all speeds of the horse - walk, trot, gallop - see if trained well.
 * See how the horse behaves at the sight of unfamiliar objects, a bucket, plastic bottle, anything - shouldn't scare easily.
 
 ## How to take care of a horse
 
-* Clean before every saddling, check for abrasions.
+* Clean/brush before every saddling, check for abrasions.
 * Don't feed from hand - teaches them to bite.
 
 # Eqipment
@@ -58,12 +58,12 @@ patakaparó - hoof pick
 lókefe - brush
 
 nyeregalátét - saddle pad
-(zselé - gel pad)
+zselé - gel pad
 nyereg - saddle
 kengyel - stirrups
-kengyelszíj - stirrup straps (leathers) !
+kengyelszíj - stirrup straps (leathers) *
 heveder - girth
-kantár - bridle!
+kantár - bridle *
 kantárszár - reins
 zabla - bit?
 kapaszkodó - handle (on the saddle)
