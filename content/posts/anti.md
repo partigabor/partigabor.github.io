@@ -1,5 +1,5 @@
 +++
-title = "Reasons to be Anti-Christian"
+title = "Reasons to be anti-christian"
 author = "Gabor Parti"
 date = "2043-08-01"
 weight = 11

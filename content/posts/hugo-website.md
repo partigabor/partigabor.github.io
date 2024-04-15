@@ -1,7 +1,7 @@
 +++
-title = "How to Build and Host a Website with Hugo"
+title = "How to build and host a website with Hugo"
 author = "Gabor Parti"
-date = "2022-11-01"
+date = "2022-08-01"
 weight = 11
 description = "A concise tutorial on how to build and host a personal or professional website for free."
 categories = ["technical","guide"]

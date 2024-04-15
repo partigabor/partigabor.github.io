@@ -1,5 +1,5 @@
 +++
-title = "How to Publish a Python Package: A Rudimentary Pipeline"
+title = "How to publish a Python package: A rudimentary pipeline"
 author = "Gabor Parti"
 date = "2022-10-01"
 weight = 11

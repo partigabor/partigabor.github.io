@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Gabor Parti</title>
+    <link>http://localhost:1313/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Gabor Parti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Publish a Python Package: A Rudimentary Pipeline</title>
+      <link>http://localhost:1313/posts/python-package/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/python-package/</guid>
+      <description>PIPELINE&#xD;Link to heading&#xD;This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.&#xA;Sources and links to tutorials on the bottom.</description>
+    </item>
+    <item>
+      <title>How to Build and Host a Website with Hugo</title>
+      <link>http://localhost:1313/posts/hugo-website/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-website/</guid>
+      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to computers web-development.&#xA;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy.</description>
+    </item>
+  </channel>
+</rss>

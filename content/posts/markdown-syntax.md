@@ -1,5 +1,5 @@
 +++
-title = "Markdown Syntax Guide"
+title = "How to edit pages: A markdown syntax guide"
 author = "Gabor Parti"
 date = "2022-09-01"
 weight = 11

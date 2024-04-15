@@ -1,5 +1,5 @@
 +++
-title = "Words & Phrases"
+title = "Words & phrases"
 author = "Gabor Parti"
 date = "2123-09-01"
 weight = 11
