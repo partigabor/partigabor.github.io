@@ -9,18 +9,18 @@
     <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Build and Host a Website with Hugo</title>
-      <link>http://localhost:1313/posts/hugo-website/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo-website/</guid>
-      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to computers web-development.&#xA;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
+      <title>How to edit pages: A markdown syntax guide</title>
       <link>http://localhost:1313/posts/markdown-syntax/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/markdown-syntax/</guid>
       <description>&lt;p&gt;The following markdown file showcases all the features one can achieve within markdown and with Hugo shortcodes.&lt;/p&gt;&#xA;&lt;h1 id=&#34;markdown-format&#34;&gt;&#xD;&#xA;  MARKDOWN FORMAT&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#markdown-format&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>How to build and host a website with Hugo</title>
+      <link>http://localhost:1313/posts/hugo-website/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-website/</guid>
+      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to computers web-development.&#xA;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy.</description>
     </item>
   </channel>
 </rss>

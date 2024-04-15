@@ -44,24 +44,24 @@
       <description></description>
     </item>
     <item>
-      <title>Website</title>
-      <link>http://localhost:1313/tags/website/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/website/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Markdown</title>
       <link>http://localhost:1313/tags/markdown/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Syntax</title>
       <link>http://localhost:1313/tags/syntax/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website</title>
+      <link>http://localhost:1313/tags/website/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/website/</guid>
       <description></description>
     </item>
   </channel>

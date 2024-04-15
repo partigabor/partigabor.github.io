@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/grenada/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/io/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/latex-multiscript/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/latex-vscode/</loc>
+    <loc>http://localhost:1313/posts/latex-multiscript/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/latex-vscode/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/python-package/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hugo-website/</loc>
+    <loc>http://localhost:1313/posts/markdown-syntax/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-syntax/</loc>
+    <loc>http://localhost:1313/posts/hugo-website/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -37,7 +37,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
@@ -50,7 +50,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/categories/trivia/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/documentation/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
@@ -112,6 +112,9 @@
     <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -151,13 +154,10 @@
                 href="http://localhost:1313/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/website/</loc>
+    <loc>http://localhost:1313/tags/syntax/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/syntax/</loc>
+    <loc>http://localhost:1313/tags/website/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>

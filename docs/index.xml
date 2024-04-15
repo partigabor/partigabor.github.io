@@ -6,8 +6,15 @@
     <description>Recent content on Gabor Parti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What do to with a horse...</title>
+      <link>http://localhost:1313/posts/horse/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/horse/</guid>
+      <description>Notes and tips on how to check if a horse is healthy before buying or renting one for a trip, and how to take care of it afterwards. (In progress&amp;hellip;)&#xA;How to buy a horse&#xD;Link to heading&#xD;General suggestions&#xD;Link to heading&#xD;No younger than 5 years old. No older than 20 years old. No stallions, mare or gelding is good. Things to look out for&#xD;Link to heading&#xD;Physical&#xD;Link to heading&#xD;Overall healhty look and feel.</description>
+    </item>
     <item>
       <title>Nutmeg in the flag of Grenada</title>
       <link>http://localhost:1313/posts/grenada/</link>
@@ -83,7 +90,7 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>Spices &amp;amp; Spice Terminology Database&#xA;Based on my PhD dissertation about the diffusion of spice names.</description>
+      <description>Encyclopedia Aromatica&#xA;Coming soon&amp;hellip;&#xA;Spices &amp;amp; Spice Terminology Database 1.2&#xA;Based on my PhD dissertation about the diffusion of spice names.</description>
     </item>
   </channel>
 </rss>
