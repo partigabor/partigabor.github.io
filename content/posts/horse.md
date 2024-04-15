@@ -20,7 +20,7 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 
 * No younger than 5 years old.
 * No older than 20 years old.
-* No stallions, mare or gelding is good.
+* No stallions; mare or gelding is good.
 
 ## Things to look out for
 
@@ -45,19 +45,26 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 ### Mental
 
 * Not too jumpy, not too agressive, not too stubborn. Lively, curious, and friendly is good, afraid of people is not.
-* Ask the owner to ask up the four hoofs, see how the horse behaves.
+* Ask the owner to request the four hooves, see how the horse behaves.
 * Ask the owner to demonstrate all speeds of the horse - walk, trot, gallop - see if trained well.
-* See how the horse behaves at the sight of unfamiliar objects, a bucket, plastic bottle, anything - shouldn't scare easily.
-* Interact with the horse, try if you match.
+* See how the horse behaves at the sight of unfamiliar objects, a bucket, plastic bottle, car, anything - shouldn't scare easily.
+* Interact with the horse, see if you match.
 
 ## How to take care of a horse
 
-* Clean/brush before every saddling, check for abrasion, wash off sweat.
-* Pick hoof before every ride, check for little rocks.
-* Use cream on skin if irritated, don't saddle if skin is damaged.
 * Never feed from hand! It teaches them to bite. (Horses are not pets or predators, they do not depend on you giving food.)
-* Never hurt the horse, but it's ok if the horse thinks you *could* hurt it. They will test your dominance every now and then.
-* Body language is primary, voice is secondary.
+* Never hurt the horse, but it's ok if the horse thinks you *could* hurt it. They will test your dominance every now and then, and you have to be firm.
+* Body language is primary, voice is secondary. 
+
+* Brush before every saddling, check for abrasions, clean off sweat.
+* Use cream on skin if irritated, don't saddle if skin is damaged.
+* Pick hoof before every ride, check for little rocks. (From the sides, turning towards the back of the horse so they cannot kick you.)
+* Put on bridle from the side, not from the front (The horse can headbutt you accidentally.)
+* Take off bridle if stopping for a longer time, don't leave it on. (They can step on it and break the reins.)
+* Wash snaffle bit after every ride, don't wet the leather. Can help with thumb in mouth corner if horse doesn't wanna open.
+
+
+<!-- ### Saddling -->
 
 # Eqipment
 
@@ -73,7 +80,7 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 * kengyelszíj - stirrup straps (leathers) *
 * kantár - bridle *
 * kantárszár - reins
-* zabla - bit?
+* zabla - snaffle bit
 * kapaszkodó - handle (on the saddle, not standard) 
 * lovaglónadrág - riding pants
 * lábszárvédő (csizmaszár) - shin guard
