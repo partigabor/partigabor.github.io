@@ -36,7 +36,9 @@ kinds (Lee & Cohen, 2016). It is our most sensitive
 taste primary in both senses of the word, for bitter
 taste receptors are damaged easily (due to viral tracheal
 and ear infections), and are also the first to fade
-with aging (L. M. Bartoshuk et al., 2012). Unpleasant
+with aging (L. M. Bartoshuk et al., 2012). 
+
+Unpleasant
 bitter taste triggers a rejection response, and this
 effect can be observed across the animal kingdom as
 well. Herbivore primates prefer the younger, immature
@@ -52,6 +54,7 @@ that can be familiar to us: they salivated,
 coughed, and rapidly shook their heads in a response
 to the gnarly taste of the toxic fireflies which they
 never attempted to catch again (Leavell et al., 2018).
+
 Interestingly, a general negative response persists
 even if the bitter taste does not pair with any level of
 toxicity, meaning that animals keep away from bitter
@@ -84,10 +87,12 @@ societies consume medicinal herbs and herbal
 potions for thousands of years. Traditional herbalism
 – what we now consider folk medicine – marks
 the dawn of the history of medicine, and gave the
-basis for many modern remedies(Petrovska, 2012).
+basis for many modern remedies (Petrovska, 2012).
 Hence the notion that bitter medicine is hard to swallow
 however beneficial, and the related philosophical
-twist about bitter truths. Popular bitter tasting
+twist about bitter truths. 
+
+Popular bitter tasting
 foods are also in abundance: e.g. vegetables usually
 deemed healthy, such as artichokes, kale, dandelion
 greens, and bitter gourd (bitter melon); fruits,
