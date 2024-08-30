@@ -130,7 +130,7 @@ of taste (see Pilcher, 2012; Williams et al., 2016)
 
 ## References
 
-Bartoshuk, L. M., Catalanotto, F., Hoffman, H., Logan, H., & Snyder, D. J. (2012). Taste damage (otitis
+* Bartoshuk, L. M., Catalanotto, F., Hoffman, H., Logan, H., & Snyder, D. J. (2012). Taste damage (otitis
 media, tonsillectomy and head and neck cancer), oral sensations and bmi. Physiology & Behavior, 107(4), 516–526. https://doi.org/https://doi.org/10.1016/j.physbeh.2012.06.013
 
 Bartoshuk, L., Duffy, V., Reed, D., & Williams, A. (1996). Supertasting, earaches and head injury:
