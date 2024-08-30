@@ -1,5 +1,5 @@
 +++
-title = "The Evolutionary Background of Bitter Taste"
+title = "The evolutionary background of bitterness"
 author = "Gabor Parti"
 date = "2023-03-01"
 weight = 11
@@ -12,7 +12,7 @@ hidden = "true"
 disableComments = "true"
 +++
 
-## Bitterness as an evolutionary tool
+## 1. Bitter taste as an evolutionary tool
 
 In human evolutionary biology, bitter taste receptors
 play an important protective role, as they can detect
@@ -54,7 +54,7 @@ tasting nutrients even when they are not dangerous
 enjoy olives or broccoli, because we know they
 are safe to consume.
 
-## Human taste perception of bitterness
+## 2. Human taste perception of bitterness
 
 Human perception of bitterness since evolved due to
 the use of fire, various cooking techniques, our overall
@@ -68,6 +68,7 @@ and medicine production, e.g. caffeine (coffee), quinine
 (tonic), nicotine (tobacco), and cocaine (coca
 plant). The ethanol in alcoholic drinks carries a base
 bitter taste as well (Hall & Guyton, 2016, p. 685).
+
 Besides well documented genetic variation in bitter
 taste perception, it is generally true that most people
 find bitter taste unattractive (Duffy & Bartoshuk,
@@ -95,6 +96,7 @@ into many of the apéritifs and digestifs of today
 (ToussaintSamat,
 2009, pp. 166, 636). And we must
 not forget the magic potion of our time: coffee.
+
 By anecdotal evidence we all know that young
 children tend to follow the primal evolutionary response
 of rejection, they usually loathe the taste of
@@ -133,39 +135,39 @@ of taste (see Pilcher, 2012; Williams et al., 2016)
 * Bartoshuk, L. M., Catalanotto, F., Hoffman, H., Logan, H., & Snyder, D. J. (2012). Taste damage (otitis
 media, tonsillectomy and head and neck cancer), oral sensations and bmi. Physiology & Behavior, 107(4), 516–526. https://doi.org/https://doi.org/10.1016/j.physbeh.2012.06.013
 
-Bartoshuk, L., Duffy, V., Reed, D., & Williams, A. (1996). Supertasting, earaches and head injury:
+* Bartoshuk, L., Duffy, V., Reed, D., & Williams, A. (1996). Supertasting, earaches and head injury:
 Genetics and pathology alter our taste worlds. Neuroscience & Biobehavioral Reviews, 20(1), 79–87.
 
-Duffy, V. B., & Bartoshuk, L. M. (2000). Food acceptance and genetic variation in taste. Journal of
+* Duffy, V. B., & Bartoshuk, L. M. (2000). Food acceptance and genetic variation in taste. Journal of
 the American Dietetic Association, 100(6), 647–655. https://doi.org/https://doi.org/10.1016/S00028223(00)001917
 
-Glendinning, J. I. (1994). Is the bitter rejection response always adaptive? Physiology & behavior, 56(6),
+* Glendinning, J. I. (1994). Is the bitter rejection response always adaptive? Physiology & behavior, 56(6),
 1217–1227. 
 
-Hall, J. E., & Guyton, A. C. (2016). Guyton and hall textbook of medical physiology (13th ed.). Elsevier.
+* Hall, J. E., & Guyton, A. C. (2016). Guyton and hall textbook of medical physiology (13th ed.). Elsevier.
 
-Leavell, B. C., Rubin, J. J., McClure, C. J. W., Miner, K. A., Branham, M. A., & Barber, J. R. (2018). Fireflies thwart bat attack with multisensory warnings. Science Advances, 4(8), eaat6601. https://doi.org/10.1126/sciadv.aat6601
+* Leavell, B. C., Rubin, J. J., McClure, C. J. W., Miner, K. A., Branham, M. A., & Barber, J. R. (2018). Fireflies thwart bat attack with multisensory warnings. Science Advances, 4(8), eaat6601. https://doi.org/10.1126/sciadv.aat6601
 
-Lee, R. J., & Cohen, N. A. (2016). Bitter taste bodyguards. Scientific American, 314(2), 38–43.
+* Lee, R. J., & Cohen, N. A. (2016). Bitter taste bodyguards. Scientific American, 314(2), 38–43.
 Logue, A. W. (2015). The psychology of eating and drinking (4th ed.). Routledge. 
 
-Petrovska, B. B. (2012). Historical review of medicinal plants’ usage. Pharmacogn Rev, 6(11), 1–5.
+* Petrovska, B. B. (2012). Historical review of medicinal plants’ usage. Pharmacogn Rev, 6(11), 1–5.
 https://doi.org/10.4103/09737847.95849
 
-Pilcher, J. M. (2012). The oxford handbook of food history.
+* Pilcher, J. M. (2012). The oxford handbook of food history.
 Oxford University Press.
 
-Prutkin, J., Duffy, V., Etter, L., Fast, K., Gardner, E., Lucchina, L., Snyder, D., Tie, K., Weiffenbach, J., & Bartoshuk, L. (2000). Genetic variation and inferences about perceived taste intensity in mice and men. 
+* Prutkin, J., Duffy, V., Etter, L., Fast, K., Gardner, E., Lucchina, L., Snyder, D., Tie, K., Weiffenbach, J., & Bartoshuk, L. (2000). Genetic variation and inferences about perceived taste intensity in mice and men. 
 
-Physiology & behavior, 69(12), 161–173. Toussaint-Samat, M. (2009). A history of food (2nd ed.). WileyBlackwell. 
+* Physiology & behavior, 69(12), 161–173. Toussaint-Samat, M. (2009). A history of food (2nd ed.). WileyBlackwell. 
 
-Wang, X., Thomas, S. D., & Zhang, J. (2004). Relaxation of selective constraint and loss of function
+* Wang, X., Thomas, S. D., & Zhang, J. (2004). Relaxation of selective constraint and loss of function
 in the evolution of human bitter taste receptor genes. Human Molecular Genetics, 13(21), 2671–2678. https://doi.org/10.1093/hmg/ddh289
 
-Williams, J. A., Bartoshuk, L. M., Fillingim, R. B., & Dotson, C. D. (2016). Exploring ethnic differences
+* Williams, J. A., Bartoshuk, L. M., Fillingim, R. B., & Dotson, C. D. (2016). Exploring ethnic differences
 in taste perception. Chemical Senses, 41(5), 449–456. https://doi.org/10.1093/chemse/bjw021
 
-Witt, M. (2019). Anatomy and development of the human taste system. Handbook of clinical neurology, 164, 147–171.
+* Witt, M. (2019). Anatomy and development of the human taste system. Handbook of clinical neurology, 164, 147–171.
 
 
 
