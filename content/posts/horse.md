@@ -8,7 +8,7 @@ categories = []
 tags = []
 menu = "main:posts"
 hidden = "true"
-# draft = "true"
+draft = "true"
 disableComments = "true"
 +++
 
