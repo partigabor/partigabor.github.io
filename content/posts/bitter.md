@@ -12,6 +12,9 @@ hidden = "true"
 disableComments = "true"
 +++
 
+<!-- A picture of fireflies insterted below -->
+![Fireflies](/images/fireflies.jpg)
+
 ## 1. Bitter taste as an evolutionary tool
 
 In human evolutionary biology, bitter taste receptors
