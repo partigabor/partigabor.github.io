@@ -4,8 +4,8 @@ author = "Gabor Parti"
 date = "2022-09-01"
 plotly = "true"
 +++
-
-[<i class="fa fa-anchor" aria-hidden="true"></i> **Encyclopedia Aromatica**](https://partigabor.github.io/aromatica/)
+<!-- 
+[<i class="fa fa-anchor" aria-hidden="true"></i> **Encyclopedia Aromatica**](https://partigabor.github.io/aromatica/) -->
 
 > <i class="fa fa-cog fa-spin fa fa-fw"></i> Work in progress!
 
