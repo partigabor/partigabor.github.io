@@ -6,7 +6,7 @@ date = "2022-09-01"
 
 <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
 
-Parti Gábor vagyok, nyelvész és filológus. Filológiai és bölcsészettudományi kutatásaim során igyekszem különböző digitális technológiákat alkalmazi. Érdeklődésem középpontjában a nyelvi és kulturális kölcsönhatások állnak, különösen történelmi kereskedelmi útvonalak mentén, az Indiai-óceánon és a Tengeri Selyemút körül. 
+<!-- Parti Gábor vagyok, nyelvész és filológus. Filológiai és bölcsészettudományi kutatásaim során igyekszem különböző digitális technológiákat alkalmazi. Érdeklődésem középpontjában a nyelvi és kulturális kölcsönhatások állnak, különösen történelmi kereskedelmi útvonalak mentén, az Indiai-óceánon és a Tengeri Selyemút körül.  -->
 
 <!-- Arra fókuszálok, hogyan gyűjtsek, tárolhatok, dolgozhatok fel, elemezhetek és új és izgalmas módon mutathatok be humántudományi adatokat. Lenyűgözött az etimológia, a premodern utazás és az adattudomány. -->
 

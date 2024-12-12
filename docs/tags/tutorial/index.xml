@@ -4,7 +4,7 @@
     <title>Tutorial on Gabor Parti</title>
     <link>http://localhost:1313/tags/tutorial/</link>
     <description>Recent content in Tutorial on Gabor Parti</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/python-package/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/python-package/</guid>
-      <description>PIPELINE&#xD;Link to heading&#xD;This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.&#xA;Sources and links to tutorials on the bottom.</description>
+      <description>&lt;h1 id=&#34;pipeline&#34;&gt;&#xD;&#xA;  PIPELINE&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#pipeline&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Sources and links to tutorials on the bottom.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to build and host a website with Hugo</title>
       <link>http://localhost:1313/posts/hugo-website/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugo-website/</guid>
-      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to computers web-development.&#xA;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy.</description>
+      <description>&lt;p&gt;This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to &lt;del&gt;computers&lt;/del&gt; web-development.&lt;/p&gt;&#xA;&lt;p&gt;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy. Comments and suggestions below are welcome!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

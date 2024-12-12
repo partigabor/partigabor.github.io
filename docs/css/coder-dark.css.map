@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder-dark.css",
-	"sourceRoot": "C:/Users/Saga/GitHub/partigabor.github.io",
+	"sourceRoot": "C:/Users/parti/Projects/partigabor.github.io",
 	"sources": [
 		"assets/scss/coder-dark.scss",
 		"assets/scss/_variables.scss",

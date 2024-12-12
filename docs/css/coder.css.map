@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder.css",
-	"sourceRoot": "C:/Users/Saga/GitHub/partigabor.github.io",
+	"sourceRoot": "C:/Users/parti/Projects/partigabor.github.io",
 	"sources": [
 		"assets/scss/coder.scss",
 		"assets/scss/css/normalize.css",

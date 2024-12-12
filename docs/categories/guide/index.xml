@@ -4,7 +4,7 @@
     <title>Guide on Gabor Parti</title>
     <link>http://localhost:1313/categories/guide/</link>
     <description>Recent content in Guide on Gabor Parti</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss+xml" />
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/posts/hugo-website/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugo-website/</guid>
-      <description>This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to computers web-development.&#xA;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy.</description>
+      <description>&lt;p&gt;This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to &lt;del&gt;computers&lt;/del&gt; web-development.&lt;/p&gt;&#xA;&lt;p&gt;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy. Comments and suggestions below are welcome!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

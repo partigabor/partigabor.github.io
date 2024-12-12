@@ -12,18 +12,23 @@
 
 
 <meta name="author" content="Gabor Parti">
-<meta name="description" content="This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures &ndash; all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using &ldquo;foreign scripts&rdquo; in publications, maybe this can help a few people to include them more in their LaTeX documents.">
+<meta name="description" content="This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures &ndash; all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using &ldquo;foreign scripts&rdquo; in publications, maybe this can help a few people to include them more in their LaTeX documents. We are using LuaLaTeX to compile.">
 <meta name="keywords" content="academia,sciences,humanities,linguistics,digital,philology,spices">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to configure LaTeX for multiscripted documents"/>
-<meta name="twitter:description" content="This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures &ndash; all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using &ldquo;foreign scripts&rdquo; in publications, maybe this can help a few people to include them more in their LaTeX documents."/>
 
-<meta property="og:title" content="How to configure LaTeX for multiscripted documents" />
-<meta property="og:description" content="This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures &ndash; all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using &ldquo;foreign scripts&rdquo; in publications, maybe this can help a few people to include them more in their LaTeX documents." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/latex-multiscript/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-12-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-12-01T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to configure LaTeX for multiscripted documents">
+  <meta name="twitter:description" content="This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures – all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using “foreign scripts” in publications, maybe this can help a few people to include them more in their LaTeX documents. We are using LuaLaTeX to compile.">
+
+<meta property="og:url" content="http://localhost:1313/posts/latex-multiscript/">
+  <meta property="og:site_name" content="Gabor Parti">
+  <meta property="og:title" content="How to configure LaTeX for multiscripted documents">
+  <meta property="og:description" content="This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures – all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using “foreign scripts” in publications, maybe this can help a few people to include them more in their LaTeX documents. We are using LuaLaTeX to compile.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-12-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-12-01T00:00:00+00:00">
 
 
 
@@ -68,7 +73,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.124.1">
+<meta name="generator" content="Hugo 0.136.5">
 
 
 
@@ -411,9 +416,11 @@
 <p>Noto is a font family with harmonious look and feel for over 100 writing systems and 800 languages, designed by Monotype and commissioned by Google. All free and open source.</p>
 <details ><summary>More&hellip;</summary>
   <div class="markdown-inner">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/16_NYHUZ1kM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+    <pre><code>&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;allowfullscreen&quot; loading=&quot;eager&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; src=&quot;https://www.youtube.com/embed/16_NYHUZ1kM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&quot; style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&quot; title=&quot;YouTube video&quot;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
 
   </div>
 </details>
@@ -474,11 +481,12 @@
       ·
       
       Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a><br>
-      <a href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi">🇺🇦</a>&ensp;<a href="https://www.map.org.uk">🇵🇸</a>
+      
       
     </small>
     </section>
   </footer>
+  
   
   
   </main>

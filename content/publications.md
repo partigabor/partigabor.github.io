@@ -4,6 +4,10 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
+# Book Chapters
+
+* Parti, G. (2024). A Fűszer-szigetek a Tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade of Cloves and Nutmeg]. In Kósa G. (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). Budapest: ELTE BTK Kínai Tanszék. [<i class="ai ai-open-access ai-1x"></i>](/files/papers/parti_2024_fuszerszigetek.pdf) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_fuszerszigetek.bib "Bibfile")
+
 # Journal Articles
 
 * Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), *338*. [<i class="ai ai-open-access ai-1x"></i>](https://www.sino-platonic.org/) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_mapping.bib "Bibfile") (Based on Ph.D. thesis)

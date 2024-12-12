@@ -15,15 +15,23 @@
 <meta name="description" content="Help with Markdown syntax and Hugo schortcodes.">
 <meta name="keywords" content="academia,sciences,humanities,linguistics,digital,philology,spices">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to edit pages: A markdown syntax guide"/>
-<meta name="twitter:description" content="Help with Markdown syntax and Hugo schortcodes."/>
 
-<meta property="og:title" content="How to edit pages: A markdown syntax guide" />
-<meta property="og:description" content="Help with Markdown syntax and Hugo schortcodes." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/markdown-syntax/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-09-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-09-01T00:00:00+00:00" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to edit pages: A markdown syntax guide">
+  <meta name="twitter:description" content="Help with Markdown syntax and Hugo schortcodes.">
+
+<meta property="og:url" content="http://localhost:1313/posts/markdown-syntax/">
+  <meta property="og:site_name" content="Gabor Parti">
+  <meta property="og:title" content="How to edit pages: A markdown syntax guide">
+  <meta property="og:description" content="Help with Markdown syntax and Hugo schortcodes.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-09-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-09-01T00:00:00+00:00">
+    <meta property="article:tag" content="Markdown">
+    <meta property="article:tag" content="Syntax">
+    <meta property="article:tag" content="Hugo">
 
 
 
@@ -68,7 +76,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.124.1">
+<meta name="generator" content="Hugo 0.136.5">
 
 
 
@@ -440,22 +448,22 @@ The blockquote element represents content that is quoted from another source, op
 </h2>
 <p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports them out-of-the-box.</p>
 <table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bob</td>
-<td>27</td>
-</tr>
-<tr>
-<td>Alice</td>
-<td>23</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Age</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Bob</td>
+          <td>27</td>
+      </tr>
+      <tr>
+          <td>Alice</td>
+          <td>23</td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="inline-markdown-within-tables">
   Inline Markdown within tables
@@ -465,54 +473,54 @@ The blockquote element represents content that is quoted from another source, op
   </a>
 </h4>
 <table>
-<thead>
-<tr>
-<th>Italics</th>
-<th>Bold</th>
-<th>Code<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>italics</em></td>
-<td><strong>bold</strong></td>
-<td><code>code</code></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Italics</th>
+          <th>Bold</th>
+          <th>Code<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>italics</em></td>
+          <td><strong>bold</strong></td>
+          <td><code>code</code></td>
+      </tr>
+  </tbody>
 </table>
 <table>
-<thead>
-<tr>
-<th>huh</th>
-<th>analyzability</th>
-<th>English</th>
-<th>Arabic</th>
-<th>Chinese</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>analyzable</td>
-<td>111</td>
-<td>50</td>
-<td>99</td>
-</tr>
-<tr>
-<td>1</td>
-<td>unanalyzable</td>
-<td>39</td>
-<td>32</td>
-<td>20</td>
-</tr>
-<tr>
-<td>2</td>
-<td>semi-analyzable</td>
-<td>3</td>
-<td>4</td>
-<td>1</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>huh</th>
+          <th>analyzability</th>
+          <th>English</th>
+          <th>Arabic</th>
+          <th>Chinese</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>analyzable</td>
+          <td>111</td>
+          <td>50</td>
+          <td>99</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>unanalyzable</td>
+          <td>39</td>
+          <td>32</td>
+          <td>20</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>semi-analyzable</td>
+          <td>3</td>
+          <td>4</td>
+          <td>1</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="code-blocks">
   Code Blocks
@@ -1197,9 +1205,12 @@ Centered text
 </h2>
 <div class="highlight"><pre tabindex="0" style="color:#b0c4de;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#8a93a5;font-style:italic">{{</span><span style="color:#c7bf54">&lt;</span> <span style="color:#b3d23c">youtube</span> <span style="color:#d19a66">16</span><span style="color:#b3d23c">_NYHUZ1kM</span> <span style="color:#c7bf54">&gt;</span><span style="color:#8a93a5;font-style:italic">}}</span>
 </span></span></code></pre></div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/16_NYHUZ1kM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/16_NYHUZ1kM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <p><a href="https://www.innoq.com/en/blog/markdown-with-zotero-workflow/">https://www.innoq.com/en/blog/markdown-with-zotero-workflow/</a></p>
 <h2 id="cite">
@@ -1318,11 +1329,12 @@ Plotly.d3.json("/plotly/distribution.json", function(err, fig) {
       ·
       
       Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a><br>
-      <a href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi">🇺🇦</a>&ensp;<a href="https://www.map.org.uk">🇵🇸</a>
+      
       
     </small>
     </section>
   </footer>
+  
   
   
   </main>

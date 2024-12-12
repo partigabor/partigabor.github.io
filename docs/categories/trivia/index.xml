@@ -4,7 +4,7 @@
     <title>Trivia on Gabor Parti</title>
     <link>http://localhost:1313/categories/trivia/</link>
     <description>Recent content in Trivia on Gabor Parti</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/trivia/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/grenada/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/grenada/</guid>
-      <description>I have been drawing flags ever since I was a kid, and all my life I thought that the Grenadian flag has tiny little flame. Now, after spending 3 years on a PhD thesis about spices, I found out that the flag features an open nutmeg fruit (Myristica fragrans), for its important role in the island&amp;rsquo;s economy. Isn&amp;rsquo;t that neat.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Flag_of_Grenada&#34;&gt;&lt;img alt=&#34;The flag of Grenada&#34; src=&#34;http://localhost:1313/images/grenada.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have been drawing flags ever since I was a kid, and all my life I thought that the Grenadian flag has tiny little flame. Now, after spending 3 years on a PhD thesis about spices, I found out that the flag features an open &lt;a href=&#34;https://partigabor.github.io/spice/book/materials/nutmeg/&#34;&gt;nutmeg&lt;/a&gt; fruit (&lt;em&gt;Myristica fragrans&lt;/em&gt;), for its important role in the island&amp;rsquo;s economy. Isn&amp;rsquo;t that neat.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/File:NutmegStVincent2.jpg&#34;&gt;&lt;img alt=&#34;Open nutmeg fruit&#34; src=&#34;http://localhost:1313/images/open_nutmeg_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- ***&#xD;&#xA;&#xD;&#xA;# Bibliography&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Bibliography called, but no references&#xD;&#xA;&#xD;&#xA;&#xD;&#xA; --&gt;</description>
     </item>
     <item>
       <title>The .io domain name</title>
       <link>http://localhost:1313/posts/io/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/io/</guid>
-      <description>What is the .io domain name and why is it problematic?&#xD;Link to heading&#xD;Preferred by tech companies, the .io domain name does not actually refer to the input-output word pair (I/O) we all learned about in primary school. I still remember that IT teacher - Gyuri bácsi - with the black mustache and white lab-coat trying to calm us down when the first Windows 98 PCs arrived. We suddenly got slapped in the face by the ever-accelerating pace of technology and subsequently forgot all our (very limited) MS-DOS skills.</description>
+      <description>&lt;h1 id=&#34;what-is-the-io-domain-name-and-why-is-it-problematic&#34;&gt;&#xD;&#xA;  What is the .io domain name and why is it problematic?&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-is-the-io-domain-name-and-why-is-it-problematic&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;Preferred by tech companies, the .io domain name does not actually refer to the input-output word pair (I/O) we all learned about in primary school. I still remember that IT teacher - Gyuri bácsi - with the black mustache and white lab-coat trying to calm us down when the first Windows 98 PCs arrived. We suddenly got slapped in the face by the ever-accelerating pace of technology and subsequently forgot all our (very limited) MS-DOS skills. The last Linux machines were left behind in the old számtechterem&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, jinxing the future towards a world more inhumane, ruled by for-profit tech companies.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
