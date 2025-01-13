@@ -4,7 +4,7 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
-Download papers with the [<i class="ai ai-open-access ai-1x"></i>](https://partigabor.github.io/files/papers) icon. Download BibTeX files with the [<i class="fa fa-1x fa-info-circle"></i>](https://partigabor.github.io/files/bib) icon.
+Download papers with the <i class="ai ai-open-access ai-1x"></i> icon. Download BibTeX files with the <i class="fa fa-1x fa-info-circle"></i> icon.
 
 # Book Chapters
 
