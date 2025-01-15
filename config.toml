@@ -4,7 +4,6 @@ theme = ["hugo-coder", "hugo-cite"]
 languageCode = "en"
 defaultContentLanguage = "en"
 publishDir = "docs"
-paginate = 20
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
