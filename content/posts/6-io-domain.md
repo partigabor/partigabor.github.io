@@ -1,9 +1,9 @@
 +++
 title = "The .io domain name"
 author = "Gabor Parti"
-date = "2023-01-01"
+date = "2023-06-01"
 weight = 11
-description = ""
+description = "A short and troubling history of the .io domain name."
 categories = ["trivia"]
 tags = []
 menu = "main:posts"

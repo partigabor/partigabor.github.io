@@ -13,13 +13,15 @@ This is a short step-by-step guide to setting up LaTeX on your local machine if 
 
 ## 1. Install TexLive
 
-Download the latest version of [TexLive](https://tug.org/texlive/windows.html) installer from the official website. Running the installer will download and install LaTeX and hundreds of packages that are part of the deal. The installation process is easy but LONG, so you an a stable internet connection and a few hours.
+Download the latest version of [TexLive](https://tug.org/texlive/windows.html) installer from the official website. Running the installer will download and install LaTeX and hundreds of packages that are part of the deal. The installation process is pretty straightforward, but it takes **long**, so make sure you have a stable internet connection and a charging cable.
 
-The installation will ask you if you need the front-end software called TeXworks. You can install it if you want, but I recommend using Visual Studio Code as a LaTeX editor, which is a more versatile tool and code editor with Git integration and so on.
+The installation will ask you if you need the front-end software called TeXworks, which is essentially a LaTeX editor. You can install it if you want, but I recommend using something else: 
 
 ## 2. Install VSCode as a LaTeX editor
 
-Download and install [Visual Studio Code](https://code.visualstudio.com/). It is a fast, free and open-source code editor developed by Microsoft.
+Visual Studio Code is a light and snappy freeware, developed by Microsoft that you can tailor to your needs. It is an IDE (integrated development environment), i.e. code editor, a more versatile tool with Git integration and plenty of extensions to handle any kind of file not just those related to tex. You can use it for writing code, markdown, and of course LaTeX.
+
+Download and install [Visual Studio Code](https://code.visualstudio.com/). 
 
 ## 3. Install LaTeX Workshop extension
 
@@ -52,6 +54,7 @@ Open the settings in VSCode (Preferences: Open User Settings (JSON)) by hitting 
 
 For example, this above will allow you to compile your document with LuaLaTeX using `latexmk` (which is the best compiler for modern documents with Unicode characters and other fancy stuff). You can fully customize the components and the recipes, you can search online how to do it.
 
+If you sign in to VSCode (via GitHub for example), you can sync your settings across devices.
 
 
 

@@ -1,7 +1,7 @@
 +++
 title = "Readings"
 author = "Gabor Parti"
-date = "2023-02-01"
+date = "2024-01-01"
 weight = 11
 draft = "true"
 description = ""
@@ -14,13 +14,19 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 
 # Books
 
-<!-- <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"></div> -->
+## Non-Fiction
+
+Cecelia Watson: Semicolon
+
+<i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star-half"></i>
+
+<div class="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
+
+Guy Delisle: Shenzen, Pyongyang, Burma Chronicles
+
+
 
 ## Academic
-
-<!-- {{< cite "" >}} -->
-
-<!-- <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star-half"></i> -->
 
 Two Medieval Merchant Guilds of South India {{< cite "abraham_two_1988" >}}
 
@@ -50,8 +56,6 @@ Early Indonesian Commerce: A study of the origins of Śrīvijaya {{< cite "wolte
 
 
 
-
-
 ### <i class="fa fa-1x fa-bolt"></i> Very Short Introductions (OUP)
 
 Abrahamic Religions, The {{< cite "cohen_abrahamic_2019" >}}
@@ -76,17 +80,13 @@ Linguistics {{< cite "matthews_linguistics_2003" >}}
 
 Mongols, The {{< cite "rossabi_mongols_2012" >}}
 
+
+
 <!-- ## Fiction -->
 
+<!-- Claude Cockburn: Beat the Devil -->
 
 <!-- ## Other -->
-
-Guy Delisle: Shenzen, Pyongyang, Burma Chronicles
-
-Claude Cockburn: Beat the Devil
-
-
-
 
 ***
 

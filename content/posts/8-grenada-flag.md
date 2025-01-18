@@ -1,7 +1,7 @@
 +++
 title = "Nutmeg in the flag of Grenada"
 author = "Gabor Parti"
-date = "2023-02-01"
+date = "2023-08-01"
 weight = 11
 description = ""
 categories = ["trivia"]

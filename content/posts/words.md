@@ -1,7 +1,7 @@
 +++
 title = "Words & phrases"
 author = "Gabor Parti"
-date = "2123-09-01"
+date = "2125-01-01"
 weight = 11
 description = ""
 categories = []
