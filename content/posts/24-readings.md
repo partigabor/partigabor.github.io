@@ -3,15 +3,15 @@ title = "Readings"
 author = "Gabor Parti"
 date = "2024-01-01"
 weight = 11
-draft = "true"
 description = ""
 categories = ["academic"]
 tags = []
 menu = "main:posts"
+draft = "true"
+hidden = "true"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++
-
 # Books
 
 ## Non-Fiction

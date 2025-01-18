@@ -3,13 +3,14 @@ title = "Reasons to be anti-christian"
 author = "Gabor Parti"
 date = "2125-01-01"
 weight = 11
-draft = "true"
 description = ""
-categories = []
+categories = ["trivia"]
 tags = []
 menu = "main:posts"
+draft = "true"
+hidden = "true"
 disableComments = "true"
-bibFile = "static/files/bibliography.json" 
+bibFile = "static/files/bibliography.json" # path relative to project root
 +++
 
 ## 1. The Christian faith and the Bible supplied the ideological material for the colonial exploitation of the world

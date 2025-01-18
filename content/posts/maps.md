@@ -4,11 +4,14 @@ author = "Gabor Parti"
 date = "2125-01-01"
 weight = 11
 description = ""
-categories = []
+categories = ["trivia"]
 tags = []
 menu = "main:posts"
+draft = "true"
+hidden = "true"
+disableComments = "true"
+bibFile = "static/files/bibliography.json" # path relative to project root
 +++
-
 # Some interesting maps
 
 [Ibn Hawqal's map](https://en.wikipedia.org/wiki/Ibn_Hawqal), 977, Abbasid Caliphate
