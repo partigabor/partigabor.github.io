@@ -1,5 +1,5 @@
 +++
-title = "What do to with a horse..."
+title = "What do to with a horse"
 author = "Gabor Parti"
 date = "2023-09-01"
 weight = 11
