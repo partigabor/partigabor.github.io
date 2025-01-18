@@ -1,18 +1,20 @@
 +++
 title = "What do to with a horse..."
 author = "Gabor Parti"
-date = "2024-01-01"
+date = "2023-09-01"
 weight = 11
 description = ""
-categories = []
+categories = ["trivia"]
 tags = []
 menu = "main:posts"
-hidden = "true"
 draft = "true"
+hidden = "true"
 disableComments = "true"
+bibFile = "static/files/bibliography.json" # path relative to project root
 +++
 
-Notes and tips on how to check if a horse is healthy before buying or renting one for a trip, and how to take care of it afterwards. (In progress...)
+
+Notes and tips on how to check if a horse is healthy before buying one, how to take care of it, and what you need for riding. (In progress...)
 
 # How to buy a horse
 
@@ -40,7 +42,7 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 * Hair should be shiny.
 * Hooves should be in good condition.
 * Not too skinny, not too weak.
-* If all looks good but your gut feeling says no, don't buy it.
+* If all looks good but your gut feeling says no, don't buy.
 
 ### Mental
 
@@ -52,9 +54,14 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 
 ## How to take care of a horse
 
+### General
+
 * Never feed from hand! It teaches them to bite. (Horses are not pets or predators, they do not depend on you giving food.)
 * Never hurt the horse, but it's ok if the horse thinks you *could* hurt it. They will test your dominance every now and then, and you have to be firm.
 * Body language is primary, voice is secondary. 
+* 
+
+### Riding
 
 * Brush before every saddling, check for abrasions, clean off sweat.
 * Use cream on skin if irritated, don't saddle if skin is damaged.
@@ -62,9 +69,6 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 * Put on bridle from the side, not from the front (The horse can headbutt you accidentally.)
 * Take off bridle if stopping for a longer time, don't leave it on. (They can step on it and break the reins.)
 * Wash snaffle bit after every ride, don't wet the leather. Can help with thumb in mouth corner if horse doesn't wanna open.
-
-
-<!-- ### Saddling -->
 
 # Eqipment
 
@@ -81,18 +85,10 @@ Notes and tips on how to check if a horse is healthy before buying or renting on
 * kantár - bridle *
 * kantárszár - reins
 * zabla - snaffle bit
+* bukdólókötél - martingale (only if very jumpy)
 * kapaszkodó - handle (on the saddle, not standard) 
 * lovaglónadrág - riding pants
 * lábszárvédő (csizmaszár) - shin guard
 * kobak - helmet
 
 <!-- ## How to ride a horse -->
-
-
-
-
-
-
-
-
-
