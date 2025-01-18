@@ -1,5 +1,26 @@
 Creative Commons Attribution Share Alike 4.0 International
 
+### License Overview
+
+Similar to **CC-BY-4.0** but requires derivatives be distributed under the same or a similar, compatible license. Frequently used for media assets and educational materials. A previous version is the default license for Wikipedia and other Wikimedia projects. Not recommended for software.
+
+#### Permissions
+- Commercial use
+- Distribution
+- Modification
+- Private use
+
+#### Conditions
+- License and copyright notice
+- Same license
+- State changes
+
+#### Limitations
+- Liability
+- Patent use
+- Trademark use
+- Warranty
+
 =======================================================================
 
 Creative Commons Corporation ("Creative Commons") is not a law firm and
