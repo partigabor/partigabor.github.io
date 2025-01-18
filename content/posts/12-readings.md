@@ -1,14 +1,14 @@
 +++
 title = "Readings"
 author = "Gabor Parti"
-date = "2024-01-01"
+date = "2023-12-01"
 weight = 11
 description = ""
 categories = ["academic"]
 tags = []
 menu = "main:posts"
 draft = "true"
-hidden = "true"
+hidden = "false"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++
@@ -24,7 +24,7 @@ Cecelia Watson: Semicolon
 
 Guy Delisle: Shenzen, Pyongyang, Burma Chronicles
 
-
+<!-- 
 
 ## Academic
 
@@ -78,7 +78,7 @@ Islamic History {{< cite "silverstein_islamic_2010" >}}
 
 Linguistics {{< cite "matthews_linguistics_2003" >}}
 
-Mongols, The {{< cite "rossabi_mongols_2012" >}}
+Mongols, The {{< cite "rossabi_mongols_2012" >}} -->
 
 
 
