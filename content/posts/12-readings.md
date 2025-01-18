@@ -16,8 +16,16 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 
 ## Non-Fiction
 
-<img src="/images/books/watson.jpg" alt="Semicolon" width="200"> Cecelia Watson (2019) Semicolon <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star-half"></i>
+<!-- <img src="/images/books/watson.jpg" alt="Semicolon" width="200"> Cecelia Watson (2019) Semicolon <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star-half"></i> -->
 
+<img src="/images/books/watson.jpg" alt="Semicolon" width="200"> Cecelia Watson (2019) Semicolon 
+<span style="float: right;">
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star-half"></i>
+</span>
 
 
 <!-- {{< figure src="/images/books/watson.jpg" alt="Semicolon" width="300px" >}} -->
