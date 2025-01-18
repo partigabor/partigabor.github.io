@@ -1,7 +1,7 @@
 +++
 title = "Maps"
 author = "Gabor Parti"
-date = "2023-10-01"
+date = "2023-11-01"
 weight = 11
 description = "A page collecting important histrical maps."
 categories = ["trivia"]

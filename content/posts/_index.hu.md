@@ -1,5 +1,5 @@
 +++
-title = "Bejegyzések"
+title = "Jegyzetek"
 author = "Parti Gabor"
 date = "2022-09-01"
 +++
