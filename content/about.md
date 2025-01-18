@@ -4,7 +4,13 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
-<div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
+<!-- <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div> -->
+
+Center the avatar image:
+
+<div class="avatar" style="text-align: center;"><img src="/images/avatar.jpg" alt="avatar"></div>
+
+![avatar](/images/avatar.jpg)
 
 > [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Download CV**](/files/cv.pdf "Open/download Curriculum Vitae") (<1 MB)
 
