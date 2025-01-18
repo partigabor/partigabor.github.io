@@ -18,6 +18,9 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 
 Cecelia Watson (2019) Semicolon <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star"></i> <i class="fa fa-1x fa-star-half"></i>
 
+![Semicolon](/images/books/watson.jpg)
+
+
 <!-- Guy Delisle: Shenzen, Pyongyang, Burma Chronicles -->
 
 <!-- 
