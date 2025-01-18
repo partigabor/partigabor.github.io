@@ -174,7 +174,7 @@ weight = 4
 url = "publications/"
 
 [[languages.en.menu.main]]
-name = "Posts"
+name = "Notes"
 weight = 5
 url = "posts/"
 
@@ -209,7 +209,7 @@ weight = 4
 url = "publications/"
 
 [[languages.hu.menu.main]]
-name = "Napló"
+name = "Jegyzetek"
 weight = 5
 url = "posts/"
 

@@ -70,8 +70,6 @@ Notes and tips on how to check if a horse is healthy before buying one, how to t
 
 # Eqipment
 
->\* could break, good to have a spare
-
 * patakaparó - hoof pick
 * lókefe - brush
 * nyeregalátét - saddle pad
@@ -89,4 +87,4 @@ Notes and tips on how to check if a horse is healthy before buying one, how to t
 * lábszárvédő (csizmaszár) - shin guard
 * kobak - helmet
 
-<!-- ## How to ride a horse -->
+>\* could break, good to have a spare
