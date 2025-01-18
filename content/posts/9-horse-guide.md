@@ -7,8 +7,8 @@ description = ""
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
-draft = "false"
-hidden = "true"
+draft = "true"
+# hidden = "true"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++
