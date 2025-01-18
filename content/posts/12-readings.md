@@ -27,11 +27,10 @@ Cecelia Watson (2019) Semicolon
     <i class="fa fa-1x fa-star-half"></i>
 </span>
 
-<img src="/images/books/watson.jpg" alt="Semicolon" width="200"> 
+<div style="text-align: center;"> <img src="/images/books/watson.jpg" alt="Semicolon" width="200"> </div>
 
-<!-- {{< figure src="/images/books/watson.jpg" alt="Semicolon" width="300px" >}} -->
+<!-- <img src="/images/books/watson.jpg" alt="Semicolon" width="200">  -->
 
-<!-- ![Semicolon](/images/books/watson.jpg) -->
 
 
 <!-- Guy Delisle: Shenzen, Pyongyang, Burma Chronicles -->
