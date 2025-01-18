@@ -7,12 +7,11 @@ description = ""
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
-draft = "true"
+draft = "false"
 hidden = "false"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++
-
 
 Notes and tips on how to check if a horse is healthy before buying one, how to take care of it, and what you need for riding. (In progress...)
 
