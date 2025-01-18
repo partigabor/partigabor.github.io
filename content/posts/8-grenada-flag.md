@@ -3,10 +3,11 @@ title = "Nutmeg in the flag of Grenada"
 author = "Gabor Parti"
 date = "2023-08-01"
 weight = 11
-description = ""
+description = "A short comment on the Grenadian flag."
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
+draft = "false"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++

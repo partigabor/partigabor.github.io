@@ -7,8 +7,7 @@ description = "A short piece on the evolutionary background of bitterness."
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
-hidden = "true"
-# draft = "true"
+draft = "false"
 disableComments = "true"
 +++
 

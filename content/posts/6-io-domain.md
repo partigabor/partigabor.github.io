@@ -7,6 +7,7 @@ description = "A short and troubling history of the .io domain name."
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
+draft = "false"
 disableComments = "false"
 +++
 

@@ -4,7 +4,7 @@ author = "Gabor Parti"
 date = "2022-11-01"
 weight = 11
 description = ""
-categories = []
+categories = ['technical']
 tags = []
 menu = "main:posts"
 +++
