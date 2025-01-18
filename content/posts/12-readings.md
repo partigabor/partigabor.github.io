@@ -91,6 +91,6 @@ Mongols, The {{< cite "rossabi_mongols_2012" >}} -->
 
 ***
 
-# Bibliography
+<!-- # Bibliography
 
-{{< bibliography cited >}}
+{{< bibliography cited >}} -->
