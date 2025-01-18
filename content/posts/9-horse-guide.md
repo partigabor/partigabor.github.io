@@ -58,7 +58,6 @@ Notes and tips on how to check if a horse is healthy before buying one, how to t
 * Never feed from hand! It teaches them to bite. (Horses are not pets or predators, they do not depend on you giving food.)
 * Never hurt the horse, but it's ok if the horse thinks you *could* hurt it. They will test your dominance every now and then, and you have to be firm.
 * Body language is primary, voice is secondary. 
-* 
 
 ### Riding
 
@@ -84,7 +83,7 @@ Notes and tips on how to check if a horse is healthy before buying one, how to t
 * kantár - bridle *
 * kantárszár - reins
 * zabla - snaffle bit
-* bukdólókötél - martingale (only if very jumpy)
+* bukdólókötél - martingale (only if jumpy)
 * kapaszkodó - handle (on the saddle, not standard) 
 * lovaglónadrág - riding pants
 * lábszárvédő (csizmaszár) - shin guard
