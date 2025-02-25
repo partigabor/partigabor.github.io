@@ -8,11 +8,11 @@ date = "2022-09-01"
 
 <!-- <i class="ai ai-closed-access ai-1x"></i> -->
 
-Click on the [hyperlinked]() titles to see the publications, items marked with [<i class="ai ai-open-access ai-1x"></i>]() are open access. See BibTeX files behind the the [<i class="fa fa-1x fa-quote-right"></i>]() icon, download papers with the [<i class="fa fa-1x fa-file"></i>]() icon.
+Click on [hyperlinked]() titles for the publications; items marked with [<i class="ai ai-open-access ai-1x"></i>]() are open access. Download papers with the [<i class="fa fa-1x fa-file"></i>]() icon, see BibTeX info behind the the [<i class="fa fa-1x fa-quote-right"></i>]() icon. 
 
 # Book Chapters
 
-* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. DOI coming soon. <i class="ai ai-closed-access ai-1x"></i> [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/parti_2024_fuszerszigetek.bib "bibfile") [<i class="fa fa-1x fa-file"></i>](/files/papers/parti_2024_fuszerszigetek.pdf "Download paper")
+* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. DOI coming soon. [<i class="ai ai-closed-access ai-1x"></i>]() [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/parti_2024_fuszerszigetek.bib "bibfile") [<i class="fa fa-1x fa-file"></i>](/files/papers/parti_2024_fuszerszigetek.pdf "Download paper")
 
 # Journal Articles
 
@@ -20,7 +20,7 @@ Click on the [hyperlinked]() titles to see the publications, items marked with [
 
 # Conference Papers
 
-* Luo, X., Parti, G., & Huang, C.-R. [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. <i class="ai ai-closed-access ai-1x"></i> [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/luo_2024_gender.bib "bibfile")
+* Luo, X., Parti, G., & Huang, C.-R. [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. [<i class="ai ai-closed-access ai-1x"></i>](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/luo_2024_gender.bib "bibfile")
 
 * Parti, G., Liesenfeld, A., & Huang, C.-R. (2021). [*Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese.*](https://aclanthology.org/2021.paclic-1.74) Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. [<i class="ai ai-open-access ai-1x"></i>](https://aclanthology.org/2021.paclic-1.74) [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/parti_2021_animosity.bib "bibfile") 
 
