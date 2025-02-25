@@ -6,7 +6,7 @@ date = "2022-09-01"
 
 <div class="avatar" style="text-align: center;"><img src="/images/avatar.jpg" alt="avatar"></div>
 
-[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Download CV**](/files/cv.pdf "Open/download Curriculum Vitae") (<1 MB)
+[<i class="fa fa-file-pdf-o" aria-hidden="true"></i> **Download CV**](/files/cv.pdf "Open/download Curriculum Vitae")
 
 Welcome! My name is Gábor Parti,[^1] I am a linguist and philologist. In my research I am using digital technologies in philological and humanities research. I am interested in linguistic and cultural exchange along historic trade routes in Asia, especially around the Indian Ocean world and the Maritime Silk Road, primarily involving spices and other aromatics. My focus is on how to collect, store, process, analyze, present and visualize humanities data in new and exciting ways. I am fascinated by etymology, food history, pre-modern travel, and network theory.
 

@@ -49,8 +49,3 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 
 
 [Selden map](https://en.wikipedia.org/wiki/Selden_Map), c. 1607, China
-
-<!-- 
-# Bibliography
-
-{{< bibliography cited >}} -->

@@ -24,7 +24,7 @@ London: SCM Press, p. 66.
 
 [^2]: "Sword" was changed to the more innocent "word" in Holgate and Starr (2019), and there are other minute changes that make the sentences sound clumsy. 
 
-### The following excerpt is taken from Riches {{< cite "-riches_bible_2000" 52-53 >}}
+### The following excerpt is taken from Riches (2000, pp. 52--53)
 
 "The colonization of Latin America is one of the darkest episodes in European history. In the first hundred years after Columbus’ arrival, millions of people died through war, disease, and ill-treatment. In some areas the population was reduced by 80 per cent. The Spaniards and Portuguese who colonized Central and South America were ‘given’ the land by the Pope and encouraged to convert its population. Columbus, who arrived in present-day El Salvador in 1492, believed that his mission was part of the dawning of a new age, when the whole world would be united in Christ under the Pope to enjoy the final millennium before the Last Judgement. He was fond of quoting Isaiah 65:17: ‘For I am about to create new heavens and a new earth’; and its echo in Revelation 21:1. The new age would embrace the whole earth; Mount Zion would be regained for Christianity and all would acknowledge the one true faith.
 
@@ -39,5 +39,3 @@ It is then not surprising that there have been those who have seen the Bible who
 Nevertheless, Latin America also saw a powerful movement arise to rescue the Bible from its colonial misuse. Even at the time of the conquistadores there were voices which appealed to the Bible against the appalling treatment of the Indians. Of course, the Bible was not needed to show that the treatment of the Indians was unjust and cruel beyond compare, but its authority could be invoked to oppose the oppressive treatment of the indigenous peoples. Bartolomé de Las Casas, the first priest ordained in the New World, a chaplain to the Spanish armies which conquered Cuba (1513), and a one-time slave-owner, became a resolute opponent of the Spanish conquest. He appealed to Sirach 34:21–6: ‘The bread of the needy is the life of the poor; whoever deprives them of it, is a man of blood. To take away a neighbour’s living is to murder him; to deprive an employee of his wages is to shed blood.’ In his sermon at Pentecost in 1514, he asserted that an offering made to God without the practice of justice was stained with the blood of the poor: ‘Like one who kills a son before his father’s eyes is the man who offers a sacrifice from the property of the poor.’ He was eventually ordered to withdraw to a monastery, attacked by his enemies as a heretic, and had his confessional withdrawn by the Emperor Charles V. Subsequently, Philip II of Spain approved measures to confiscate his works."  
 
 ***
-
-{{< bibliography cited >}}

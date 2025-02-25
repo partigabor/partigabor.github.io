@@ -14,9 +14,3 @@ bibFile = "static/files/bibliography.json" # path relative to project root
 +++
 
 "Indian dhows traveled eastward from India as far as Malacca (the Spice Islands), where they met Chinese junks." (Barth, 2019 p.)
-
-<!-- ***
-
-# Bibliography
-
-{{< bibliography cited >}} -->
