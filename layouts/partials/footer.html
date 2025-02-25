@@ -11,7 +11,7 @@
         <a href="https://annas-archive.se/">·</a>
       {{ end }}
        {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a><br>
-      {{/*  <a href="https://www.map.org.uk/">🇵🇸</a>&ensp;<a href="https://u24.gov.ua/">🇺🇦</a>&ensp;  */}}
+
       {{ if (and .Site.Params.commit .GitInfo) }}
         [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
       {{ end }}
@@ -19,6 +19,7 @@
     </section>
   </footer>
   
+        {{/*  <a href="https://www.map.org.uk/">🇵🇸</a>&ensp;<a href="https://u24.gov.ua/">🇺🇦</a>&ensp;  */}}
   {{/*  <a href="">🇹🇼</a>&ensp;  */}}
   {{/*  <a href="https://annas-archive.se/">🏴‍☠️</a>  */}}
   <!-- 🇹🇼 🇦🇲 GA -->
