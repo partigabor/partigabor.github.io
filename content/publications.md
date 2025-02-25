@@ -10,7 +10,7 @@ Download papers with the [<i class="fa-solid fa-file"></i>]() icon, download Bib
 
 # Book Chapters
 
-* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. <i class="ai ai-open-access ai-1x"></i> DOI coming soon. [<i class="fa-solid fa-file"></i>](/files/papers/parti_2024_fuszerszigetek.pdf) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_fuszerszigetek.bib "Bibfile")
+* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. <i class="ai ai-open-access ai-1x"></i> DOI coming soon. [<i class="fa fa-1x fa-file"></i>](/files/papers/parti_2024_fuszerszigetek.pdf) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_fuszerszigetek.bib "Bibfile")
 
 # Journal Articles
 
