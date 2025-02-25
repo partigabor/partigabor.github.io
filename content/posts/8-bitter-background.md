@@ -1,7 +1,7 @@
 +++
 title = "The evolutionary background of bitterness"
 author = "Gabor Parti"
-date = "2023-07-01"
+date = "2023-08-01"
 weight = 11
 description = "A short piece on the evolutionary background of bitterness."
 categories = ["trivia"]
