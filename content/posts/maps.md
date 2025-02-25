@@ -1,13 +1,13 @@
 +++
 title = "Maps"
 author = "Gabor Parti"
-date = "2020-02-01"
+date = "2021-02-01"
 weight = 11
 description = "A page collecting important histrical maps."
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
-draft = "false"
+draft = "true"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++

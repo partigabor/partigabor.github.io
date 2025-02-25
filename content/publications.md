@@ -8,11 +8,11 @@ Download papers with the [<i class="ai ai-open-access ai-1x"></i>]() icon, downl
 
 # Book Chapters
 
-* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. [<i class="ai ai-open-access ai-1x"></i>](/files/papers/parti_2024_fuszerszigetek.pdf) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_fuszerszigetek.bib "Bibfile"). DOI coming soon.
+* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. DOI coming soon. [<i class="ai ai-open-access ai-1x"></i>](/files/papers/parti_2024_fuszerszigetek.pdf) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_fuszerszigetek.bib "Bibfile")
 
 # Journal Articles
 
-* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), *338*. [<i class="ai ai-open-access ai-1x"></i>](https://www.sino-platonic.org/) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_mapping.bib "Bibfile") (Based on Ph.D. thesis)
+* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), *338*. (Based on Ph.D. thesis) [<i class="ai ai-open-access ai-1x"></i>](https://www.sino-platonic.org/) [<i class="fa fa-1x fa-info-circle"></i>](/files/bib/parti_2024_mapping.bib "Bibfile")
 
 # Conference Papers
 
