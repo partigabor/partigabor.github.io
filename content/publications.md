@@ -6,9 +6,7 @@ date = "2022-09-01"
 
 <!-- <i class="ai ai-mtmt ai-1x"></i> -->
 
-<!-- <i class="ai ai-closed-access ai-1x"></i> -->
-
-Click on [hyperlinked]() titles for the publications; items marked with [<i class="ai ai-open-access ai-1x"></i>]() are open access. <br> Download papers with the [<i class="fa fa-1x fa-file"></i>]() icon, see BibTeX info behind the the [<i class="fa fa-1x fa-quote-right"></i>]() icon. 
+Click on [hyperlinked]() titles for the publications; items marked with [<i class="ai ai-open-access ai-2x"></i>]() are open access. <br> Download papers with the [<i class="fa fa-1x fa-file"></i>]() icon, see BibTeX info behind the the [<i class="fa fa-1x fa-quote-right"></i>]() icon. 
 
 # Book Chapters
 
@@ -20,7 +18,7 @@ Click on [hyperlinked]() titles for the publications; items marked with [<i clas
 
 # Conference Papers
 
-* Luo, X., Parti, G., & Huang, C.-R. [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. [<i class="ai ai-closed-access ai-1x"></i>](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/luo_2024_gender.bib "bibfile")
+* Luo, X., Parti, G., & Huang, C.-R. (2024) [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. [<i class="ai ai-closed-access ai-1x"></i>](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/luo_2024_gender.bib "bibfile")
 
 * Parti, G., Liesenfeld, A., & Huang, C.-R. (2021). [*Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese.*](https://aclanthology.org/2021.paclic-1.74) Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. [<i class="ai ai-open-access ai-1x"></i>](https://aclanthology.org/2021.paclic-1.74) [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/parti_2021_animosity.bib "bibfile") 
 
