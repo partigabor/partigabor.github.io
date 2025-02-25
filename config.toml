@@ -1,6 +1,6 @@
 baseURL = "https://partigabor.github.io/"
 title = "Gabor Parti"
-theme = ["hugo-coder", "hugo-cite"]
+theme = ["hugo-coder"]
 languageCode = "en"
 defaultContentLanguage = "en"
 publishDir = "docs"
