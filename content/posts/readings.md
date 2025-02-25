@@ -1,7 +1,7 @@
 +++
 title = "Readings"
 author = "Gabor Parti"
-date = "2023-12-01"
+date = "2020-01-01"
 weight = 11
 description = ""
 categories = ["academic"]
