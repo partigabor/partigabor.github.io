@@ -14,7 +14,7 @@ Click on [hyperlinked]() titles for the publications; items marked with [<i clas
 
 # Journal Articles
 
-* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), *338*. (Based on Ph.D. thesis) [<i class="ai ai-open-access ai-1x"></i>](https://www.sino-platonic.org/) [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/parti_2024_mapping.bib "bibfile")
+* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), *338*. (Based on Ph.D. thesis) [<i class="ai ai-open-access ai-1x"></i>](https://www.sino-platonic.org/) [<i class="fa fa-1x fa-file"></i>](/files/papers/parti_2024_mapping.pdf "Download paper") [<i class="fa fa-1x fa-quote-right"></i>](/files/bib/parti_2024_mapping.bib "bibfile")
 
 # Conference Papers
 
