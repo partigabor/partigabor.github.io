@@ -19,9 +19,24 @@ disableComments = "true"
 
 ## Non-Fiction
 
+<!-- <i class="fa fa-1x fa-star-o"></i> -->
+<!-- <i class="fa fa-1x fa-star-half"></i> -->
 
 
-Cecelia Watson (2019) Semicolon 
+[Cecelia Watson (2019) Semicolon](https://www.goodreads.com/book/show/42611087-semicolon) 
+
+<span style="float: right;">
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star-half"></i>
+</span>
+
+<div style="text-align: center;"> <img src="/images/books/watson.jpg" alt="Semicolon" width="200"> </div>
+
+[John Ray (2007) The Rosetta Stone and the Rebirth of Ancient Egypt](https://www.goodreads.com/en/book/show/745025.The_Rosetta_Stone_and_the_Rebirth_of_Ancient_Egypt) 
+
 <span style="float: right;">
     <i class="fa fa-1x fa-star"></i> 
     <i class="fa fa-1x fa-star"></i> 
@@ -30,9 +45,19 @@ Cecelia Watson (2019) Semicolon
     <i class="fa fa-1x fa-star-o"></i>
 </span>
 
-<!-- <i class="fa fa-1x fa-star-half"></i> -->
+<div style="text-align: center;"> <img src="/images/books/ray.jpg" alt="Semicolon" width="200"> </div>
 
-<div style="text-align: center;"> <img src="/images/books/watson.jpg" alt="Semicolon" width="200"> </div>
+[Perry Link (ed.) (2007) Wittgenstein, a One-Way Ticket, and Other Unforeseen Benefits of Studying Chinese](https://www.goodreads.com/book/show/56799154-wittgenstein-a-one-way-ticket-and-other-unforeseen-benefits-of-studyin) 
+
+<span style="float: right;">
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star"></i> 
+    <i class="fa fa-1x fa-star-half"></i>
+    <i class="fa fa-1x fa-star-o"></i>
+</span>
+
+<div style="text-align: center;"> <img src="/images/books/link.jpg" alt="Semicolon" width="200"> </div>
 
 <!-- Guy Delisle: Shenzen, Pyongyang, Burma Chronicles -->
 
