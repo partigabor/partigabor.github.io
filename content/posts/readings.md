@@ -1,8 +1,8 @@
 +++
 title = "Readings"
 author = "Gabor Parti"
-date = "2121-01-01"
-weight = 11
+date = "2021-01-01"
+weight = 99
 description = ""
 categories = ["academic"]
 tags = []
@@ -12,9 +12,14 @@ offTheRecord = "true"
 disableComments = "true"
 # bibFile = "static/files/bibliography.json" # path relative to project root
 +++
+
+
+
 # Books
 
 ## Non-Fiction
+
+
 
 Cecelia Watson (2019) Semicolon 
 <span style="float: right;">
