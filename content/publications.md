@@ -6,7 +6,7 @@ date = "2022-09-01"
 
 <!-- <i class="ai ai-mtmt ai-1x"></i> -->
 
-Click on [hyperlinked]() titles for the publications; items marked with [<i class="ai ai-open-access ai-1x"></i>]() are open access. <br> Download papers with the [<i class="fa fa-1x fa-file"></i>]() icon, see BibTeX info behind the the [<i class="fa fa-1x fa-quote-right"></i>]() icon. 
+Click on [hyperlinked]() titles for the publications; items marked with [<i class="ai ai-open-access ai-1x"></i>]() are open access. <br> Download papers with the [<i class="fa fa-1x fa-file"></i>]() icon, see BibTeX info behind the [<i class="fa fa-1x fa-quote-right"></i>]() icon. 
 
 # Book Chapters
 
