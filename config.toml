@@ -136,7 +136,7 @@ url = "https://www.zotero.org/partigabor"
 
 [[params.social]]
 name = "Goodreads"
-icon = "<i class="fab fa-goodreads"></i>"
+icon = "fa fa-2x fa-bookmark"
 weight = 6
 url = "https://www.goodreads.com/review/list/157052753-devouringradiantlight?shelf=read"
 
