@@ -128,23 +128,29 @@ icon = "fa fa-2x fa-orcid"
 weight = 3
 url = "https://orcid.org/0000-0003-2042-4655"
 
-# [[params.social]]
-# name = "Twitter"
-# icon = "fa fa-2x fa-twitter"
-# weight = 3
-# url = "https://twitter.com/partigabor/"
-
-# [[params.social]]
-# name = "LinkedIn"
-# icon = "fa fa-2x fa-linkedin"
-# weight = 4
-# url = "https://www.linkedin.com/in/partigabor/"
-
 [[params.social]]
 name = "Zotero"
 icon = "fa fa-2x fa-zotero"
 weight = 5
 url = "https://www.zotero.org/partigabor"
+
+[[params.social]]
+name = "Goodreads"
+icon = "fa fa-2x fa-goodreads"
+weight = 6
+url = "https://www.goodreads.com/review/list/157052753-devouringradiantlight?shelf=read"
+
+# [[params.social]]
+# name = "Twitter"
+# icon = "fa fa-2x fa-twitter"
+# weight = 7
+# url = "https://twitter.com/partigabor/"
+
+# [[params.social]]
+# name = "LinkedIn"
+# icon = "fa fa-2x fa-linkedin"
+# weight = 8
+# url = "https://www.linkedin.com/in/partigabor/"
 
 # [[params.social]]
 # name = "RSS"
