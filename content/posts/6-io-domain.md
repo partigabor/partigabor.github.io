@@ -31,3 +31,6 @@ Chagossian refugees now mostly live in Mauritius, the Seychelles, and the UK. Th
 
 *Chagos flag used by some activists.*
 
+## Update!
+
+As of 22 May 2025, the UK government has signed an agreement that it will cede the Chagos Islands to Mauritius, which means that the British Indian Ocean Territory will effectivey cease to exist.
