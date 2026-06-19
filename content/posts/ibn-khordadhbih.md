@@ -1,5 +1,5 @@
 +++
-title = "Ibn Khurdādhbih "
+title = "Ibn Khurdādhbih's road to the East"
 author = "Gabor Parti"
 date = "2026-06-01"
 weight = 11
