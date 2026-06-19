@@ -13,6 +13,7 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
+google_fonts = [["Raleway", "300,400,700"], ["Noto Naskh Arabic", "400,700"]]
 fontheading = "Raleway"
 fontbody = "Raleway"
 # Changing font here is not enough, also change in _variables.css

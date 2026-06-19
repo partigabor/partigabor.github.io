@@ -2,31 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technical on Gabor Parti</title>
-    <link>http://localhost:1313/categories/technical/</link>
+    <link>https://partigabor.github.io/categories/technical/</link>
     <description>Recent content in Technical on Gabor Parti</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://partigabor.github.io/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to configure LaTeX for multiscripted documents</title>
+      <link>https://partigabor.github.io/posts/5-latex-multiscript/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://partigabor.github.io/posts/5-latex-multiscript/</guid>
+      <description>&lt;p&gt;This is a sample preamble of a LaTeX file I use for writing multiscripted documents, where the main document language is English (see full MWE at the end). This is currently the best way I have found so far to make it all work in the simplest way possible, including Chinese, Japanese, Korean (CJK), right-to-left scripts (RTL), and rendering Devanagari ligatures &amp;ndash; all with a harmonious look and feel. I think academic publishers and typsetters are still scared of using &amp;ldquo;foreign scripts&amp;rdquo; in publications, maybe this can help a few people to include them more in their LaTeX documents. &lt;strong&gt;We are using LuaLaTeX to compile.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to set up LaTeX on a local machine</title>
+      <link>https://partigabor.github.io/posts/4-latex-vscode/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://partigabor.github.io/posts/4-latex-vscode/</guid>
+      <description>&lt;p&gt;This is a short step-by-step guide to setting up LaTeX on your local machine if you are using a cursed OS called Windows. The result is a stable offline solution, where you are not dependent on an internet connection, or third party servers like Overleaf.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-install-texlive&#34;&gt;&#xD;&#xA;  1. Install TexLive&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-install-texlive&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Download the latest version of &lt;a href=&#34;https://tug.org/texlive/windows.html&#34;&gt;TexLive&lt;/a&gt; installer from the official website. Running the installer will download and install LaTeX and hundreds of packages that are part of the deal. The installation process is pretty straightforward, but it takes &lt;strong&gt;long&lt;/strong&gt;, so make sure you have a stable internet connection and a charging cable.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to publish a Python package: A rudimentary pipeline</title>
-      <link>http://localhost:1313/posts/python-package/</link>
+      <link>https://partigabor.github.io/posts/3-python-package/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/python-package/</guid>
+      <guid>https://partigabor.github.io/posts/3-python-package/</guid>
       <description>&lt;h1 id=&#34;pipeline&#34;&gt;&#xD;&#xA;  PIPELINE&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#pipeline&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;This is a concise step by step rough-guide on how to package and publish an open source python project, accompanied by an auto-generated documentation website (readthedocs.io). This post are my own notes for my future self in case I forget how to do this, so the explanations are minimal. If lost, follow the actual tutorials in the footnotes.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Sources and links to tutorials on the bottom.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to edit pages: A markdown syntax guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
+      <link>https://partigabor.github.io/posts/2-markdown-syntax/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
+      <guid>https://partigabor.github.io/posts/2-markdown-syntax/</guid>
       <description>&lt;p&gt;The following markdown file showcases all the features one can achieve within markdown and with Hugo shortcodes.&lt;/p&gt;&#xA;&lt;h1 id=&#34;markdown-format&#34;&gt;&#xD;&#xA;  MARKDOWN FORMAT&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#markdown-format&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;</description>
     </item>
     <item>
       <title>How to build and host a website with Hugo</title>
-      <link>http://localhost:1313/posts/hugo-website/</link>
+      <link>https://partigabor.github.io/posts/1-hugo-website/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo-website/</guid>
+      <guid>https://partigabor.github.io/posts/1-hugo-website/</guid>
       <description>&lt;p&gt;This is a concise, step-by-step guide on how to build a website - just like this one - with Hugo, and host it on Github. Follow the steps and check out the links for further explanation on each component. This guide is made for non-experts, because I found most Hugo tutorials utterly useless and sparse for people new to &lt;del&gt;computers&lt;/del&gt; web-development.&lt;/p&gt;&#xA;&lt;p&gt;It might look daunting at first to go through all these steps below, but the reward is that once you get it right, updating and maintaining your website will be incredibly fast and easy. Comments and suggestions below are welcome!&lt;/p&gt;</description>
     </item>
   </channel>

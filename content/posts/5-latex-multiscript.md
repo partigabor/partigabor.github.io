@@ -189,7 +189,7 @@ Katakana: カタカナ \textbf{カタカナ}
 
 Korean: 한국어 \textbf{한국어}
 
-Arabic: العربية \textbf{العربية}
+Arabic: <span lang="ar" class="arabic">العربية \textbf{العربية}</span>
 
 Hebrew: עִבְרִית \textbf{עִבְרִית}
 
