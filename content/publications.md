@@ -14,13 +14,13 @@ Click on [hyperlinked]() titles for the publications; items marked with <i class
 
 # Journal Articles
 
-* Parti, G. (2026). Cardamoms in China and the Quest for the Origins of *Dòukòu*. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 389. <i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2026_cardamoms.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2026_cardamoms.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Parti, G. (2026). Cardamoms in China and the Quest for the Origins of *Dòukòu*. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 389. <i class="ai ai-open-access ai-1x"></i> <a href="/files/papers/parti_2026_cardamoms.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2026_cardamoms.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
-* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 338. (Based on Ph.D. thesis) <i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2024_mapping.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2024_mapping.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 338. (Based on Ph.D. thesis) <i class="ai ai-open-access ai-1x"></i> <a href="/files/papers/parti_2024_mapping.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2024_mapping.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
 # Conference Papers
 
-* Luo, X., Parti, G., & Huang, C.-R. (2024) [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. <i class="ai ai-closed-access ai-1x"></i> <a href="/files/bib/luo_2024_gender.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Luo, X., Parti, G., & Huang, C.-R. (2024) [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. <i class="ai ai-open-access ai-1x"></i> <a href="/files/bib/luo_2024_gender.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
 * Parti, G., Liesenfeld, A., & Huang, C.-R. (2021). [*Animosity and Suffering: Metaphors of BITTERNESS in English and Chinese.*](https://aclanthology.org/2021.paclic-1.74) Proceedings of the 35th Pacific Asia Conference on Language, Information and Computation, 700–710. <i class="ai ai-open-access ai-1x"></i> <a href="/files/bib/parti_2021_animosity.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
