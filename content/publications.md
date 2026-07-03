@@ -4,27 +4,19 @@ author = "Gabor Parti"
 date = "2022-09-01"
 +++
 
-<!-- <i class="ai ai-mtmt ai-1x"></i> -->
 
-Click on [hyperlinked]() titles for the publications; items marked with <i class="ai ai-open-access ai-1x"></i> are open access. <br> Download papers with the <i class="fa fa-1x fa-file-pdf-o"></i> icon, see BibTeX info behind the <i class="fa fa-1x fa-info-circle"></i> icon...
+
+Click on [hyperlinked]() titles for the publications; items marked with <i class="ai ai-open-access ai-1x"></i> are open access. <br> Download papers with the <i class="fa fa-1x fa-file-pdf-o"></i> icon, see BibTeX info behind the <i class="fa fa-1x fa-info-circle"></i> icon... <i class="ai ai-mtmt ai-1x"></i>
 
 # Book Chapters
 
-* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://partigabor.github.io/publications/). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. 
-<!-- [Paper](/files/papers/parti_2024_fuszerszigetek.pdf) [BibTeX](/files/bib/parti_2024_fuszerszigetek.bib) -->
-<a href="https://m2.mtmt.hu/gui2/?mode=browse&params=publication;35629199" title="Link"><i class="ai ai-mtmt ai-1x"></i></a> 
-<i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2024_fuszerszigetek.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> 
-<a href="/files/bib/parti_2024_fuszerszigetek.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Parti, G. (2024). [A Fűszer-szigetek a tengeri Selyemúton: A szegfűszeg és szerecsendió korai kereskedelme [The Spice Islands on the Maritime Silk Road: The Early Trade in Cloves and Nutmeg]](https://m2.mtmt.hu/gui2/?mode=browse&params=publication;35629199). In G. Kósa (Ed.), *Gazdaság, történelem és politika a Selyemút mentén* [Economy, history and politics along the Silk Road] (pp. 269-327). ELTE BTK Kínai Tanszék, Budapest. ISBN: 9789634897521. <i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2024_fuszerszigetek.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2024_fuszerszigetek.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
 # Journal Articles
 
-* Parti, G. (2026). Cardamoms in China and the Quest for the Origins of *Dòukòu*. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 389. 
-<!-- [Paper](/files/papers/parti_2026_cardamoms.pdf) [BibTeX](/files/bib/parti_2026_cardamoms.bib) -->
-<i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2026_cardamoms.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a>  <a href="/files/bib/parti_2026_cardamoms.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Parti, G. (2026). Cardamoms in China and the Quest for the Origins of *Dòukòu*. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 389. <i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2026_cardamoms.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2026_cardamoms.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
-* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 338. (Based on Ph.D. thesis) 
-<!-- [Paper](/files/papers/parti_2024_mapping.pdf) [BibTeX](/files/bib/parti_2024_mapping.bib) -->
-<i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2024_mapping.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a>  <a href="/files/bib/parti_2024_mapping.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 338. (Based on Ph.D. thesis) <i class="ai ai-closed-access ai-1x"></i> <a href="/files/papers/parti_2024_mapping.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2024_mapping.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
 # Conference Papers
 
