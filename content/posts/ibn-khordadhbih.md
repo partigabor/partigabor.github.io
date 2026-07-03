@@ -17,7 +17,7 @@ disableComments = "true"
 
 # *Kitāb al‑Masālik wa‑l‑Mamālik (The Book of Roads and Kingdoms) كتاب المسالك والممالك* ca. 870
 
-The follwing is the section describing the maritime route to the East, from the Persian Gulf to China, including Southeast Asia and the islands of the Indian Ocean. 
+The follwing is the section describing the maritime route to the East, from the Persian Gulf to China, including Southeast Asia and the islands of the Indian Ocean...
 
 ### المسافة الى المشرق فى البحر
 
