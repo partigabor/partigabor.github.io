@@ -14,10 +14,11 @@ Click on [hyperlinked]() titles for the publications; items marked with <i class
 
 # Journal Articles
 
-* Parti, G. (2026). Cardamoms in China and the Quest for the Origins of *Dòukòu*. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 389. <i class="ai ai-open-access ai-1x"></i> <a href="/files/papers/parti_2026_cardamoms.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2026_cardamoms.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Parti, G. (to be published). Cardamoms in China and the Quest for the Origins of *Dòukòu*. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 389. <i class="ai ai-open-access ai-1x"></i> <a href="/files/papers/parti_2026_cardamoms.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2026_cardamoms.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
 * Parti, G. (2024). Mapping the Language of Spices A Corpus-Based, Philological Study on the Words of the Spice Domain. [*Sino-Platonic Papers*](https://www.sino-platonic.org/), 338. (Based on Ph.D. thesis) <i class="ai ai-open-access ai-1x"></i> <a href="/files/papers/parti_2024_mapping.pdf" title="Download paper"><i class="fa fa-1x fa-file-pdf-o"></i></a> <a href="/files/bib/parti_2024_mapping.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
+<!-- 
 # Conference Papers
 
 * Luo, X., Parti, G., & Huang, C.-R. (2024) [Gender Variation in Mix-Gender Conversations in the Semi-institutional Discourse: The Case of Talk Show](https://link.springer.com/chapter/10.1007/978-981-97-0586-3_22) in *Chinese Lexical Semantics (CLSW 2023), Lecture Notes in Computer Science*, vol. 14515. Springer Nature Singapore. <i class="ai ai-open-access ai-1x"></i> <a href="/files/bib/luo_2024_gender.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
@@ -28,7 +29,8 @@ Click on [hyperlinked]() titles for the publications; items marked with <i class
 
 * Liesenfeld, A., Parti, G., & Huang, C. (2021a). [*Deep Learning Meets Private Talk: Conversational AI Can Predict Speaker Traits by Eavesdropping for Only 30 Seconds.*](https://doi.org/10.1145/3473856.3474012) Mensch Und Computer 2021, 547–551. <i class="ai ai-open-access ai-1x"></i> <a href="/files/bib/liesenfeld_2021_deep.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
 
-* Liesenfeld, A., Parti, G., Hsu, Y.-Y., & Huang, C.-R. (2020). [*Predicting Gender and Age Categories in English Conversations Using Lexical, Non-Lexical, and Turn-Taking Features.*](https://aclanthology.org/2020.paclic-1.19) Proceedings of the 34th Pacific Asia Conference on Language, Information and Computation, 157–166. <i class="ai ai-open-access ai-1x"></i> <a href="/files/bib/liesenfeld_2020_predicting.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a>
+* Liesenfeld, A., Parti, G., Hsu, Y.-Y., & Huang, C.-R. (2020). [*Predicting Gender and Age Categories in English Conversations Using Lexical, Non-Lexical, and Turn-Taking Features.*](https://aclanthology.org/2020.paclic-1.19) Proceedings of the 34th Pacific Asia Conference on Language, Information and Computation, 157–166. <i class="ai ai-open-access ai-1x"></i> <a href="/files/bib/liesenfeld_2020_predicting.bib" title="bibfile"><i class="fa fa-1x fa-info-circle"></i></a> 
+-->
 
 # Theses
 
