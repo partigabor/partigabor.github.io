@@ -7,7 +7,8 @@ description = "A short comment on the Grenadian flag."
 categories = ["trivia"]
 tags = []
 menu = "main:posts"
-draft = "false"
+draft = "true"
+hidden = "true"
 disableComments = "true"
 bibFile = "static/files/bibliography.json" # path relative to project root
 +++
